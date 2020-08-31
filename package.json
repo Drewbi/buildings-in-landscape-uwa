@@ -12,7 +12,10 @@
     "lint": "prettier --write ."
   },
   "lint-staged": {
-    "*.js": "prettier --write ."
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "husky": {
     "hooks": {

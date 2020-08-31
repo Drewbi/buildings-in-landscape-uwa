@@ -7,6 +7,9 @@
   },
   "extends": ["eslint:recommended", "prettier"],
   "plugins": ["@babel", "prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  },
   "parserOptions": {
     "parser": "babel-eslint",
     "sourceType": "module",
