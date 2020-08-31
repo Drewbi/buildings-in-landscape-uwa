@@ -9,13 +9,10 @@
     "start": "webpack-dev-server",
     "start:open": "webpack-dev-server --open",
     "build": "webpack",
-    "lint": "prettier --write ."
+    "lint": "prettier --write"
   },
   "lint-staged": {
-    "*.js": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.js": "prettier --write"
   },
   "husky": {
     "hooks": {
