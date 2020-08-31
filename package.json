@@ -9,7 +9,7 @@
     "start": "webpack-dev-server",
     "start:open": "webpack-dev-server --open",
     "build": "webpack",
-    "lint": "eslint --ext .js --ignore-path .gitignore ."
+    "lint": "prettier --write ."
   },
   "lint-staged": {
     "*.js": "eslint"
