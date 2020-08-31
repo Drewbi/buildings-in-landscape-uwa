@@ -9,10 +9,10 @@
     "start": "webpack-dev-server",
     "start:open": "webpack-dev-server --open",
     "build": "webpack",
-    "lint": "prettier --write ."
+    "lint": "eslint --ext .js --ignore-path .gitignore ."
   },
   "lint-staged": {
-    "*.js": "prettier --write ."
+    "*.js": "eslint"
   },
   "husky": {
     "hooks": {
@@ -23,10 +23,16 @@
     "panolens": "^0.11.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/eslint-plugin": "^7.11.3",
+    "@babel/preset-env": "^7.11.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^4.2.1",
     "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
     "husky": "^4.2.5",
