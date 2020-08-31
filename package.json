@@ -11,9 +11,12 @@
     "build": "webpack",
     "lint": "prettier --write ."
   },
+  "lint-staged": {
+    "*.js": "prettier --write ."
+  },
   "husky": {
     "hooks": {
-      "pre-commit": "prettier --write ."
+      "pre-commit": "lint-staged"
     }
   },
   "dependencies": {
@@ -27,6 +30,7 @@
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
     "husky": "^4.2.5",
+    "lint-staged": "^10.2.13",
     "prettier": "^2.1.1",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
