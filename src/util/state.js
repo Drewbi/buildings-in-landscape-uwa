@@ -1,4 +1,3 @@
-const basePath = '../assets/images';
 import image from '../assets/images/1.jpg'
 
 const state = [
@@ -12,4 +11,4 @@ const getLocationById = (id) => {
   return state.find((entry) => entry.id === id)
 }
 
-export { state, getLocationById };
+export { state, getLocationById }
