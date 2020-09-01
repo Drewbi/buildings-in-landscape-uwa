@@ -20,7 +20,8 @@
     }
   },
   "dependencies": {
-    "panolens": "^0.11.0"
+    "panolens": "^0.11.0",
+    "three": "^0.120.1"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
