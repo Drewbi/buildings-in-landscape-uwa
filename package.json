@@ -9,7 +9,7 @@
     "start": "webpack-dev-server",
     "start:open": "webpack-dev-server --open",
     "build": "webpack",
-    "test": "./node_modules/.bin/jest",
+    "test": "jest",
     "lint": "prettier --write"
   },
   "jest": {
