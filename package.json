@@ -10,13 +10,7 @@
     "start:open": "webpack-dev-server --open",
     "build": "webpack",
     "test": "jest",
-    "lint": "prettier --write"
-  },
-  "jest": {
-    "moduleNameMapper": {
-      "\\.(jpg|png|svg)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
-    }
+    "lint": "prettier --write ."
   },
   "lint-staged": {
     "*.js": "prettier --write"
@@ -24,6 +18,12 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
+    }
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|png|svg)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
     }
   },
   "dependencies": {
