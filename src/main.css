@@ -30,3 +30,19 @@ body {
 
 .info-text {
 }
+
+.nav-buttons {
+  width: 60px;
+  height: 25px;
+  position: absolute;
+  left: calc(50% - 30px);
+  bottom: 10px;
+  z-index:1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  height: 25px;
+  width: auto;
+}
