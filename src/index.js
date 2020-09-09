@@ -9,4 +9,11 @@ const viewer = new Viewer({
   cameraFov: 85,
   output: 'overlay'
 })
+
+const infoPane = document.querySelector('.infoPane')
+document.getElementById('toggle').onclick = function () {
+  infoPane.classList.toggle('hidePane')
+  root.classList.toggle('full')
+}
+
 initAllPano(viewer)
