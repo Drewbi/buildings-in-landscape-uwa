@@ -64,20 +64,20 @@ const state = [
     src: image2,
     navMarkers: [
       {
-        to: 1,
-        position: {
-          x: 4921,
-          y: -797,
-          z: 272
-        },
-        scale: 300
-      },
-      {
         to: 3,
         position: {
           x: -4949,
           y: -503,
           z: -411
+        },
+        scale: 300
+      },
+      {
+        to: 1,
+        position: {
+          x: 4921,
+          y: -797,
+          z: 272
         },
         scale: 300
       }
@@ -100,6 +100,15 @@ const state = [
     src: image3,
     navMarkers: [
       {
+        to: 5,
+        position: {
+          x: 998,
+          y: -439,
+          z: 4875
+        },
+        scale: 300
+      },
+      {
         to: 2,
         position: {
           x: -4990,
@@ -114,15 +123,6 @@ const state = [
           x: 104,
           y: 250,
           z: -4984
-        },
-        scale: 300
-      },
-      {
-        to: 5,
-        position: {
-          x: 998,
-          y: -439,
-          z: 4875
         },
         scale: 300
       }
@@ -157,20 +157,20 @@ const state = [
     src: image5,
     navMarkers: [
       {
-        to: 3,
-        position: {
-          x: -4565,
-          y: -553,
-          z: 1943
-        },
-        scale: 300
-      },
-      {
         to: 6,
         position: {
           x: 1997,
           y: -576,
           z: -4541
+        },
+        scale: 300
+      },
+      {
+        to: 3,
+        position: {
+          x: -4565,
+          y: -553,
+          z: 1943
         },
         scale: 300
       },
