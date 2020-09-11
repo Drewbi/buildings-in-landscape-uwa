@@ -11,11 +11,21 @@ import image10 from '../assets/images/10.jpg'
 import image11 from '../assets/images/11.jpg'
 import image12 from '../assets/images/12.jpg'
 import image13 from '../assets/images/13.jpg'
+import image14 from '../assets/images/14.jpg'
+import image15 from '../assets/images/15.jpg'
+import image16 from '../assets/images/16.jpg'
+import image17 from '../assets/images/17.jpg'
+import image18 from '../assets/images/18.jpg'
+import image19 from '../assets/images/19.jpg'
 
 const state = [
   {
     id: 1,
     src: image1,
+    positions: {
+      lat: -31.976814,
+      lon: 115.817464
+    },
     navMarkers: [
       {
         to: 2,
@@ -32,6 +42,15 @@ const state = [
           x: 285,
           y: -609,
           z: -4943
+        },
+        scale: 300
+      },
+      {
+        to: 17,
+        position: {
+          x: 4832,
+          y: -1216,
+          z: 300
         },
         scale: 300
       }
@@ -62,6 +81,10 @@ const state = [
   {
     id: 2,
     src: image2,
+    positions: {
+      lat: -31.976676,
+      lon: 115.817468
+    },
     navMarkers: [
       {
         to: 1,
@@ -78,6 +101,15 @@ const state = [
           x: -4949,
           y: -503,
           z: -411
+        },
+        scale: 300
+      },
+      {
+        to: 16,
+        position: {
+          x: -264,
+          y: -1252,
+          z: 4823
         },
         scale: 300
       }
@@ -98,6 +130,10 @@ const state = [
   {
     id: 3,
     src: image3,
+    positions: {
+      lat: -31.976324,
+      lon: 115.817471
+    },
     navMarkers: [
       {
         to: 2,
@@ -131,6 +167,10 @@ const state = [
   {
     id: 4,
     src: image4,
+    positions: {
+      lat: -31.976315,
+      lon: 115.817718
+    },
     navMarkers: [
       {
         to: 3,
@@ -155,6 +195,10 @@ const state = [
   {
     id: 5,
     src: image5,
+    positions: {
+      lat: -31.583539,
+      lon: 115.490419
+    },
     navMarkers: [
       {
         to: 3,
@@ -175,7 +219,7 @@ const state = [
         scale: 300
       },
       {
-        to: 10,
+        to: 15,
         position: {
           x: 3114,
           y: -986,
@@ -188,6 +232,10 @@ const state = [
   {
     id: 6,
     src: image6,
+    positions: {
+      lat: -31.583601,
+      lon: 115.485959
+    },
     navMarkers: [
       {
         to: 5,
@@ -221,6 +269,10 @@ const state = [
   {
     id: 7,
     src: image7,
+    positions: {
+      lat: -31.583624,
+      lon: 115.49015
+    },
     navMarkers: [
       {
         to: 6,
@@ -263,6 +315,10 @@ const state = [
   {
     id: 8,
     src: image8,
+    positions: {
+      lat: -31.583646,
+      lon: 115.490159
+    },
     navMarkers: [
       {
         to: 7,
@@ -296,6 +352,10 @@ const state = [
   {
     id: 9,
     src: image9,
+    positions: {
+      lat: -31.583685,
+      lon: 115.49088
+    },
     navMarkers: [
       {
         to: 8,
@@ -338,6 +398,10 @@ const state = [
   {
     id: 10,
     src: image10,
+    positions: {
+      lat: -31.583608,
+      lon: 115.49077
+    },
     navMarkers: [
       {
         to: 9,
@@ -367,7 +431,7 @@ const state = [
         scale: 300
       },
       {
-        to: 5,
+        to: 15,
         position: {
           x: -4751,
           y: -163,
@@ -380,6 +444,10 @@ const state = [
   {
     id: 11,
     src: image11,
+    positions: {
+      lat: -31.583446,
+      lon: 115.494369
+    },
     navMarkers: [
       {
         to: 4,
@@ -395,6 +463,10 @@ const state = [
   {
     id: 12,
     src: image12,
+    positions: {
+      lat: -31.582147,
+      lon: 115.485911
+    },
     navMarkers: [
       {
         to: 7,
@@ -419,6 +491,10 @@ const state = [
   {
     id: 13,
     src: image13,
+    positions: {
+      lat: -31.583828,
+      lon: 115.492219
+    },
     navMarkers: [
       {
         to: 1,
@@ -435,6 +511,221 @@ const state = [
           x: -4451,
           y: -268,
           z: -2238
+        },
+        scale: 300
+      },
+      {
+        to: 14,
+        position: {
+          x: 4937,
+          y: -690,
+          z: 224
+        },
+        scale: 300
+      }
+    ]
+  },
+  {
+    id: 14,
+    src: image14,
+    positions: {
+      lat: -31.58386,
+      lon: 115.492136
+    },
+    navMarkers: [
+      {
+        to: 13,
+        position: {
+          x: -4192,
+          y: -676,
+          z: 2622
+        },
+        scale: 300
+      },
+      {
+        to: 9,
+        position: {
+          x: -4451,
+          y: -268,
+          z: -2238
+        },
+        scale: 300
+      }
+    ]
+  },
+  {
+    id: 15,
+    src: image15,
+    positions: {
+      lat: -31.583622,
+      lon: 115.49094
+    },
+    navMarkers: [
+      {
+        to: 10,
+        position: {
+          x: 4577,
+          y: -845,
+          z: 1802
+        },
+        scale: 300
+      },
+      {
+        to: 5,
+        position: {
+          x: -2118,
+          y: -427,
+          z: -4502
+        },
+        scale: 300
+      }
+    ]
+  },
+  {
+    id: 16,
+    src: image16,
+    positions: {
+      lat: -31.582147,
+      lon: 115.493867
+    },
+    navMarkers: [
+      {
+        to: 1,
+        position: {
+          x: 2748,
+          y: -358,
+          z: -4151
+        },
+        scale: 300
+      },
+      {
+        to: 17,
+        position: {
+          x: 4448,
+          y: -995,
+          z: 2038
+        },
+        scale: 300
+      },
+      {
+        to: 2,
+        position: {
+          x: -3652,
+          y: -222,
+          z: -3396
+        },
+        scale: 300
+      },
+      {
+        to: 18,
+        position: {
+          x: -4719,
+          y: -431,
+          z: 1581
+        },
+        scale: 300
+      }
+    ]
+  },
+  {
+    id: 17,
+    src: image17,
+    positions: {
+      lat: -31.583589,
+      lon: 115.493702
+    },
+    navMarkers: [
+      {
+        to: 1,
+        position: {
+          x: 1639,
+          y: -628,
+          z: 4672
+        },
+        scale: 300
+      },
+      {
+        to: 16,
+        position: {
+          x: 4539,
+          y: -816,
+          z: 1917
+        },
+        scale: 300
+      },
+      {
+        to: 19,
+        position: {
+          x: -2513,
+          y: -66,
+          z: -4318
+        },
+        scale: 300
+      }
+    ],
+    infoMarkers: [
+      {
+        title: 'Socrates Sculpture',
+        text: 'This is text',
+        position: {
+          x: -4228,
+          y: 1610,
+          z: 2108
+        }
+      }
+    ]
+  },
+  {
+    id: 18,
+    src: image18,
+    positions: {
+      lat: -31.583554,
+      lon: 115.493813
+    },
+    navMarkers: [
+      {
+        to: 19,
+        position: {
+          x: -4296,
+          y: -132,
+          z: -2541
+        },
+        scale: 300
+      },
+      {
+        to: 16,
+        position: {
+          x: 443,
+          y: -491,
+          z: 4949
+        },
+        scale: 300
+      }
+    ]
+  },
+  {
+    id: 19,
+    src: image19,
+    positions: {
+      lat: -31.583607,
+      lon: 115.495048
+    },
+    navMarkers: [
+      {
+        to: 17,
+        position: {
+          x: -2193,
+          y: -922,
+          z: 4385
+        },
+        scale: 300
+      },
+      {
+        to: 18,
+        position: {
+          x: 4928,
+          y: -831,
+          z: -0.85
         },
         scale: 300
       }
