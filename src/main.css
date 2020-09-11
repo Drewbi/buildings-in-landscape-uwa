@@ -76,3 +76,14 @@ h1 {
   cursor: pointer;
   z-index: 1;
 }
+
+#update {
+  position: absolute;
+  left: 50%;
+  border: none;
+  height: 50px;
+  width: 70px;
+  cursor: pointer;
+  z-index: 1;
+}
+
