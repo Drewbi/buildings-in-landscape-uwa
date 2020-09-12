@@ -1,6 +1,7 @@
 import { ImagePanorama, Infospot, DataImage } from 'panolens'
 import { Vector3 } from 'three'
 import { state, getLocationById } from './state'
+import infoMarkers from '../data/info.json'
 
 const initPano = (viewer, location) => {
   const panorama = new ImagePanorama(location.src)
@@ -17,24 +18,13 @@ const initNavMarkers = (location) => {
   })
 }
 
+
+
 const loadInfoMarkers = (location) => {
   location.infoMarkers.forEach((marker) => {
-    const infoElement = document.createElement('div')
-    infoElement.setAttribute('class', 'infospot')
-
-    const infoTitle = document.createElement('h3')
-    infoTitle.setAttribute('class', 'info-title')
-    infoTitle.innerText = marker.title
-
-    const infoText = document.createElement('p')
-    infoText.setAttribute('class', 'info-text')
-    infoText.innerText = marker.text
-
-    infoElement.appendChild(infoTitle)
-    infoElement.appendChild(infoText)
-
     const infoSpot = new Infospot(300, DataImage.Info)
-    infoSpot.addHoverElement(infoElement)
+    infoSpot.addHoverText(infoMarkers[0].title)
+    console.log(infoMarkers)
     const { x, y, z } = marker.position
     infoSpot.position.set(x, y, z)
     location.panorama.add(infoSpot)

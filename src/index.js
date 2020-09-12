@@ -20,7 +20,10 @@ document.getElementById('toggle').onclick = function () {
 //For testing of text/image updates
 //Need to have an event for when an information "i" circle is clicked here with an ID
 var counter = 0;
-document.getElementById('update').onclick = function () {
+
+
+
+document.getElementById('update').onclick = () => {
   var title = document.getElementById('poiTitle');
   var info = document.getElementById('poiInfo');
   var image = document.getElementById('poiImage');
