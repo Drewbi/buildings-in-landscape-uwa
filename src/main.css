@@ -30,3 +30,8 @@ body {
 
 .info-text {
 }
+
+.info-label {
+  background-color: plum;
+  color: black;
+}
