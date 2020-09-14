@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+    <style></style>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .marker {
+            background-image: url('mapbox-icon.png');
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .mapboxgl-popup {
+            max-width: 200px;
+        }
+
+        .mapboxgl-popup-content {
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id='map'></div>
+
+    <script>
+
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYW50b25pb2pvYm95IiwiYSI6ImNrZjFxb3huazIxdG8yc2w5MGR2NTJ2NmwifQ.jclnR2Zqjv8UUUM1r2w8fw';
+
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [115.817465, -31.976629],
+            zoom: 19
+        });
+
+        // lOCATIONS FOR POINTS OF INTEREST
+        var geojson = {
+            type: 'FeatureCollection',
+            features: [
+                
+            {
+                type: 'Feature',
+                geometry: {
+                    type: 'Point',
+                    coordinates: [115.81787, -31.978998]
+                },
+                properties: {
+                    title: 'Reid Library',
+                    description: 'Reid Library'
+                }
+            },
+
+            {
+                type: 'Feature',
+                geometry: {
+                    type: 'Point',
+                    coordinates: [115.817914, -31.976977]
+                },
+                properties: {
+                    title: 'Winthrop Hall',
+                    description: 'An old historic building'
+                }
+            },
+            
+            {
+                type: 'Feature',
+                geometry: {
+                    type: 'Point',
+                    coordinates: [115.816629, -31.976738]
+                },
+                properties: {
+                    title: 'Sunken Garden',
+                    description: 'Pretty Grarden'
+                }
+            },
+
+            ]
+        };
+
+        // add markers to map
+        geojson.features.forEach(function (marker) {
+
+            // create a HTML element for each feature
+            var el = document.createElement('div');
+            el.className = 'marker';
+
+            // make a marker for each feature and add to the map
+            new mapboxgl.Marker(el)
+                .setLngLat(marker.geometry.coordinates)
+                .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+                .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
+                .addTo(map);
+        });
+
+        new mapboxgl.Marker(el)
+            .setLngLat(marker.geometry.coordinates)
+            .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+                .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
+            .addTo(map);
+
+
+    </script>
+
+</body>
+
+</html>
