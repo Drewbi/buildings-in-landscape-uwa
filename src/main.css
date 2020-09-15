@@ -13,36 +13,6 @@ body {
   --info-pane-total: calc(var(--info-pane-width) + var(--info-pane-padding) * 2);
 }
 
-@media screen and (max-width: 320px) {
-  body {
-    padding: 0;
-    margin: 0;
-    --info-pane-width: 200px;
-    --info-pane-padding: 30px;
-    --info-pane-total: calc(var(--info-pane-width) + var(--info-pane-padding) * 2);
-  }
-}
-
-@media screen and (min-width: 600px) {
-  body {
-    padding: 0;
-    margin: 0;
-    --info-pane-width: 300px;
-    --info-pane-padding: 35px;
-    --info-pane-total: calc(var(--info-pane-width) + var(--info-pane-padding) * 2);
-  }
-}
-
-@media screen and (min-width: 800px) {
-  body {
-    padding: 0;
-    margin: 0;
-    --info-pane-width: 400px;
-    --info-pane-padding: 35px;
-    --info-pane-total: calc(var(--info-pane-width) + var(--info-pane-padding) * 2);
-  }
-}
-
 #container {
   height: 100vh;
   width: 100vw;
@@ -95,8 +65,8 @@ h1 {
   width: 32px;
   height: 32px;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 15px;
+  right: 15px;
   transition: fill 0.3s;
 }
 
@@ -129,3 +99,31 @@ h1 {
   z-index: 1;
 }
 
+@media screen and (max-width: 700px) {
+  body {
+    --info-pane-width: calc(100% - var(--info-pane-padding) * 2);
+    --info-pane-padding: 30px;
+  }
+
+  #infoPane {
+    height: 30%;
+    top: auto;
+    bottom: 0;
+  }
+
+  .hidePane {
+    transform: translatey(100%) !important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    --info-pane-width: 300px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    --info-pane-width: 400px;
+  }
+}
