@@ -13,8 +13,12 @@ const viewer = new Viewer({
   cameraFov: 85,
   output: 'overlay'
 })
+const aim = (currID) => {
+	getLocationById(currID).navMarkers.direction
+}
 const backbutton = document.images['jsback']
 const forwardbutton = document.images['jsforward']
+const homebutton = document.images['jshome']
 
 backbutton.onclick = function () {
   imgBack()
@@ -22,9 +26,12 @@ backbutton.onclick = function () {
 forwardbutton.onclick = function () {
   imgForward()
 }
+homebutton.onclick = function () {
+  imgHome()
+}
+
 
 function imgBack() {
-  console.log(currID)
   const id = getPrev(currID)
   const location = getLocationById(id)
   viewer.setPanorama(location.panorama)
@@ -32,9 +39,15 @@ function imgBack() {
 }
 
 function imgForward() {
-  console.log(currID)
   const id = getNext(currID)
   const location = getLocationById(id)
+  viewer.setPanorama(location.panorama)
+  viewer.tweenControlCenter(aim)
+  return true
+}
+function imgHome() {
+  currID = 1
+  const location = getLocationById(1)
   viewer.setPanorama(location.panorama)
   return true
 }

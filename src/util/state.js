@@ -24,7 +24,8 @@ const state = [
           y: -672,
           z: 4936
         },
-        scale: 300
+        scale: 300,
+		direction: (-4960, 451, 330)
       },
       {
         to: 13,
@@ -79,7 +80,8 @@ const state = [
           y: -797,
           z: 272
         },
-        scale: 300
+        scale: 300,
+		direction: (4978, -87, 349)
       }
     ],
     infoMarkers: [

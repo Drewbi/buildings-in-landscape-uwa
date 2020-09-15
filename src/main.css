@@ -32,7 +32,7 @@ body {
 }
 
 .nav-buttons {
-  width: 60px;
+  width: 90px;
   height: 25px;
   position: absolute;
   left: calc(50% - 30px);
