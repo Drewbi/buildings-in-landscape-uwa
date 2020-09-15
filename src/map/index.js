@@ -19,13 +19,11 @@ const currentMarker = new mapboxgl.Marker(currentPos)
   .addTo(map)
 
 const initMapMarkers = () => {
-  console.log('yep')
   state.forEach((entry) => {
     const markerElement = document.createElement('div')
     markerElement.className = 'marker'
     const { lat, lon } = entry.positions
     const position = [lon, lat]
-    console.log(position)
     new mapboxgl.Marker(markerElement).setLngLat(position).addTo(map)
   })
 }
