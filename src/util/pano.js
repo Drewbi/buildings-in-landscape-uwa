@@ -9,7 +9,7 @@ const initPanorama = async (viewer, location) => {
   const panorama = new ImagePanorama(image)
   viewer.add(panorama)
   location.panorama = panorama
-  panorama.addEventListener('load', () => setSidebarOpen(false))
+  panorama.addEventListener('leave', () => setSidebarOpen(false))
 }
 
 const initNavMarkers = (location) => {
