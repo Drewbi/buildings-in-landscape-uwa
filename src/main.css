@@ -13,6 +13,36 @@ body {
   --info-pane-total: calc(var(--info-pane-width) + var(--info-pane-padding) * 2);
 }
 
+@media screen and (max-width: 320px) {
+  body {
+    padding: 0;
+    margin: 0;
+    --info-pane-width: 200px;
+    --info-pane-padding: 30px;
+    --info-pane-total: calc(var(--info-pane-width) + var(--info-pane-padding) * 2);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+    --info-pane-width: 300px;
+    --info-pane-padding: 35px;
+    --info-pane-total: calc(var(--info-pane-width) + var(--info-pane-padding) * 2);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    padding: 0;
+    margin: 0;
+    --info-pane-width: 400px;
+    --info-pane-padding: 35px;
+    --info-pane-total: calc(var(--info-pane-width) + var(--info-pane-padding) * 2);
+  }
+}
+
 #container {
   height: 100vh;
   width: 100vw;
