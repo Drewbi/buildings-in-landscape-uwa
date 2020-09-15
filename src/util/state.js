@@ -17,6 +17,10 @@ import image16 from '../assets/images/16.jpg'
 import image17 from '../assets/images/17.jpg'
 import image18 from '../assets/images/18.jpg'
 import image19 from '../assets/images/19.jpg'
+import image20 from '../assets/images/20.jpg'
+import image21 from '../assets/images/21.jpg'
+import image22 from '../assets/images/22.jpg'
+import image23 from '../assets/images/23.jpg'
 
 const state = [
   {
@@ -162,6 +166,16 @@ const state = [
         },
         scale: 300
       }
+    ],
+    infoMarkers: [
+      {
+        title: 'Balconette on Administration Building',
+        position: {
+          x: -41127,
+          y: 2151,
+          z: 1813
+        }
+      }
     ]
   },
   {
@@ -189,6 +203,16 @@ const state = [
           z: 4903
         },
         scale: 300
+      }
+    ],
+    infoMarkers: [
+      {
+        title: 'Whitfeld Court',
+        position: {
+          x: 4621,
+          y: -911,
+          z: 1650
+        }
       }
     ]
   },
@@ -227,6 +251,24 @@ const state = [
         },
         scale: 300
       }
+    ],
+    infoMarkers: [
+      {
+        title: 'Sunken Garden',
+        position: {
+          x: 899,
+          y: -446,
+          z: -4890
+        }
+      },
+      {
+        title: 'Rondels over the windows of the Administration Building',
+        position: {
+          x: 2061,
+          y: 86,
+          z: 4549
+        }
+      }
     ]
   },
   {
@@ -263,6 +305,24 @@ const state = [
           z: 1289
         },
         scale: 300
+      }
+    ],
+    infoMarkers: [
+      {
+        title: 'Sunken Garden',
+        position: {
+          x: 899,
+          y: -446,
+          z: -4890
+        }
+      },
+      {
+        title: 'Shann Memorial',
+        position: {
+          x: 217,
+          y: -119,
+          z: 4983
+        }
       }
     ]
   },
@@ -309,6 +369,16 @@ const state = [
           z: 1384
         },
         scale: 300
+      }
+    ],
+    infoMarkers: [
+      {
+        title: 'Sunken Garden',
+        position: {
+          x: 2884,
+          y: -239,
+          z: -4069
+        }
       }
     ]
   },
@@ -457,6 +527,33 @@ const state = [
           z: -4935
         },
         scale: 300
+      },
+      {
+        to: 18,
+        position: {
+          x: 4598,
+          y: -1140,
+          z: 1583
+        },
+        scale: 300
+      }
+    ],
+    infoMarkers: [
+      {
+        title: 'Winthrop Hall',
+        position: {
+          x: 4633,
+          y: 212,
+          z: 1840
+        }
+      },
+      {
+        title: 'Whitfeld Bust',
+        position: {
+          x: -4678,
+          y: -573,
+          z: -1642
+        }
       }
     ]
   },
@@ -485,6 +582,24 @@ const state = [
           z: -3184
         },
         scale: 300
+      }
+    ],
+    infoMarkers: [
+      {
+        title: 'Homo Fallibe',
+        position: {
+          x: -2139,
+          y: -1376,
+          z: 4292
+        }
+      },
+      {
+        title: 'Lawrence Wilson Art Gallery ',
+        position: {
+          x: -3524,
+          y: 926,
+          z: -3409
+        }
       }
     ]
   },
@@ -523,6 +638,16 @@ const state = [
         },
         scale: 300
       }
+    ],
+    infoMarkers: [
+      {
+        title: 'Sciences Decorative Panels',
+        position: {
+          x: 440,
+          y: 2058,
+          z: -4529
+        }
+      }
     ]
   },
   {
@@ -550,6 +675,42 @@ const state = [
           z: -2238
         },
         scale: 300
+      },
+      {
+        to: 20,
+        position: {
+          x: 4916,
+          y: -388,
+          z: -780
+        },
+        scale: 300
+      },
+      {
+        to: 23,
+        position: {
+          x: 3588,
+          y: -85,
+          z: -3467
+        },
+        scale: 300
+      }
+    ],
+    infoMarkers: [
+      {
+        title: 'Geology and Geography Building',
+        position: {
+          x: -3165,
+          y: 580,
+          z: -3813
+        }
+      },
+      {
+        title: 'Great Court',
+        position: {
+          x: 2818,
+          y: -487,
+          z: 4091
+        }
       }
     ]
   },
@@ -578,6 +739,16 @@ const state = [
           z: -4502
         },
         scale: 300
+      }
+    ],
+    infoMarkers: [
+      {
+        title: 'Whelan Court',
+        position: {
+          x: -1200,
+          y: -1276,
+          z: 4672
+        }
       }
     ]
   },
@@ -625,6 +796,40 @@ const state = [
         },
         scale: 300
       }
+    ],
+    infoMarkers: [
+      {
+        title: 'Winthrop Hall Tower & Clock',
+        position: {
+          x: 2292,
+          y: 4440,
+          z: -43
+        }
+      },
+      {
+        title: 'Winthrop Hall Balconette',
+        position: {
+          x: 3633,
+          y: 3417,
+          z: -203
+        }
+      },
+      {
+        title: 'Foundation stone',
+        position: {
+          x: 4960,
+          y: 326,
+          z: -517
+        }
+      },
+      {
+        title: 'Whitfeld Court',
+        position: {
+          x: -3818,
+          y: 131,
+          z: 3209
+        }
+      }
     ]
   },
   {
@@ -666,11 +871,26 @@ const state = [
     infoMarkers: [
       {
         title: 'Socrates Sculpture',
-        text: 'This is text',
         position: {
           x: -4228,
           y: 1610,
           z: 2108
+        }
+      },
+      {
+        title: 'Reflection Pool',
+        position: {
+          x: 1185,
+          y: -414,
+          z: -4833
+        }
+      },
+      {
+        title: 'Memorial seats',
+        position: {
+          x: 4987,
+          y: -300,
+          z: -14
         }
       }
     ]
@@ -700,6 +920,33 @@ const state = [
           z: 4949
         },
         scale: 300
+      },
+      {
+        to: 11,
+        position: {
+          x: 4555,
+          y: -461,
+          z: -1999
+        },
+        scale: 300
+      }
+    ],
+    infoMarkers: [
+      {
+        title: 'Winthrop Hall',
+        position: {
+          x: -3946,
+          y: 1574,
+          z: 2622
+        }
+      },
+      {
+        title: 'Winthrop Hall External Walls, Windows and Frieze',
+        position: {
+          x: -4321,
+          y: 28,
+          z: 2512
+        }
       }
     ]
   },
@@ -726,6 +973,146 @@ const state = [
           x: 4928,
           y: -831,
           z: -0.85
+        },
+        scale: 300
+      }
+    ],
+    infoMarkers: [
+      {
+        title: 'Memorial seats',
+        position: {
+          x: 4900,
+          y: -403,
+          z: -869
+        }
+      },
+      {
+        title: 'Diotima Sculpture',
+        position: {
+          x: -4482,
+          y: 1745,
+          z: -1333
+        }
+      }
+    ]
+  },
+  {
+    id: 20,
+    src: image20,
+    positions: {
+      lat: -31.584014,
+      lon: 115.49346
+    },
+    navMarkers: [
+      {
+        to: 14,
+        position: {
+          x: 4399,
+          y: -396,
+          z: 2329
+        },
+        scale: 300
+      },
+      {
+        to: 21,
+        position: {
+          x: -4652,
+          y: -205,
+          z: -1790
+        },
+        scale: 300
+      }
+    ]
+  },
+  {
+    id: 21,
+    src: image21,
+    positions: {
+      lat: -31.584022,
+      lon: 115.49358
+    },
+    navMarkers: [
+      {
+        to: 20,
+        position: {
+          x: 4570,
+          y: -469,
+          z: -1956
+        },
+        scale: 300
+      },
+      {
+        to: 22,
+        position: {
+          x: 2096,
+          y: -578,
+          z: -4493
+        },
+        scale: 300
+      },
+      {
+        to: 23,
+        position: {
+          x: 1460,
+          y: -970,
+          z: 4675
+        },
+        scale: 300
+      }
+    ],
+    infoMarkers: [
+      {
+        title: 'Tropical Grove',
+        position: {
+          x: 1665,
+          y: -44,
+          z: -4707
+        }
+      }
+    ]
+  },
+  {
+    id: 22,
+    src: image22,
+    positions: {
+      lat: -31.583975,
+      lon: 115.494414
+    },
+    navMarkers: [
+      {
+        to: 21,
+        position: {
+          x: -442,
+          y: -575,
+          z: 4939
+        },
+        scale: 300
+      }
+    ]
+  },
+  {
+    id: 23,
+    src: image23,
+    positions: {
+      lat: -31.584076,
+      lon: 115.494746
+    },
+    navMarkers: [
+      {
+        to: 21,
+        position: {
+          x: 4447,
+          y: -398,
+          z: -2233
+        },
+        scale: 300
+      },
+      {
+        to: 14,
+        position: {
+          x: 2547,
+          y: -508,
+          z: 4264
         },
         scale: 300
       }
