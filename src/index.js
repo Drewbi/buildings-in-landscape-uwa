@@ -41,4 +41,10 @@ document.getElementById('update').onclick = () => {
   }
 }
 
+window.onclick = function(event) {
+  if(event.target !== document.getElementById('container')) {
+    infoPane.classList.toggle('hidePane')
+  }
+}
+
 initAllPano(viewer)
