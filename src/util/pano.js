@@ -1,11 +1,16 @@
 import { ImagePanorama, Infospot, DataImage } from 'panolens'
 import { Vector3 } from 'three'
 import { state, getLocationById } from './state'
+import { setCurrentPosition } from '../map'
 
 const initPano = (viewer, location) => {
   const panorama = new ImagePanorama(location.src)
   viewer.add(panorama)
   location.panorama = panorama
+  panorama.positions = location.positions
+  panorama.addEventListener('enter-fade-start', (event) => {
+    setCurrentPosition(event.target.positions)
+  })
   return panorama
 }
 
