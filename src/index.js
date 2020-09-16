@@ -3,7 +3,7 @@ import { Vector3 } from 'three'
 import { initAllPano } from './util/pano'
 import { initMapMarkers } from './map'
 import { initSidebar } from './util/info'
-import { getLocationById } from './util/locations'
+import { getLocationById } from './util/location'
 import './main.css'
 import './index.html'
 
