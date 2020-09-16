@@ -52,6 +52,11 @@ function imgHome() {
   return true
 }
 
+function lookAt (direction) {
+  let threePos = new Vector3(direction) 
+  viewer.tweenControlCenter( threePos, 0 )
+}
+
 function getNext(iid) {
   currID = getLocationById(iid).navMarkers[0].to
   return currID
