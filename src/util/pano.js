@@ -1,5 +1,6 @@
 import { ImagePanorama } from 'panolens'
 import { Vector3 } from 'three'
+import { setCurrentPosition } from '../map'
 import { locations, getLocationById } from './location'
 import { loadInfoMarkers, setSidebarOpen } from './info'
 
@@ -9,7 +10,12 @@ const initPanorama = async (viewer, location) => {
   const panorama = new ImagePanorama(image)
   viewer.add(panorama)
   location.panorama = panorama
+  panorama.positions = location.positions
   panorama.addEventListener('leave', () => setSidebarOpen(false))
+  panorama.addEventListener('enter-fade-start', (event) => {
+    setCurrentPosition(event.target.positions)
+  })
+  return panorama
 }
 
 const initNavMarkers = (location) => {
