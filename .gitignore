@@ -1,2 +1,5 @@
 node_modules
 package-lock.json
+ngrok
+.DS_Store
+dist

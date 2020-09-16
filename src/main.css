@@ -1,32 +1,129 @@
+/*TODO: better compatibility between mobile/desktop. Bandaid temp fix for width currently which
+        looks okay on mobile, but not great on desktop (sidebar too narrow). */
+
 html {
-  height: 100vh;
-  width: 100vw;
   overflow-y: hidden;
 }
 
 body {
   padding: 0;
   margin: 0;
-  height: 100%;
-  width: 100%;
+  --info-pane-width: 230px;
+  --info-pane-padding: 35px;
+  --info-pane-total: calc(var(--info-pane-width) + var(--info-pane-padding) * 2);
+}
+
+#container {
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  color: darkslategrey;
+  text-align: center;
 }
 
 #root {
   height: 100%;
   width: 100%;
-}
-
-.infospot {
-  background-color: white;
-  border-radius: 3px;
-  width: 30%;
-  font-family: 'avenir', Arial, Helvetica, sans-serif;
-  padding: 0px 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .info-title {
   font-weight: 500;
 }
 
-.info-text {
+#infoPane {
+  display: block;
+  padding: 0 var(--info-pane-padding);
+  padding-top: 32px;
+  height: 100%;
+  width: var(--info-pane-width);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'avenir', Arial, Helvetica, sans-serif;
+  transform: translate(0, 0);
+  overflow: scroll;
+  z-index: 1;
+  transition: 0.4s ease;
+  background: rgba(255, 255, 255, 0.95)
+}
+
+#infoPane img {
+  margin-top: 20px;
+  width: var(--info-pane-total);
+  position: relative;
+  left: calc(-1 * var(--info-pane-padding));
+  height: auto;
+}
+
+#poiClose {
+  fill: #ccc;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  transition: fill 0.3s;
+}
+
+#poiClose:hover {
+  cursor: pointer;
+  fill: #bbb;
+}
+
+.hidePane {
+  transform: translateX(calc(-1 * var(--info-pane-total))) !important;
+}
+
+#toggle {
+  position: absolute;
+  right: 0;
+  border: none;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#update {
+  position: absolute;
+  left: 50%;
+  border: none;
+  height: 50px;
+  width: 70px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    --info-pane-width: calc(100% - var(--info-pane-padding) * 2);
+    --info-pane-padding: 30px;
+  }
+
+  #infoPane {
+    height: 30%;
+    top: auto;
+    bottom: 0;
+  }
+
+  .hidePane {
+    transform: translatey(100%) !important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    --info-pane-width: 300px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    --info-pane-width: 400px;
+  }
 }

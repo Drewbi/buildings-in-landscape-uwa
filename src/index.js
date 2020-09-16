@@ -1,6 +1,7 @@
 import { Viewer } from 'panolens'
 import { initAllPano } from './util/pano'
 import { initMapMarkers } from './map'
+import { initSidebar } from './util/info'
 import './main.css'
 import './map'
 
@@ -11,5 +12,6 @@ const viewer = new Viewer({
   cameraFov: 85,
   output: 'overlay'
 })
-initMapMarkers()
 initAllPano(viewer)
+initMapMarkers()
+initSidebar()
