@@ -1,8 +1,11 @@
 import { Viewer } from 'panolens'
+import { Vector3 } from 'three'
 import { initAllPano } from './util/pano'
+import { initMapMarkers } from './map'
+import { initSidebar } from './util/info'
+import { getLocationById } from './util/locations'
 import './main.css'
 import './index.html'
-import { getLocationById } from './util/state'
 
 let currID = 1
 
@@ -14,7 +17,7 @@ const viewer = new Viewer({
   output: 'overlay'
 })
 const aim = (currID) => {
-	getLocationById(currID).navMarkers.direction
+  getLocationById(currID).navMarkers.direction
 }
 const backbutton = document.images['jsback']
 const forwardbutton = document.images['jsforward']
@@ -29,7 +32,6 @@ forwardbutton.onclick = function () {
 homebutton.onclick = function () {
   imgHome()
 }
-
 
 function imgBack() {
   const id = getPrev(currID)
@@ -52,9 +54,9 @@ function imgHome() {
   return true
 }
 
-function lookAt (direction) {
-  let threePos = new Vector3(direction) 
-  viewer.tweenControlCenter( threePos, 0 )
+function lookAt(direction) {
+  let threePos = new Vector3(direction)
+  viewer.tweenControlCenter(threePos, 0)
 }
 
 function getNext(iid) {
@@ -68,3 +70,5 @@ function getPrev(iid) {
 }
 
 initAllPano(viewer)
+initMapMarkers()
+initSidebar()

@@ -1,0 +1,28 @@
+#map {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  width: 10vw;
+  min-width: 200px;
+  height: 10vw;
+  min-height: 200px;
+  border-radius: 4px;
+}
+
+.marker {
+  background-image: url('Location.png');
+  background-size: cover;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+#current-marker {
+  background-image: url('MapsGuy.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: left 8px;
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+}
