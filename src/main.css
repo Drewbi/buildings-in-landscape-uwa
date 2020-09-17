@@ -48,8 +48,9 @@ h1 {
   transform: translate(0, 0);
   overflow: scroll;
   z-index: 3;
-  transition: 0.4s ease;
-  background: rgba(255, 255, 255, 0.95)
+  transition: all 0.4s ease;
+  background: rgba(255, 255, 255, 0.95);
+  opacity: 100;
 }
 
 #infoPane img {
@@ -77,6 +78,7 @@ h1 {
 
 .hidePane {
   transform: translateX(calc(-1 * var(--info-pane-total))) !important;
+  opacity: 0 !important;
 }
 
 #toggle {
