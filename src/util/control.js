@@ -1,4 +1,6 @@
-import { forward, back, home } from '../assets/icons'
+import forward from '../assets/icons/forward.png'
+import back from '../assets/icons/back.png'
+import home from '../assets/icons/home.png'
 
 const createControl = (image, onTap, viewer) => {
   const forwardControl = {
