@@ -41,9 +41,9 @@ const setSidebarOpen = (open) => {
 
 const setSidebarContent = (info) => {
   const titleElement = document.getElementById('poiTitle')
-  titleElement.innerHTML = info.title
+  titleElement.innerText = info.title
   const bodyElement = document.getElementById('poiText')
-  bodyElement.innerHTML = info.text
+  bodyElement.innerText = info.text
 }
 
 const getInfoMarkerById = (id) => {
