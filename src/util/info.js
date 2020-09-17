@@ -40,10 +40,21 @@ const setSidebarOpen = (open) => {
 }
 
 const setSidebarContent = (info) => {
-  const titleElement = document.getElementById('poiTitle')
+  const infoPane = document.getElementById('infoPane')
+  while (infoPane.childNodes.length > 1) {
+    if (infoPane.firstChild.id !== 'poiClose') {
+      infoPane.removeChild(infoPane.firstChild)
+    } else {
+      infoPane.appendChild(infoPane.firstChild)
+      infoPane.removeChild(infoPane.firstChild)
+    }
+  }
+  const titleElement = document.createElement('h1')
   titleElement.innerText = info.title
-  const bodyElement = document.getElementById('poiText')
+  infoPane.appendChild(titleElement)
+  const bodyElement = document.createElement('p')
   bodyElement.innerText = info.text
+  infoPane.appendChild(bodyElement)
 }
 
 const getInfoMarkerById = (id) => {

@@ -76,6 +76,10 @@ h1 {
   fill: #bbb;
 }
 
+.poiTitle {
+  text-align: center;
+}
+
 .hidePane {
   transform: translateX(calc(-1 * var(--info-pane-total))) !important;
   opacity: 0 !important;
