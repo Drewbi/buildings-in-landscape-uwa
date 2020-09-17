@@ -41,4 +41,4 @@ const initAllPano = async (viewer) => {
   setPano(viewer, 1)
 }
 
-export { initAllPano }
+export { initAllPano, setPano }
