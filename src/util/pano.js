@@ -1,8 +1,10 @@
-import { ImagePanorama } from 'panolens'
+import { ImagePanorama, Infospot } from 'panolens'
 import { Vector3 } from 'three'
 import { setCurrentPosition } from '../map'
 import { locations, getLocationById } from './location'
 import { loadInfoMarkers, setSidebarOpen } from './info'
+import forwardIcon from '../assets/icons/forward.png'
+import backIcon from '../assets/icons/back.png'
 
 const initPanorama = async (viewer, location) => {
   const { default: image } = await import('../assets/images/' + location.src)
@@ -18,7 +20,26 @@ const initPanorama = async (viewer, location) => {
   return panorama
 }
 
-const initNavMarkers = (location) => {
+const initNavMarkers = (viewer, location) => {
+  if (location.forwardMarker && location.backMarker) {
+    const { forwardMarker, backMarker } = location
+    const forwardLink = new Infospot(forwardMarker.scale, forwardIcon)
+    const { x: fx, y: fy, z: fz } = forwardMarker.position
+    forwardLink.position.set(fx, fy, fz)
+    forwardLink.addEventListener('click', () => {
+      setPano(viewer, forwardMarker.to)
+    })
+    location.panorama.add(forwardLink)
+
+    const backLink = new Infospot(backMarker.scale, backIcon)
+    const { x: bx, y: by, z: bz } = backMarker.position
+    backLink.position.set(bx, by, bz)
+    backLink.addEventListener('click', () => {
+      setPano(viewer, backMarker.to)
+    })
+    location.panorama.add(backLink)
+  }
+
   location.navMarkers.forEach((marker) => {
     const panoToLink = getLocationById(marker.to).panorama
     const { x, y, z } = marker.position
@@ -36,7 +57,7 @@ const initAllPano = async (viewer) => {
     initPanorama(viewer, location)
   )
   await Promise.all(panoPromises)
-  locations.forEach((location) => initNavMarkers(location))
+  locations.forEach((location) => initNavMarkers(viewer, location))
   locations.forEach((location) => loadInfoMarkers(location))
   setPano(viewer, 1)
 }

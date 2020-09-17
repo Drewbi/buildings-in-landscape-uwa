@@ -13,7 +13,7 @@ const loadInfoMarkers = (location) => {
     location.infoMarkers.forEach((marker) => {
       const markerInfo = getInfoMarkerById(marker.markerId)
 
-      const infoSpot = new Infospot(300, DataImage.Info)
+      const infoSpot = new Infospot(marker.scale, DataImage.Info)
       const { x, y, z } = marker.position
       infoSpot.position.set(x, y, z)
 
