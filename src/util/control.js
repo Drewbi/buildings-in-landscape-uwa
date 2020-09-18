@@ -1,8 +1,8 @@
+import { getLocationById } from './location'
+import { setPano } from './pano'
 import forward from '../assets/icons/forward.png'
 import back from '../assets/icons/back.png'
 import home from '../assets/icons/home.png'
-
-// import { setPano } from './pano'
 
 const createControl = (image, onTap, viewer) => {
   const forwardControl = {
@@ -14,11 +14,20 @@ const createControl = (image, onTap, viewer) => {
   viewer.appendControlItem(forwardControl)
 }
 
+const nextPano = (viewer) => {
+  const location = getLocationById(viewer.panorama.locationId)
+  if (location.forwardMarker) setPano(viewer, location.forwardMarker.to)
+}
+
+const prevPano = (viewer) => {
+  const location = getLocationById(viewer.panorama.locationId)
+  if (location.backMarker) setPano(viewer, location.backMarker.to)
+}
+
 const initControls = (viewer) => {
-  console.log(viewer)
-  createControl(forward, () => console.log('forward'), viewer)
-  createControl(home, () => console.log('home'), viewer)
-  createControl(back, () => console.log('back'), viewer)
+  createControl(forward, () => nextPano(viewer), viewer)
+  createControl(home, () => setPano(viewer, 1), viewer) // the first location is the start
+  createControl(back, () => prevPano(viewer), viewer)
 }
 
 export { initControls }

@@ -10,6 +10,7 @@ const initPanorama = async (viewer, location) => {
   const { default: image } = await import('../assets/images/' + location.src)
   location.image = image
   const panorama = new ImagePanorama(image)
+  panorama.locationId = location.id
   viewer.add(panorama)
   location.panorama = panorama
   panorama.positions = location.positions
@@ -49,6 +50,7 @@ const initNavMarkers = (viewer, location) => {
 
 const setPano = (viewer, id) => {
   const location = getLocationById(id)
+  console.log(location)
   viewer.setPanorama(location.panorama)
 }
 

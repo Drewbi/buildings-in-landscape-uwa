@@ -16,7 +16,11 @@ const viewer = new Viewer({
   controlButtons: []
 })
 
-initAllPano(viewer)
-initControls(viewer)
-initMapMarkers()
-initSidebar()
+const start = async () => {
+  await initAllPano(viewer)
+  initControls(viewer)
+  initMapMarkers()
+  initSidebar()
+}
+
+start()
