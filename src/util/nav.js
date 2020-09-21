@@ -16,8 +16,8 @@ const loadNavMarkers = (location, viewer) => {
 
       infoSpot.addEventListener('click', ({ target }) => {
 		console.log(target.to)
-		lookAt(target.direction, viewer)
 		setPano(viewer, target.to)
+		lookAt(target.direction, viewer)
       })
 
       location.panorama.add(infoSpot)
@@ -26,7 +26,7 @@ const loadNavMarkers = (location, viewer) => {
 }
 
 function lookAt (direction, viewer) {
-  let threePos = new Vector3(direction) 
+  let threePos = new Vector3(direction.x, direction.y, direction.z) 
   viewer.tweenControlCenter( threePos, 0 )
 }
 
