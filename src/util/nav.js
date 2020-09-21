@@ -11,20 +11,13 @@ const loadNavMarkers = (location, viewer) => {
       const infoSpot = new Infospot(300, DataImage.ChevronRight)
       const { x, y, z } = marker.position
       infoSpot.position.set(x, y, z)
-	  const direction = marker.lookAt
-
-      //infoSpot.addHoverText(markerInfo.title)
-      //infoSpot.userData = markerInfo
+	  infoSpot.direction = marker.lookAt
+	  infoSpot.to = marker.to
 
       infoSpot.addEventListener('click', ({ target }) => {
+		console.log(target.to)
+		lookAt(target.direction, viewer)
 		setPano(viewer, target.to)
-		console.log(target)
-		lookAt(currId, target.to)
-		currId = target.to
-		// setSidebarContent(target.userData)
-        // setSidebarOpen(true)
-        // target.focus()
-        // target.onDismiss()
       })
 
       location.panorama.add(infoSpot)
@@ -32,7 +25,7 @@ const loadNavMarkers = (location, viewer) => {
   }
 }
 
-function lookAt (direction) {
+function lookAt (direction, viewer) {
   let threePos = new Vector3(direction) 
   viewer.tweenControlCenter( threePos, 0 )
 }
