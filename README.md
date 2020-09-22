@@ -22,7 +22,6 @@ Take a 360º virtual tour of UWA's Winthrop Hall, Hacket Hall, Whelan Court and 
 ```bash
 yarn
 yarn start:open
-(placeholder)
 ```
 
 ## Visuals
