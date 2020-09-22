@@ -20,6 +20,7 @@ Take a 360º virtual tour of UWA's Winthrop Hall, Hacket Hall, Whelan Court and 
 
 ## Installation
 ```bash
+yarn
 yarn start:open
 (placeholder)
 ```
@@ -36,4 +37,3 @@ Authors: ...(if you are comfortable with it)
 
 ## License
 [CC0](https://choosealicense.com/licenses/cc0/)
-
