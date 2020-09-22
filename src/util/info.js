@@ -13,7 +13,7 @@ const loadInfoMarkers = (location) => {
     location.infoMarkers.forEach((marker) => {
       const markerInfo = getInfoMarkerById(marker.markerId)
 
-      const infoSpot = new Infospot(300, DataImage.Info)
+      const infoSpot = new Infospot(marker.scale, DataImage.Info)
       const { x, y, z } = marker.position
       infoSpot.position.set(x, y, z)
 
@@ -40,10 +40,21 @@ const setSidebarOpen = (open) => {
 }
 
 const setSidebarContent = (info) => {
-  const titleElement = document.getElementById('poiTitle')
-  titleElement.innerHTML = info.title
-  const bodyElement = document.getElementById('poiText')
-  bodyElement.innerHTML = info.text
+  const infoPane = document.getElementById('infoPane')
+  while (infoPane.childNodes.length > 1) {
+    if (infoPane.firstChild.id !== 'poiClose') {
+      infoPane.removeChild(infoPane.firstChild)
+    } else {
+      infoPane.appendChild(infoPane.firstChild)
+      infoPane.removeChild(infoPane.firstChild)
+    }
+  }
+  const titleElement = document.createElement('h1')
+  titleElement.innerText = info.title
+  infoPane.appendChild(titleElement)
+  const bodyElement = document.createElement('p')
+  bodyElement.innerText = info.text
+  infoPane.appendChild(bodyElement)
 }
 
 const getInfoMarkerById = (id) => {

@@ -9,7 +9,9 @@ const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/light-v10',
   center: [115.817465, -31.976629],
-  zoom: 17
+  zoom: 17,
+  pitchWithRotate: false,
+  dragRotate: false
 })
 
 const currentPos = document.createElement('div')

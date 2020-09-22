@@ -6,22 +6,21 @@
       "lat": -31.976814,
       "lon": 115.817464
     },
-    "navMarkers": [
-      {
-        "to": 2,
-        "position": {
-          "x": -276,
-          "y": -672,
-          "z": 4936
-        },
-        "lookAt": {
-          "x": -276,
-          "y": -672,
-          "z": 4936
-        },
-        "scale": 300
+    "forwardMarker": {
+      "to": 2,
+      "position": {
+        "x": -276,
+        "y": -672,
+        "z": 4936
       },
-      {
+      "lookAt": {
+        "x": -276,
+        "y": -672,
+        "z": 4936
+      },
+      "scale": 300
+    },
+    "backMarker": {
         "to": 13,
         "position": {
           "x": 285,
@@ -35,6 +34,7 @@
         },
         "scale": 300
       },
+    "navMarkers": [
       {
         "to": 17,
         "position": {
