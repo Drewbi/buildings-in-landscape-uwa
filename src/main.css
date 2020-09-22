@@ -77,6 +77,10 @@ h1 {
     transform: translateX(calc(-1 * var(--info-pane-total)));
 }
 
+li {
+    color: black
+}
+
 #toggle {
     position: absolute;
     right: 0;
@@ -148,6 +152,6 @@ h1 {
     font-weight: 6;
     line-height: 20px;
     text-align: center;
-    background: #1e1e1e;
+    background: #DAAA00;
     letter-spacing: 1px;
 }
