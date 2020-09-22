@@ -50,7 +50,6 @@ const initNavMarkers = (viewer, location) => {
 
 const setPano = (viewer, id) => {
   const location = getLocationById(id)
-  console.log(location)
   viewer.setPanorama(location.panorama)
 }
 
