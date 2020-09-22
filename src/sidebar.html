@@ -9,28 +9,33 @@
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
         <link rel="stylesheet" href="main.css">
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-        <script type="text/javascript" src="util/sidebar.js"></script>
+
     </head>
 
-    <body>
+    <body onload()>
         <div class="btn">
             <span class="fas fa-bars">≡</span>
         </div>
         <nav class="sidebar">
-            <div class="text">
-                Side Menu
-            </div>
+            <img src="assets\sidebar\uwa-logo.png" style="position: right">
+
             <div id="infoPane" class="text">
-                <h5 class="poiTitle">Buildings in Landscape</h5>
-                <h6 class="poiTitle">UWA Historical Society</h6>
+                <br>
+                <h2 class="poiTitle">Buildings in Landscape</h2>
+                <br>
+                <h3 class="poiTitle">UWA Historical Society</h3>
                 <p class="poiText"></p>
-                <p>This is a virtual tour that starts at Winthrop Hall, circumnavigates Whitfeld Court, then voyages on
-                    to the
-                    Sunken Garden, before returning to Whitfeld Court.</p>
+                <p><i>This is a virtual tour that starts at Winthrop Hall, circumnavigates Whitfeld Court, then voyages
+                        on
+                        to the
+                        Sunken Garden, before returning to Whitfeld Court.</i></p>
+                <br>
+                <br>
+                <img src="assets\sidebar\map-image.jpg" style="width:250px;height:250px">
 
-                **Add Map image here**
-
-                <h6>This virtual tour would not have been possible without assistance from:</h6>
+                <br>
+                <br>
+                <p><i>This virtual tour would not have been possible without assistance from:</i></p>
                 <ul>
                     <li>Drew Alexander</li>
                     <li>Liam Yit Huan Tien</li>
@@ -54,25 +59,28 @@
 
                 <p>For further information contact: uwahs@uwa.edu.au or visit our website at: www.web.uwa.edu.au/uwahs
                 </p>
-                <svg id="poiClose" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <!-- <svg id="poiClose" xmlns="http://www.w3.org/2000/svg" viewBox="">
                     <title>Close</title>
                     <path d="M0 0h24v24H0z" fill="none" />
                     <path
                         d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z" />
-                </svg>
+                </svg> {
+                -->
             </div>
         </nav>
         <div class="content">
             This is where the map goes
         </div>
         <script>
+            // change this
+            $("body").ready(function () {
+                $(this).toggleClass("click");
+                $('.btn').toggleClass("click");
+                $('.sidebar').toggleClass("show");
+            });
             $('.btn').click(function () {
                 $(this).toggleClass("click");
                 $('.sidebar').toggleClass("show");
-            });
-            $('.feat-btn').click(function () {
-                $('nav ul .feat-show').toggleClass("show");
-                $('nav ul .first').toggleClass("rotate");
             });
             $('.serv-btn').click(function () {
                 $('nav ul .serv-show').toggleClass("show1");

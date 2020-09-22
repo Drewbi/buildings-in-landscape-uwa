@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-    color: darkslategrey;
+    color: red;
     text-align: center;
 }
 
@@ -62,7 +62,7 @@ h1 {
     overflow: scroll;
     z-index: 1;
     transition: 0.4s ease;
-    background-color: white;
+    background-color: #DAAA00;
 }
 
 .infoPane img {
@@ -133,7 +133,7 @@ h1 {
     width: 450px;
     height: 100%;
     left: -450px;
-    background: #1b1b1b;
+    background: #003087;
     transition: left 0.4s ease;
     overflow: scroll;
     height: 600px;
@@ -144,8 +144,7 @@ h1 {
 }
 
 .sidebar .text {
-    color: white;
-    font-size: 15px;
+    color: black;
     font-weight: 6;
     line-height: 20px;
     text-align: center;
