@@ -4,7 +4,6 @@ import { initMapMarkers } from './map'
 import { initSidebar } from './util/info'
 import { initControls } from './util/control'
 import './main.css'
-import './index.html'
 
 const root = document.getElementById('root')
 const viewer = new Viewer({
