@@ -1,4 +1,4 @@
-import { ImagePanorama } from 'panolens'
+import { ImagePanorama, Infospot } from 'panolens'
 import { Vector3 } from 'three'
 import { setCurrentPosition } from '../map'
 import { locations, getLocationById } from './location'
@@ -11,6 +11,7 @@ const initPanorama = async (viewer, location) => {
   const { default: image } = await import('../assets/images/' + location.src)
   location.image = image
   const panorama = new ImagePanorama(image)
+  panorama.locationId = location.id
   viewer.add(panorama)
   location.panorama = panorama
   panorama.positions = location.positions
@@ -40,7 +41,7 @@ const initAllPano = async (viewer) => {
     initPanorama(viewer, location)
   )
   await Promise.all(panoPromises)
-//  locations.forEach((location) => initNavMarkers(location))
+  //  locations.forEach((location) => initNavMarkers(location))
   locations.forEach((location) => loadInfoMarkers(location))
   locations.forEach((location) => loadNavMarkers(location, viewer))
   setPano(viewer, 1)
