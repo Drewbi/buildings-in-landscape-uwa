@@ -35,4 +35,5 @@ Authors: ...(if you are comfortable with it)
 **The copying and use of any historical photos and text, unless otherwise stated, must fully acknowledge the UWA Archives intellectual property.** Please ensure that, in full, the P number and accompanying title of each image must be displayed with the photo. Refer to the document: **Hitorical_Photos.txt** for the P number and titles.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+
