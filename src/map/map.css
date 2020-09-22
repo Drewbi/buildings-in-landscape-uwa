@@ -2,11 +2,13 @@
   position: absolute;
   bottom: 30px;
   left: 30px;
-  width: 10vw;
-  min-width: 200px;
-  height: 10vw;
-  min-height: 200px;
-  border-radius: 4px;
+  width: 20vw;
+  max-width: 300px;
+  min-width: 150px;
+  height: 20vw;
+  max-height: 300px;
+  min-height: 150px;
+  border-radius: 3px;
 }
 
 .marker {
@@ -25,4 +27,10 @@
   width: 60px;
   height: 60px;
   z-index: 1;
+}
+
+@media screen and (max-width: 750px) {
+  .mapboxgl-compact {
+    display: none !important;
+  }
 }
