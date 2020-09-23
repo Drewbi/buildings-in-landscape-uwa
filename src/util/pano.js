@@ -29,6 +29,7 @@ const initNavMarkers = (viewer, location) => {
     forwardLink.position.set(fx, fy, fz)
     forwardLink.addEventListener('click', () => {
       setPano(viewer, forwardMarker.to)
+	  lookAt(forwardMarker.lookAt, viewer)
     })
     location.panorama.add(forwardLink)
 
@@ -37,6 +38,7 @@ const initNavMarkers = (viewer, location) => {
     backLink.position.set(bx, by, bz)
     backLink.addEventListener('click', () => {
       setPano(viewer, backMarker.to)
+	  lookAt(backMarker.lookAt, viewer)
     })
     location.panorama.add(backLink)
   }
@@ -46,6 +48,11 @@ const initNavMarkers = (viewer, location) => {
     const { x, y, z } = marker.position
     location.panorama.link(panoToLink, new Vector3(x, y, z), marker.scale)
   })
+}
+
+function lookAt (direction, viewer) {
+  let threePos = new Vector3(direction.x, direction.y, direction.z) 
+  viewer.tweenControlCenter( threePos, 0 )
 }
 
 const setPano = (viewer, id) => {
