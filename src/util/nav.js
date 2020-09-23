@@ -8,14 +8,13 @@ const loadNavMarkers = (location, viewer) => {
     location.navMarkers.forEach((marker) => {
       //const markerInfo = getInfoMarkerById(marker.markerId)
 
-      const infoSpot = new Infospot(300, DataImage.ChevronRight)
+      const infoSpot = new Infospot(300, DataImage.Arrow)
       const { x, y, z } = marker.position
       infoSpot.position.set(x, y, z)
 	  infoSpot.direction = marker.lookAt
 	  infoSpot.to = marker.to
 
       infoSpot.addEventListener('click', ({ target }) => {
-		console.log(target.to)
 		setPano(viewer, target.to)
 		lookAt(target.direction, viewer)
       })
