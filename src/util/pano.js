@@ -3,8 +3,8 @@ import { Vector3 } from 'three'
 import { setCurrentPosition } from '../map'
 import { locations, getLocationById } from './location'
 import { loadInfoMarkers, setSidebarOpen } from './info'
-import forwardIcon from '../assets/icons/forward.png'
-import backIcon from '../assets/icons/back.png'
+import forwardIcon from '../assets/icons/forwardIcon.png'
+import backIcon from '../assets/icons/backIcon.png'
 
 const initPanorama = async (viewer, location) => {
   const { default: image } = await import('../assets/images/' + location.src)
@@ -24,7 +24,7 @@ const initPanorama = async (viewer, location) => {
 const initNavMarkers = (viewer, location) => {
   if (location.forwardMarker && location.backMarker) {
     const { forwardMarker, backMarker } = location
-    const forwardLink = new Infospot(forwardMarker.scale, forwardIcon)
+    const forwardLink = new Infospot(forwardMarker.scale + 100, forwardIcon)
     const { x: fx, y: fy, z: fz } = forwardMarker.position
     forwardLink.position.set(fx, fy, fz)
     forwardLink.addEventListener('click', () => {
@@ -32,7 +32,7 @@ const initNavMarkers = (viewer, location) => {
     })
     location.panorama.add(forwardLink)
 
-    const backLink = new Infospot(backMarker.scale, backIcon)
+    const backLink = new Infospot(backMarker.scale + 100, backIcon)
     const { x: bx, y: by, z: bz } = backMarker.position
     backLink.position.set(bx, by, bz)
     backLink.addEventListener('click', () => {

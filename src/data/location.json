@@ -71,8 +71,21 @@
       "lat": -31.976676,
       "lon": 115.817468
     },
-    "navMarkers": [
-      {
+    "forwardMarker": {
+      "to": 3,
+      "position": {
+        "x": -6000,
+        "y": -503,
+        "z": -200
+      },
+      "lookAt": {
+        "x": -276,
+        "y": -672,
+        "z": 4936
+      },
+      "scale": 300
+    },
+    "backMarker": {
         "to": 1,
         "position": {
           "x": 4921,
@@ -86,6 +99,7 @@
         },
         "scale": 300
       },
+    "navMarkers": [
       {
         "to": 3,
         "position": {
