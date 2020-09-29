@@ -23,7 +23,8 @@
   background-image: url('MapsGuy.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-x: left 8px;
+  background-position-x: left 6px;
+  background-position-y:  20%;
   width: 60px;
   height: 60px;
   z-index: 1;
