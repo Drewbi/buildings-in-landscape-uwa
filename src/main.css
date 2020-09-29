@@ -1,13 +1,16 @@
+/*TODO: better compatibility between mobile/desktop. Bandaid temp fix for width currently which
+        looks okay on mobile, but not great on desktop (sidebar too narrow). */
+
 html {
     overflow-y: hidden;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    --info-pane-width: 300px;
-    --info-pane-padding: 40px;
-    --info-pane-total: calc(var(--info-pane-width) + var(--info-pane-padding) * 2);
+  padding: 0;
+  margin: 0;
+  --info-pane-width: 230px;
+  --info-pane-padding: 35px;
+  --info-pane-total: calc(var(--info-pane-width) + var(--info-pane-padding) * 2);
 }
 
 #container {
@@ -26,8 +29,8 @@ body {
 }
 
 h1 {
-    color: red;
-    text-align: center;
+  color: darkslategrey;
+  text-align: center;
 }
 
 #root {
@@ -38,47 +41,58 @@ h1 {
     right: 0;
 }
 
-.infospot {
-    background-color: white;
-    border-radius: 3px;
-    width: 30%;
-    font-family: 'avenir', Arial, Helvetica, sans-serif;
-    padding: 0px 20px;
-}
-
 .info-title {
     font-weight: 500;
 }
 
-.infoPane {
-    padding: var(--info-pane-padding);
-    height: 100%;
-    width: var(--info-pane-width);
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: 'avenir', Arial, Helvetica, sans-serif;
-    transform: translate(0, 0);
-    overflow: scroll;
-    z-index: 1;
-    transition: 0.4s ease;
-    background-color: #DAAA00;
+#infoPane {
+  display: block;
+  padding: 0 var(--info-pane-padding);
+  padding-top: 32px;
+  height: 100%;
+  width: var(--info-pane-width);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'avenir', Arial, Helvetica, sans-serif;
+  transform: translate(0, 0);
+  overflow: scroll;
+  z-index: 3;
+  transition: all 0.4s ease;
+  background: rgba(255, 255, 255, 0.95);
+  opacity: 100;
 }
 
-.infoPane img {
-    margin-top: 50px;
-    width: var(--info-pane-total);
-    position: relative;
-    left: calc(-1 * var(--info-pane-padding));
-    height: auto;
+#infoPane img {
+  margin-top: 20px;
+  width: var(--info-pane-total);
+  position: relative;
+  left: calc(-1 * var(--info-pane-padding));
+  height: auto;
+}
+
+#poiClose {
+  fill: #ccc;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  transition: fill 0.3s;
+}
+
+#poiClose:hover {
+  cursor: pointer;
+  fill: #bbb;
+}
+
+.poiTitle {
+  text-align: center;
 }
 
 .hidePane {
-    transform: translateX(calc(-1 * var(--info-pane-total)));
-}
-
-li {
-    color: black
+  transform: translateX(calc(-1 * var(--info-pane-total))) !important;
+  opacity: 0 !important;
 }
 
 #toggle {
@@ -147,11 +161,47 @@ li {
     left: 0px;
 }
 
-.sidebar .text {
-    color: black;
-    font-weight: 6;
-    line-height: 20px;
-    text-align: center;
-    background: #DAAA00;
-    letter-spacing: 1px;
+@media screen and (max-width: 700px) {
+  body {
+    --info-pane-width: calc(100% - var(--info-pane-padding) * 2);
+    --info-pane-padding: 30px;
+  }
+
+  #infoPane {
+    height: 30%;
+    top: auto;
+    bottom: 0;
+  }
+
+  .hidePane {
+    transform: translatey(100%) !important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    --info-pane-width: 300px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    --info-pane-width: 400px;
+  }
+}
+
+.nav-buttons {
+  width: 90px;
+  height: 25px;
+  position: absolute;
+  left: calc(50% - 30px);
+  bottom: 10px;
+  z-index:1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  height: 25px;
+  width: auto;
 }
