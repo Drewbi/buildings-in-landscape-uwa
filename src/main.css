@@ -44,7 +44,7 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  font-family: 'avenir', Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
   transform: translate(0, 0);
   overflow: scroll;
   z-index: 3;
