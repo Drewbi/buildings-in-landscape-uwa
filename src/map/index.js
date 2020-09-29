@@ -10,13 +10,21 @@ const map = new mapboxgl.Map({
   style: 'mapbox://styles/mapbox/light-v10',
   center: [115.817465, -31.976629],
   zoom: 17,
-  pitchWithRotate: false,
-  dragRotate: false
+  pitchWithRotate: true,
+  dragRotate: true
 })
+
+var popupOffsets = {
+  top: [100, 0],
+  'top-left': [100, 0],
+  'top-right': [100, 0]
+}
 
 const currentPos = document.createElement('div')
 currentPos.id = 'current-marker'
-const currentMarker = new mapboxgl.Marker(currentPos)
+const currentMarker = new mapboxgl.Marker(currentPos, {
+  offset: [15, -30]
+})
   .setLngLat([locations[0].positions.lon, locations[0].positions.lat])
   .addTo(map)
 
@@ -29,6 +37,8 @@ const initMapMarkers = () => {
     markerElement.className = 'marker'
     const { lat, lon } = entry.positions
     const position = [lon, lat]
+    console.log('each position')
+    console.log(position)
     new mapboxgl.Marker(markerElement).setLngLat(position).addTo(map)
   })
 }
@@ -38,6 +48,8 @@ const setCurrentPosition = (positions) => {
   const position = [lon, lat]
   currentMarker.setLngLat(position)
   map.setCenter(position)
+  console.log('curretn position')
+  console.log(position)
 }
 
 export { initMapMarkers, setCurrentPosition }

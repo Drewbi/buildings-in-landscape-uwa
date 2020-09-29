@@ -17,17 +17,34 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
+    z-index: 1
 }
 
 #current-marker {
     background-image: url('MapsGuy.png');
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: transparent;
+    position: sticky;
+    top: -9px;
     background-position-x: centre;
     background-position-y: centre;
     width: 60px;
     height: 60px;
-    z-index: 1;
+    z-index: 0;
+}
+
+.current-marker {
+    background-image: url('MapsGuy.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: sticky;
+    top: -9px;
+    background-position-x: centre;
+    background-position-y: centre;
+    width: 60px;
+    height: 60px;
+    z-index: 0;
 }
 
 @media screen and (max-width: 750px) {
