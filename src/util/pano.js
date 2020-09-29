@@ -3,8 +3,22 @@ import { Vector3 } from 'three'
 import { setCurrentPosition } from '../map'
 import { locations, getLocationById } from './location'
 import { loadInfoMarkers, setSidebarOpen } from './info'
-import forwardIcon from '../assets/icons/forwardIcon.png'
-import backIcon from '../assets/icons/backIcon.png'
+// import forwardIcon from '../assets/icons/forwardIcon.png'
+// import backIcon from '../assets/icons/backIcon.png'
+
+// a list of other BACK icons
+// import backIcon from '../assets/icons/back1re.png' // slash
+// import backIcon from '../assets/icons/back2.png' // tick
+import backIcon from '../assets/icons/back3.png' // cross location
+// import backIcon from '../assets/icons/back4.png' // circle slash
+// import backIcon from '../assets/icons/back5.png' // circle line
+// import backIcon from '../assets/icons/back6.png' // repeat
+
+// a list of FORWARD icons
+// import forwardIcon from '../assets/icons/forward1.png' // straight
+// import forwardIcon from '../assets/icons/forward2.png' // location
+// (note that forward3 can be for alternative forward routes)
+import forwardIcon from '../assets/icons/forward3.png' // location
 
 const initPanorama = async (viewer, location) => {
   const { default: image } = await import('../assets/images/' + location.src)
