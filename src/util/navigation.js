@@ -7,6 +7,11 @@ const setPano = (viewer, id) => {
   viewer.setPanorama(location.panorama)
 }
 
+const lookAt = (direction, viewer) => {
+  let threePos = new Vector3(direction.x, direction.y, direction.z)
+  viewer.tweenControlCenter(threePos, 0)
+}
+
 const initNavMarkers = (viewer, location) => {
   if (location.forwardMarker && location.backMarker) {
     const {
@@ -46,8 +51,7 @@ const initNavMarkers = (viewer, location) => {
       const { x, y, z } = position
       location.panorama.link(panoToLink, new Vector3(x, y, z), scale)
     })
-    console.log('yeet')
   }
 }
 
-export { initNavMarkers, setPano }
+export { initNavMarkers, setPano, lookAt }
