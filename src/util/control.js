@@ -27,7 +27,7 @@ const navigateTo = (markerName, viewer) => {
 
 const initControls = (viewer) => {
   createControl(forward, () => navigateTo('forwardMarker', viewer), viewer)
-  createControl(home, () => navigateTo('homeMarker', viewer), viewer) // the first location is the start
+  createControl(home, () => navigateTo('homeMarker', viewer), viewer)
   createControl(back, () => navigateTo('backMarker', viewer), viewer)
 }
 
