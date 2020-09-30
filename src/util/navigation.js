@@ -51,7 +51,6 @@ const initNavMarkers = (viewer, location) => {
       const { x, y, z } = position
       location.panorama.link(panoToLink, new Vector3(x, y, z), scale)
     })
-    console.log('yeet')
   }
 }
 
