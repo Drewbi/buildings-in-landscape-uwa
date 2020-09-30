@@ -1,5 +1,5 @@
 import { getLocationById } from './location'
-import { setPano } from './pano'
+import { setPano } from './navigation'
 import forward from '../assets/icons/forward.png'
 import back from '../assets/icons/back.png'
 import home from '../assets/icons/home.png'

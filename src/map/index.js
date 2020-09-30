@@ -17,16 +17,20 @@ const map = new mapboxgl.Map({
 const currentPos = document.createElement('div')
 currentPos.id = 'current-marker'
 const currentMarker = new mapboxgl.Marker(currentPos)
-  .setLngLat([locations[0].positions.lon, locations[0].positions.lat])
-  .addTo(map)
+if (locations[0].positions)
+  currentMarker
+    .setLngLat([locations[0].positions.lon, locations[0].positions.lat])
+    .addTo(map)
 
 const initMapMarkers = () => {
   locations.forEach((entry) => {
-    const markerElement = document.createElement('div')
-    markerElement.className = 'marker'
-    const { lat, lon } = entry.positions
-    const position = [lon, lat]
-    new mapboxgl.Marker(markerElement).setLngLat(position).addTo(map)
+    if (entry.positions) {
+      const markerElement = document.createElement('div')
+      markerElement.className = 'marker'
+      const { lat, lon } = entry.positions
+      const position = [lon, lat]
+      new mapboxgl.Marker(markerElement).setLngLat(position).addTo(map)
+    }
   })
 }
 
