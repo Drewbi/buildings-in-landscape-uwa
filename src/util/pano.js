@@ -28,7 +28,7 @@ const initNavMarkers = (viewer, location) => {
     const { x: fx, y: fy, z: fz } = forwardMarker.position
     forwardLink.position.set(fx, fy, fz)
     forwardLink.addEventListener('click', () => {
-      setPano(viewer, forwardMarker.to)
+	  setPano(viewer, forwardMarker.to)
 	  lookAt(forwardMarker.lookAt, viewer)
     })
     location.panorama.add(forwardLink)
@@ -37,7 +37,7 @@ const initNavMarkers = (viewer, location) => {
     const { x: bx, y: by, z: bz } = backMarker.position
     backLink.position.set(bx, by, bz)
     backLink.addEventListener('click', () => {
-      setPano(viewer, backMarker.to)
+	  setPano(viewer, backMarker.to)
 	  lookAt(backMarker.lookAt, viewer)
     })
     location.panorama.add(backLink)
@@ -58,6 +58,7 @@ function lookAt (direction, viewer) {
 const setPano = (viewer, id) => {
   const location = getLocationById(id)
   viewer.setPanorama(location.panorama)
+  initNavMarkers(viewer, location)
 }
 
 const initAllPano = async (viewer) => {
@@ -65,9 +66,9 @@ const initAllPano = async (viewer) => {
     initPanorama(viewer, location)
   )
   await Promise.all(panoPromises)
-  locations.forEach((location) => initNavMarkers(viewer, location))
+  //locations.forEach((location) => initNavMarkers(viewer, location))
   locations.forEach((location) => loadInfoMarkers(location))
   setPano(viewer, 1)
 }
 
-export { initAllPano, setPano }
+export { initAllPano, setPano, lookAt }
