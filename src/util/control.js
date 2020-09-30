@@ -1,5 +1,5 @@
 import { getLocationById } from './location'
-import { setPano,lookAt } from './pano'
+import { setPano, lookAt } from './navigation'
 import forward from '../assets/icons/forward.png'
 import back from '../assets/icons/back.png'
 import home from '../assets/icons/home.png'
@@ -17,16 +17,16 @@ const createControl = (image, onTap, viewer) => {
 const nextPano = (viewer) => {
   const location = getLocationById(viewer.panorama.locationId)
   if (location.forwardMarker) {
-	  setPano(viewer, location.forwardMarker.to)
-	  lookAt(location.forwardMarker.lookAt, viewer)
+    setPano(viewer, location.forwardMarker.to)
+    lookAt(location.forwardMarker.lookAt, viewer)
   }
 }
 
 const prevPano = (viewer) => {
   const location = getLocationById(viewer.panorama.locationId)
   if (location.backMarker) {
-	  setPano(viewer, location.backMarker.to)
-	  lookAt(location.backMarker.lookAt, viewer)
+    setPano(viewer, location.backMarker.to)
+    lookAt(location.backMarker.lookAt, viewer)
   }
 }
 
