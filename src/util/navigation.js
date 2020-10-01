@@ -1,10 +1,11 @@
 import { Infospot, DataImage } from 'panolens'
-import { getLocationById } from './location'
+import { getLocationById, prefetchImages } from './location'
 import { Vector3 } from 'three'
 
 const setPano = (viewer, id) => {
   const location = getLocationById(id)
   viewer.setPanorama(location.panorama)
+  prefetchImages(location)
 }
 
 const lookAt = (direction, viewer) => {
