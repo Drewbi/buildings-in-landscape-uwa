@@ -17,7 +17,7 @@ const prefetchImages = (location) => {
       const nextLocation = getLocationById(marker.to)
       const imageElement = document.createElement('img')
       imageElement.setAttribute('src', nextLocation.image)
-      imageElement.setAttribute('style', 'display: none;')
+      // imageElement.setAttribute('class', 'hidden')
       prefetchElement.appendChild(imageElement)
     })
   }
