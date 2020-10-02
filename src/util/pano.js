@@ -3,6 +3,7 @@ import { initNavMarkers, setPano, lookAt } from './navigation'
 import { setCurrentPosition } from '../map'
 import { locations } from './location'
 import { loadInfoMarkers, setSidebarOpen } from './info'
+import { setLoading } from './control'
 
 const initPanorama = async (viewer, location) => {
   const { default: image } = await import('../assets/pano/' + location.src)
@@ -14,6 +15,7 @@ const initPanorama = async (viewer, location) => {
   panorama.positions = location.positions
   panorama.addEventListener('leave', () => setSidebarOpen(false))
   panorama.addEventListener('enter-fade-start', (event) => {
+    setLoading(false)
     if (event.target.positions) setCurrentPosition(event.target.positions)
   })
   return panorama
