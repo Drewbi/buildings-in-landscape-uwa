@@ -18,7 +18,6 @@ const createControl = (image, onTap, viewer) => {
 const createLoader = (viewer) => {
   const controlElem = document.createElement('span')
   controlElem.setAttribute('id', 'loader')
-  // controlElem.setAttribute('class', 'hidden')
   const forwardControl = {
     style: {
       backgroundImage: `url(${loadingIcon})`
