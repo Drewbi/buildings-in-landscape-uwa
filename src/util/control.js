@@ -1,8 +1,9 @@
 import { getLocationById } from './location'
 import { setPano, lookAt } from './navigation'
-import forward from '../assets/icons/forward.png'
-import back from '../assets/icons/back.png'
-import home from '../assets/icons/home.png'
+import forwardIcon from '../assets/icons/forward.png'
+import backIcon from '../assets/icons/back.png'
+import homeIcon from '../assets/icons/home.png'
+import loadingIcon from '../assets/icons/loading.png'
 
 const createControl = (image, onTap, viewer) => {
   const forwardControl = {
@@ -12,6 +13,24 @@ const createControl = (image, onTap, viewer) => {
     onTap: onTap
   }
   viewer.appendControlItem(forwardControl)
+}
+
+const createLoader = (viewer) => {
+  const controlElem = document.createElement('span')
+  controlElem.setAttribute('id', 'loader')
+  // controlElem.setAttribute('class', 'hidden')
+  const forwardControl = {
+    style: {
+      backgroundImage: `url(${loadingIcon})`
+    },
+    element: controlElem
+  }
+  viewer.appendControlItem(forwardControl)
+}
+
+const setLoading = (loading) => {
+  const loader = document.getElementById('loader')
+  if (loader) loader.toggleAttribute('hidden', !loading)
 }
 
 const navigateTo = (markerName, viewer) => {
@@ -26,9 +45,10 @@ const navigateTo = (markerName, viewer) => {
 }
 
 const initControls = (viewer) => {
-  createControl(forward, () => navigateTo('forwardMarker', viewer), viewer)
-  createControl(home, () => navigateTo('homeMarker', viewer), viewer)
-  createControl(back, () => navigateTo('backMarker', viewer), viewer)
+  createControl(forwardIcon, () => navigateTo('forwardMarker', viewer), viewer)
+  createControl(homeIcon, () => navigateTo('homeMarker', viewer), viewer)
+  createControl(backIcon, () => navigateTo('backMarker', viewer), viewer)
+  createLoader(viewer)
 }
 
-export { initControls }
+export { initControls, setLoading }
