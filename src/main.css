@@ -1,6 +1,3 @@
-/*TODO: better compatibility between mobile/desktop. Bandaid temp fix for width currently which
-        looks okay on mobile, but not great on desktop (sidebar too narrow). */
-
 html {
   overflow-y: hidden;
 }
@@ -85,26 +82,6 @@ h1 {
   opacity: 0 !important;
 }
 
-#toggle {
-  position: absolute;
-  right: 0;
-  border: none;
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
-  z-index: 1;
-}
-
-#update {
-  position: absolute;
-  left: 50%;
-  border: none;
-  height: 50px;
-  width: 70px;
-  cursor: pointer;
-  z-index: 1;
-}
-
 @media screen and (max-width: 700px) {
   body {
     --info-pane-width: calc(100% - var(--info-pane-padding) * 2);
@@ -134,18 +111,16 @@ h1 {
   }
 }
 
-.nav-buttons {
-  width: 90px;
-  height: 25px;
-  position: absolute;
-  left: calc(50% - 30px);
-  bottom: 10px;
-  z-index:1;
-  display: flex;
-  justify-content: space-between;
+#loader {
+  -webkit-animation:spin 0.7s linear infinite;
+  -moz-animation:spin 0.7s linear infinite;
+  animation:spin 0.7s linear infinite;
 }
 
-.nav-button {
-  height: 25px;
-  width: auto;
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.hidden {
+  display: none
 }
