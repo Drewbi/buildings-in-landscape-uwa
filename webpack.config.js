@@ -8,6 +8,7 @@ module.exports = {
   devServer: {
     contentBase: './dist'
   },
+  entry: ['@babel/polyfill', './src/index.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[hash].js'
