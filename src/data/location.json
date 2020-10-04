@@ -2,20 +2,57 @@
   {
     "id": 1,
     "src": "PANO_1.jpg",
+    "positions": {
+      "lat": -31.976814,
+      "lon": 115.817464
+    },
     "forwardMarker": {
       "to": 2,
-      "position": { "x": 15.61, "y": -532.31, "z": 4887.19 },
+      "position": { "x": 2026, "y": -771, "z": 4503 },
       "scale": 300
     },
     "backMarker": {
       "to": 20,
       "position": { "x": 4987.46, "y": -160.92, "z": -118.55 },
       "scale": 300
-    }
+    },
+    "navMarkers": [
+      {
+        "to": 8,
+        "position": {
+          "x": -4985,
+          "y": -338,
+          "z": 24
+        },
+        "scale": 300
+      }
+    ],
+    "infoMarkers": [
+      {
+        "markerId": 1,
+        "position": {
+          "x": 4799,
+          "y": 1361,
+          "z": -141
+        }
+      },
+      {
+        "markerId": 2,
+        "position": {
+          "x": 3596,
+          "y": 3461,
+          "z": -131
+        }
+      }
+    ]
   },
   {
     "id": 2,
     "src": "PANO_2.jpg",
+    "positions": {
+      "lat": -31.976794,
+      "lon": 115.817633
+    },
     "forwardMarker": {
       "to": 3,
       "position": { "x": 267.42, "y": -128.19, "z": 4980.95 },
@@ -23,208 +60,986 @@
     },
     "backMarker": {
       "to": 1,
-      "position": { "x": 302.87, "y": 281.91, "z": -4973.05 },
+      "position": { "x": 1229, "y": -586, "z": -4880 },
       "scale": 300
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 19,
+        "position": {
+          "x": 4775,
+          "y": 1467,
+          "z": 26.56
+        }
+      },
+      {
+        "markerId": 20,
+        "position": {
+          "x": 3226,
+          "y": 1076,
+          "z": 3657
+        }
+      },
+      {
+        "markerId": 21,
+        "position": {
+          "x": -4802,
+          "y": -557,
+          "z": 1232
+        }
+      },
+      {
+        "markerId": 3,
+        "position": {
+          "x": -1646,
+          "y": -307,
+          "z": 4703
+        }
+      },
+      {
+        "markerId": 18,
+        "position": {
+          "x": 1564,
+          "y": 4747,
+          "z": 21
+        }
+      },
+      {
+        "markerId": 17,
+        "position": {
+          "x": 778,
+          "y": 4938,
+          "z": -43
+        }
+      }
+    ]
   },
   {
     "id": 3,
+    "positions": {
+      "lat": -31.976794,
+      "lon": 115.818076
+    },
     "src": "PANO_3.jpg",
     "forwardMarker": {
       "to": 4
     },
     "backMarker": {
       "to": 2
-    }
+    },
+    "navMarkers": [
+      {
+        "to": 2,
+        "position": {
+          "x": -271,
+          "y": -438,
+          "z": -4964
+        },
+        "scale": 300
+      },
+      {
+        "to": 4,
+        "position": {
+          "x": 913,
+          "y": -486,
+          "z": 4883
+        },
+        "scale": 300
+      }
+    ],
+    "infoMarkers": [
+      {
+        "markerId": 23,
+        "position": {
+          "x": 4311,
+          "y": 1555,
+          "z": 1990
+        }
+      },
+      {
+        "markerId": 22,
+        "position": {
+          "x": 1773,
+          "y": 1654,
+          "z": -4362
+        }
+      },
+      {
+        "markerId": 21,
+        "position": {
+          "x": -3268,
+          "y": -10,
+          "z": 3777
+        }
+      },
+      {
+        "markerId": 5,
+        "position": {
+          "x": -4924,
+          "y": -231,
+          "z": -771
+        }
+      }
+    ]
   },
   {
     "id": 4,
     "src": "PANO_4.jpg",
+    "positions": {
+      "lat": -31.976675,
+      "lon": 115.818242
+    },
     "forwardMarker": {
       "to": 5
     },
     "backMarker": {
       "to": 3
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 26,
+        "position": {
+          "x": 383,
+          "y": 315,
+          "z": 4967
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 3,
+        "position": {
+          "x": 3285,
+          "y": -849,
+          "z": -3668
+        },
+        "scale": 300
+      },
+      {
+        "to": 5,
+        "position": {
+          "x": -4076,
+          "y": -1275,
+          "z": 2581
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 5,
     "src": "PANO_5.jpg",
+    "positions": {
+      "lat": -31.976302,
+      "lon": 115.818249
+    },
     "forwardMarker": {
       "to": 6
     },
     "backMarker": {
       "to": 4
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 27,
+        "position": {
+          "x": -4074,
+          "y": 553,
+          "z": 2830
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 4,
+        "position": {
+          "x": 4503,
+          "y": -662,
+          "z": 2055
+        },
+        "scale": 300
+      },
+      {
+        "to": 6,
+        "position": {
+          "x": 2158,
+          "y": -878,
+          "z": -4413
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 6,
     "src": "PANO_6.jpg",
+    "positions": {
+      "lat": -31.976315,
+      "lon": 115.818112
+    },
     "forwardMarker": {
       "to": 7
     },
     "backMarker": {
       "to": 5
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 5,
+        "position": {
+          "x": -4507,
+          "y": -744,
+          "z": -2025
+        }
+      },
+      {
+        "markerId": 9,
+        "position": {
+          "x": -3335,
+          "y": 666,
+          "z": -3658
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 7,
+        "position": {
+          "x": -4123,
+          "y": -996,
+          "z": 2626
+        },
+        "scale": 300
+      },
+      {
+        "to": 5,
+        "position": {
+          "x": 4587,
+          "y": -1346,
+          "z": -1443
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 7,
     "src": "PANO_7.jpg",
+    "positions": {
+      "lat": -31.976312,
+      "lon": 115.817861
+    },
     "forwardMarker": {
       "to": 8
     },
     "backMarker": {
       "to": 6
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 5,
+        "position": {
+          "x": -4834,
+          "y": -1139,
+          "z": -548
+        }
+      },
+      {
+        "markerId": 9,
+        "position": {
+          "x": -4844,
+          "y": 708,
+          "z": -994
+        }
+      },
+      {
+        "markerId": 10,
+        "position": {
+          "x": 4908,
+          "y": 161,
+          "z": 885
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 6,
+        "position": {
+          "x": 4127,
+          "y": -1103,
+          "z": -2582
+        },
+        "scale": 300
+      },
+      {
+        "to": 8,
+        "position": {
+          "x": 3008,
+          "y": -949,
+          "z": 3867
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 8,
     "src": "PANO_8.jpg",
+    "positions": {
+      "lat": -31.976321,
+      "lon": 115.817466
+    },
     "forwardMarker": {
       "to": 9
     },
     "backMarker": {
       "to": 7
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 4,
+        "position": {
+          "x": 2979,
+          "y": 2680,
+          "z": -2976
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 7,
+        "position": {
+          "x": 246,
+          "y": -893,
+          "z": 4903
+        },
+        "scale": 300
+      },
+      {
+        "to": 1,
+        "position": {
+          "x": 4918,
+          "y": -372,
+          "z": -773
+        },
+        "scale": 300
+      },
+      {
+        "to": 9,
+        "position": {
+          "x": -1937,
+          "y": -354,
+          "z": -4589
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 9,
     "src": "PANO_9.jpg",
+    "positions": {
+      "lat": -31.976279,
+      "lon": 115.817148
+    },
     "forwardMarker": {
       "to": 10
     },
     "backMarker": {
       "to": 8
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 25,
+        "position": {
+          "x": 3406,
+          "y": 2826,
+          "z": 2307
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 8,
+        "position": {
+          "x": -244,
+          "y": -385,
+          "z": 4972
+        },
+        "scale": 300
+      },
+      {
+        "to": 10,
+        "position": {
+          "x": 47,
+          "y": -624,
+          "z": -4954
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 10,
     "src": "PANO_10.jpg",
+    "positions": {
+      "lat": -31.976344,
+      "lon": 115.816810
+    },
     "forwardMarker": {
       "to": 11
     },
     "backMarker": {
       "to": 9
-    }
+    },
+    "navMarkers": [
+      {
+        "to": 11,
+        "position": {
+          "x": 4921,
+          "y": -785,
+          "z": 315
+        },
+        "scale": 300
+      },
+      {
+        "to": 9,
+        "position": {
+          "x": -4395,
+          "y": -678,
+          "z": -2262
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 11,
     "src": "PANO_11.jpg",
+    "positions": {
+      "lat": -31.976501,
+      "lon": 115.816818
+    },
     "forwardMarker": {
       "to": 12
     },
     "backMarker": {
       "to": 10
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 6,
+        "position": {
+          "x": 4738,
+          "y": -497,
+          "z": -1501
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 10,
+        "position": {
+          "x": -4058,
+          "y": -535,
+          "z": -2859
+        },
+        "scale": 300
+      },
+      {
+        "to": 12,
+        "position": {
+          "x": -3142,
+          "y": -523,
+          "z": 3840
+        },
+        "scale": 300
+      },
+      {
+        "to": 15,
+        "position": {
+          "x": 4661,
+          "y": -1052,
+          "z": -1449
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 12,
     "src": "PANO_12.jpg",
+    "positions": {
+      "lat": -31.976488,
+      "lon": 115.816992
+    },
     "forwardMarker": {
       "to": 13
     },
     "backMarker": {
       "to": 11
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 7,
+        "position": {
+          "x": -4256,
+          "y": 1051,
+          "z": -2391
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 11,
+        "position": {
+          "x": 4275,
+          "y": -700,
+          "z": 2488
+        },
+        "scale": 300
+      },
+      {
+        "to": 13,
+        "position": {
+          "x": -4085,
+          "y": -1027,
+          "z": -2674
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 13,
     "src": "PANO_13.jpg",
+    "positions": {
+      "lat": -31.976526,
+      "lon": 115.817163
+    },
     "forwardMarker": {
       "to": 14
     },
     "backMarker": {
       "to": 12
-    }
+    },
+    "navMarkers": [
+      {
+        "to": 12,
+        "position": {
+          "x": 4860,
+          "y": -922,
+          "z": -660
+        },
+        "scale": 300
+      },
+      {
+        "to": 14,
+        "position": {
+          "x": -4945,
+          "y": -519,
+          "z": 454
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 14,
     "src": "PANO_14.jpg",
+    "positions": {
+      "lat": -31.976614,
+      "lon": 115.817167
+    },
     "forwardMarker": {
       "to": 15
     },
     "backMarker": {
       "to": 13
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 16,
+        "position": {
+          "x": -3675,
+          "y": -263,
+          "z": -3371
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 13,
+        "position": {
+          "x": 435,
+          "y": -1026,
+          "z": 4866
+        },
+        "scale": 300
+      },
+      {
+        "to": 15,
+        "position": {
+          "x": 1290,
+          "y": -1086,
+          "z": -4697
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 15,
     "src": "PANO_15.jpg",
+    "positions": {
+      "lat": -31.976619,
+      "lon": 115.816693
+    },
     "forwardMarker": {
       "to": 16
     },
     "backMarker": {
       "to": 14
-    }
+    },
+    "navMarkers": [
+      {
+        "to": 14,
+        "position": {
+          "x": 4727,
+          "y": -384,
+          "z": 1574
+        },
+        "scale": 300
+      },
+      {
+        "to": 16,
+        "position": {
+          "x": 833,
+          "y": -799,
+          "z": -4857
+        },
+        "scale": 300
+      },
+      {
+        "to": 11,
+        "position": {
+          "x": 1691,
+          "y": -390,
+          "z": 4682
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 16,
     "src": "PANO_16.jpg",
+    "positions": {
+      "lat": -31.976765,
+      "lon": 115.816677
+    },
     "forwardMarker": {
       "to": 17
     },
     "backMarker": {
       "to": 15
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 8,
+        "position": {
+          "x": 4940,
+          "y": -612,
+          "z": -339
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 15,
+        "position": {
+          "x": 824,
+          "y": -772,
+          "z": -4863
+        },
+        "scale": 300
+      },
+      {
+        "to": 17,
+        "position": {
+          "x": 4749,
+          "y": -1023,
+          "z": -1144
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 17,
     "src": "PANO_17.jpg",
+    "positions": {
+      "lat": -31.976708,
+      "lon": 115.816552
+    },
     "forwardMarker": {
       "to": 18
     },
     "backMarker": {
       "to": 16
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 6,
+        "position": {
+          "x": 4873,
+          "y": -1043,
+          "z": 255
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 16,
+        "position": {
+          "x": 585,
+          "y": -1784,
+          "z": -4625
+        },
+        "scale": 300
+      },
+      {
+        "to": 18,
+        "position": {
+          "x": -2921,
+          "y": -538,
+          "z": -4016
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 18,
     "src": "PANO_18.jpg",
+    "positions": {
+      "lat": -31.976926,
+      "lon": 115.816421
+    },
     "forwardMarker": {
       "to": 19
     },
     "backMarker": {
       "to": 17
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 12,
+        "position": {
+          "x": -4850,
+          "y": 625,
+          "z": -1016
+        }
+      },
+      {
+        "markerId": 11,
+        "position": {
+          "x": -3449,
+          "y": 60,
+          "z": 3608
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 17,
+        "position": {
+          "x": 4821,
+          "y": -1258,
+          "z": -270
+        },
+        "scale": 300
+      },
+      {
+        "to": 19,
+        "position": {
+          "x": 3464,
+          "y": -450,
+          "z": -3565
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 19,
     "src": "PANO_19.jpg",
+    "positions": {
+      "lat": -31.977085,
+      "lon": 115.816851
+    },
     "forwardMarker": {
       "to": 20
     },
     "backMarker": {
       "to": 18
-    }
+    },
+    "navMarkers": [
+      {
+        "to": 18,
+        "position": {
+          "x": 580,
+          "y": -574,
+          "z": -4925
+        },
+        "scale": 300
+      },
+      {
+        "to": 20,
+        "position": {
+          "x": -214,
+          "y": -429,
+          "z": 4968
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 20,
     "src": "PANO_20.jpg",
+    "positions": {
+      "lat": -31.977149,
+      "lon": 115.817191
+    },
     "forwardMarker": {
       "to": 21
     },
     "backMarker": {
       "to": 19
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 15,
+        "position": {
+          "x": 4941,
+          "y": -42,
+          "z": -710
+        }
+      },
+      {
+        "markerId": 13,
+        "position": {
+          "x": -1704,
+          "y": 534,
+          "z": -4659
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 19,
+        "position": {
+          "x": -4810,
+          "y": -445,
+          "z": 1254
+        },
+        "scale": 300
+      },
+      {
+        "to": 1,
+        "position": {
+          "x": 2149,
+          "y": -592,
+          "z": 4464
+        },
+        "scale": 300
+      },
+      {
+        "to": 21,
+        "position": {
+          "x": 3098,
+          "y": -343,
+          "z": -3898
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 21,
     "src": "PANO_21.jpg",
+    "positions": {
+      "lat": -31.977569,
+      "lon": 115.817377
+    },
     "forwardMarker": {
       "to": 22
     },
     "backMarker": {
       "to": 20
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 14,
+        "position": {
+          "x": 4392,
+          "y": 932,
+          "z": -2175
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 20,
+        "position": {
+          "x": -1575,
+          "y": -238,
+          "z": -4733
+        },
+        "scale": 300
+      },
+      {
+        "to": 22,
+        "position": {
+          "x": -164,
+          "y": -569,
+          "z": 4955
+        },
+        "scale": 300
+      }
+    ]
   },
   {
     "id": 22,
     "src": "PANO_22.jpg",
-    "forwardMarker": {
-      "to": 21
+    "positions": {
+      "lat": -31.977782,
+      "lon": 115.817480
     },
     "backMarker": {
       "to": 21
-    }
+    },
+    "infoMarkers": [
+      {
+        "markerId": 24,
+        "position": {
+          "x": 2070,
+          "y": 250,
+          "z": -4538
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 21,
+        "position": {
+          "x": 4953,
+          "y": -307,
+          "z": -569
+        },
+        "scale": 300
+      }
+    ]
   }
 ]
