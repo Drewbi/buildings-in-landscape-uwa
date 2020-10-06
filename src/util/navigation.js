@@ -1,10 +1,18 @@
 import { Infospot, DataImage } from 'panolens'
-import { getLocationById } from './location'
+import { getLocationById, prefetchImages } from './location'
+import { setLoading } from './control'
 import { Vector3 } from 'three'
 
 const setPano = (viewer, id) => {
+  setLoading(true)
   const location = getLocationById(id)
   viewer.setPanorama(location.panorama)
+  prefetchImages(location)
+}
+
+const lookAt = (direction, viewer) => {
+  let threePos = new Vector3(direction.x, direction.y, direction.z)
+  viewer.tweenControlCenter(threePos, 0)
 }
 
 const initNavMarkers = (viewer, location) => {
@@ -46,8 +54,7 @@ const initNavMarkers = (viewer, location) => {
       const { x, y, z } = position
       location.panorama.link(panoToLink, new Vector3(x, y, z), scale)
     })
-    console.log('yeet')
   }
 }
 
-export { initNavMarkers, setPano }
+export { initNavMarkers, setPano, lookAt }
