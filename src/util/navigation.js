@@ -36,6 +36,7 @@ const initNavMarkers = (viewer, location) => {
     forwardLink.addEventListener('click', () => {
       setPano(viewer, forwardId)
 	  lookAt(fwDir, viewer)
+	  console.log(viewer.panorama.locationId)
     })
     location.panorama.add(forwardLink)
     const {
@@ -52,6 +53,7 @@ const initNavMarkers = (viewer, location) => {
     backLink.addEventListener('click', () => {
       setPano(viewer, backId)
 	  lookAt(backDir, viewer)
+	  console.log(viewer.panorama.locationId)
     })
     location.panorama.add(backLink)
   }
