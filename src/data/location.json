@@ -885,6 +885,9 @@
       "lat": -31.977782,
       "lon": 115.817480
     },
+    "forwardMarker": {
+      "scale": 300
+    },
     "backMarker": {
       "to": 21,
       "position": {
