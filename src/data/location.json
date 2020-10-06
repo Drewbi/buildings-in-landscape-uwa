@@ -9,6 +9,7 @@
     "forwardMarker": {
       "to": 2,
       "position": { "x": 2026, "y": -771, "z": 4503 },
+	  "lookAt": {"x": 224.97, "y": 93.72, "z": 4984.53 },
       "scale": 300
     },
     "backMarker": {
@@ -56,6 +57,7 @@
     "forwardMarker": {
       "to": 3,
       "position": { "x": 267.42, "y": -128.19, "z": 4980.95 },
+	  "lookAt": {"x": 846.43, "y": 191.64, "z": 4913.71 },
       "scale": 300
     },
     "backMarker": {
@@ -121,11 +123,8 @@
     "src": "PANO_3.jpg",
     "forwardMarker": {
       "to": 4,
-      "position": {
-        "x": -1142,
-        "y": -443,
-        "z": 4840
-      },
+      "position": {"x": -1142, "y": -443, "z": 4840 },
+	    "lookAt": {"x": -4648.35, "y": 164.07, "z": 1805.68 },
       "scale": 300
     },
     "backMarker": {

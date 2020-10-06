@@ -26,7 +26,8 @@ const initNavMarkers = (viewer, location) => {
       forwardMarker: {
         to: forwardId = 1,
         scale: forwardScale = 1,
-        position: fowardPos = { x: -5000, y: -5000, z: -5000 }
+        position: fowardPos = { x: -5000, y: -5000, z: -5000 },
+		lookAt: fwDir = { x: -470.02, y: 202.75, z: -4967.40}
       }
     } = location
     const forwardLink = new Infospot(forwardScale, DataImage.Arrow)
@@ -34,13 +35,15 @@ const initNavMarkers = (viewer, location) => {
     forwardLink.position.set(fx, fy, fz)
     forwardLink.addEventListener('click', () => {
       setPano(viewer, forwardId)
+	  lookAt(fwDir, viewer)
     })
     location.panorama.add(forwardLink)
     const {
       backMarker: {
         to: backId = 1,
         scale: backScale = 1,
-        position: backPos = { x: -5000, y: -5000, z: -5000 }
+        position: backPos = { x: -5000, y: -5000, z: -5000 },
+		lookAt: backDir = { x: -470.02, y: 202.75, z: -4967.40}
       }
     } = location
     const backLink = new Infospot(backScale, DataImage.Arrow)
@@ -48,6 +51,7 @@ const initNavMarkers = (viewer, location) => {
     backLink.position.set(bx, by, bz)
     backLink.addEventListener('click', () => {
       setPano(viewer, backId)
+	  lookAt(backDir, viewer)
     })
     location.panorama.add(backLink)
   }
