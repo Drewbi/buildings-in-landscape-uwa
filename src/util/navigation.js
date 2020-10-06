@@ -6,8 +6,13 @@ import { Vector3 } from 'three'
 const setPano = (viewer, id) => {
   setLoading(true)
   const location = getLocationById(id)
-  viewer.setPanorama(location.panorama)
-  prefetchImages(location)
+  if (location) {
+    viewer.setPanorama(location.panorama)
+    prefetchImages(location)
+  } else {
+    console.error('Could not find location', id)
+    setLoading(false)
+  }
 }
 
 const lookAt = (direction, viewer) => {
