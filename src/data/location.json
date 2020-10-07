@@ -9,7 +9,7 @@
     "forwardMarker": {
       "to": 2,
       "position": { "x": 2026, "y": -771, "z": 4503 },
-	  "lookAt": { "x": 224.97, "y": 93.72, "z": 4984.53 },
+	  "lookAt": { "x": -12, "y": 53, "z": 4997 },
       "scale": 300
     },
     "backMarker": {
@@ -51,6 +51,7 @@
     "backMarker": {
       "to": 1,
       "position": { "x": 1229, "y": -586, "z": -4880 },
+	  "lookAt": { "x": -175, "y": 305, "z": -4979 },
       "scale": 300
     },
     "infoMarkers": [
@@ -98,6 +99,7 @@
     "backMarker": {
       "to": 2,
       "position": { "x": -271, "y": -438, "z": -4964 },
+	  "lookAt": { "x": -284.01, "y": 367.39, "z": -4970.68 },
       "scale": 300
     },
     "infoMarkers": [
