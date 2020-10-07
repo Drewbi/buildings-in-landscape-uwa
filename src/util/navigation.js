@@ -2,6 +2,7 @@ import { Infospot, DataImage } from 'panolens'
 import { getLocationById, prefetchImages } from './location'
 import { setLoading } from './control'
 import { Vector3 } from 'three'
+import homeIcon from '../assets/icons/home.png'
 
 const setPano = (viewer, id) => {
   setLoading(true)
@@ -39,6 +40,7 @@ const initNavMarkers = (viewer, location) => {
 	  console.log(viewer.panorama.locationId)
     })
     location.panorama.add(forwardLink)
+
     const {
       backMarker: {
         to: backId = 1,
@@ -56,6 +58,26 @@ const initNavMarkers = (viewer, location) => {
 	  console.log(viewer.panorama.locationId)
     })
     location.panorama.add(backLink)
+
+	if (location.homeMarker) {
+		const {
+			homeMarker: {
+			to: homeId = 1,
+			scale: homeScale = 1,
+			position: homePos = { x: -5000, y: -5000, z: -5000 },
+			lookAt: homeDir = { x: -470.02, y: 202.75, z: -4967.40}
+		}
+		} = location
+		const homeLink = new Infospot(homeScale, homeIcon)
+		const { x: hx, y: hy, z: hz } = homePos
+		homeLink.position.set(hx, hy, hz)
+		homeLink.addEventListener('click', () => {
+			setPano(viewer, homeId)
+			lookAt(homeDir, viewer)
+			console.log(viewer.panorama.locationId)
+		})
+		location.panorama.add(homeLink)
+	}
   }
 
   if (location.navMarkers) {
