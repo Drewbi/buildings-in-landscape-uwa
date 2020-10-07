@@ -52,9 +52,9 @@ h1 {
 
 #infoPane img {
   margin-top: 20px;
-  width: var(--info-pane-total);
+  width: calc(var(--info-pane-total) - var(--info-pane-padding) * 2);
   position: relative;
-  left: calc(-1 * var(--info-pane-padding));
+  /* left: calc(-1 * var(--info-pane-padding)); */
   height: auto;
 }
 

@@ -1,163 +1,86 @@
 [{
     "id": 1,
     "title": "Great Gateway",
-    "text":
-        "The Great Gateway marks the entrance to Winthrop Hall and connects Winthrop Hall and the Administration Building. It houses the Senate Chamber on the first floor, where the governing body of the university meets. In the words of The University of Western Australia Act 1911 the Senate has “the entire control and management of the affairs of the University and may act in all matters concerning the University in such manner as appears to it best calculated to promote the interests of the University”. Lighting in the Senate chamber was mounted on a pedestal Grecian columns with lights installed on columns which are both classical and art nouveau in derivation and are similar to lights found at Yale University but were uncommon in Perth at the time. The flanking towers of the Gate are square at the base and octagonal at the top, which was supposed to liken it to the Tudor gateways of Oxford and Cambridge colleges. The stained-glass window was commissioned in memory of William Hancock, pioneer radiologist and former member of the University Senate."
+    "text": "The Great Gateway marks the entrance to Winthrop Hall and connects Winthrop Hall and the Administration Building.  It houses the Senate Chamber on the first floor, where the governing body of the University meets."
 },
 {
     "id": 2,
     "title": "Five Lamps of Learning",
-    "text":
-        "The Five Lamps of Learning mosaic is set in the lunette above the five windows to the Senate Room. The five figures in the mosaic, also known as The Five Lamps of Knowledge, represent five of the seven virtues of wisdom taken from Isaiah (XI.2): Sapientia (wisdom), Intellectus (understanding), Consilium (counsel), Fortitudo (courage) and Scientia (knowledge). Their names appear in the arches at the top of the windows to the Senate Room. The five figures hold lighted lamps and reflect the University's motto, 'Seek Wisdom'. They are contrasted with the five unwise figures in the background with unlit lamps, bowed in poses that express the idea of dejection. The mosaic was the first major art work to be commissioned for Winthrop Hall with funds from the Hackett Bequest. The University commissioned artist Mervyn Napier Waller to design and produce the mosaic in 1931. The mosaic is Byzantine in style, with standing figures elongated to compensate for the angle from which they are viewed from below. Napier Waller wrote the following in a letter, dated 12 January 1959, to Vice-Chancellor Prescott: \"As you see there are seven gifts of the Spirit; but in my design I have excluded Piety and Fear (of God.) The five windows below also suggested to me that the five gifts of the Spirit could become the five lamps of the wise virgins of Jesus’ parable, with each lighted lamp being one of the expressions of complete wisdom, as read on the soffits of the window below."
+    "text": "The Five Lamps of Learning mosaic is set in the Lunette above the five windows to the Senate Room.  The five figures in the mosaic, also known as the The Five Wise Virgins represent five of the seven virtues of wisdom: Sapienta (wisdom), Intellectus (understanding), Consilium (counsel), Fortitudo (courage), and Scientia (knowledge). Their names appear in the arches at the top of the windows to the Senate Room.  The five figures hold lighted lamps and reflect the University’s motto ‘Seek Wisdom’.  They are contrasted with the five Unwise Virgins in the background with unlit lamps bowed in poses that express the idea of dejection.\n\nThe mosaic was the first major art work to be commissioned for Winthrop Hall with funds from the Hackett Bequest.  Rodney Alsop commissioned artist Mervyn Napier Waller to design and produce the mosaic in 1931.  The mosaic is Byzantine in style.",
+    "images": [
+        {
+            "id": "60013P",
+            "caption": "The Five Lamps of Learning in The Great Gateway linking the Administration building with Winthrop Hall" 
+        },
+        {
+            "id": "2256P",
+            "caption": "Mervyn Napier Waller, mosaic artist - construction of Five of Lamps of Learning  decoration on the Great Gate" 
+        }
+    ]
 },
 {
     "id": 3,
-    "title": "Reflection Pool",
-    "text":
-        "This pool goes by many names, ‘the reflection pond’, ‘the moat’, ‘the reflection pool’ or just the University ‘Pond’. It was designed by Rodney Alsop to enhance the beauty of Winthrop Hall by giving the impression of greater height. It was completed only just in time for the official opening of Winthrop Hall on April 13, 1932. This was largely owing to the efforts of the student body (men) who volunteered to provide the labour force if the University provided the material. The pond was completed just hours before the ceremony took place and filled with water even though the cement was still wet (it was later drained, and the concrete had to be redone)."
+    "title": "Winthrop Hall Balconette",
+    "text": "The tower is decorated with an ornamental balconette which was devised from an Italian original photographed by Alsop during his travels in1925.  The ornamental balconette was constructed of Donnybrook stone.  The capitals of the columns are decorated with representations of the Australian banksia plant. The balustrading features the Cross of the Templars."
 },
 {
     "id": 4,
-    "title": "Balconette on Administration Building",
-    "text":
-        ""
+    "title": "Foundation Stones",
+    "text": "The foundation stones for Hackett Hall and Winthrop Hall were laid in 1929 at the base of the Tower."
 },
 {
     "id": 5,
-    "title": "Whitfeld Court",
-    "text":
-        ""
+    "title": "Winthrop Hall Tower & Clock",
+    "text": "At its highest point, the Winthrop Hall tower measures fourty six meters.  With 360 degree views, it offers the best aspects of the campus.  The Tower is a landmark which identifies the University Campus from many distant parts of Perth and the Swan River.  There are one hundred and eighty four steps to the top.  A Melbourne company, Messrs Ingran Bros installed the first clock in 1929.  The dial of ‘opus sectile’, an enamel finish on tile, matches the rondels above the windows on the Administration Building.  After 1945 Ennis and Sons rebuilt the master clock.  The dial was replaced in 1953 with glazed terracotta tiles."
 },
 {
     "id": 6,
-    "title": "Sunken Garden",
-    "text":
-        ""
+    "title": "Winthrop Hall, Windows and Frieze",
+    "text": "Winthrop Hall, like the other Hackett buildings, is constructed in reinforced concrete and brick, clad to walls with local stone quarried from various sites, cut smooth or rusticated.  Sandstone from Donnybrook was used for the columns of the galleries on the east and west sides and for some areas around doors and window.  Tamala (coastal) limestone from Coogee was used to face the external walls.  The windows of the hall are glazed with coloured glass.  Rodney Alsop designed the glazed terra cotta frieze (faience) that circles the building just under the roof eaves in alternating motives of the Winged Lion and the Lyre, the Winged Lion for the Arts and the Lyre for Music.   Alsop left no clue in his writing to explain this frieze, except to allude to a ‘Greek’ influence.  The frieze resembles a frieze surviving at an ancient Greek sanctuary at Didyma near Ephesus, now in Turkey.  It expressed Greek Gods Artemis the Huntress and Apollo."
 },
 {
     "id": 7,
-    "title": "Rondels over the windows of the Administration Building",
-    "text":
-        ""
+    "title": "Memorial Seats",
+    "text": "The Memorial Seat on the east side of the Reflection Pool, built in 1935, is dedicated to Rodney Alsop, Architect.  The artist George Benson designed the seat.  The architectural firm Forbes and Partners were responsible for the final design.  The inscription on the seat, “verily by beauty it is that we come at wisdom” was taken from Robert Bridge’s Testament of Beauty.  A companion Memorial Seat for Vice-Chancellor H.E. Whitfeld was erected opposite on the west end of the Reflection Pool in 1949."
 },
 {
     "id": 8,
-    "title": "Shann Memorial",
-    "text":
-        ""
+    "title": "Winthrop Hall",
+    "text": "Winthrop Hall was officially opened on 13th April 1932 with the opening ceremony taking place on 15th April, and Patricia, Hackett’s daughter officiating at the ceremony.  To architects Rodney H. Alsop and Conrad H. Sayce, Perth’s Mediterranean – like climate suggested Italy and Greece as natural inspiration for the architecture of Winthrop Hall.  Sicilian and early Christian buildings informed the design of Winthrop Hall’s upper colonnade, especially its carved capitals; its tower recalled the campaniles of the Italian Renaissance; and Venetian – style mosaic insets and Byzantine winged beasts embellished the exterior. There has been alteration to Winthrop Hall since 1932: the Undercroft has been enclosed with glass walling, the installation of the organ and a lift, upgrading of lighting, air conditioning, and  replacement of the original jarrah panelling to the Hall with veneered plywood with University shields mounted above.\n\nKnown for its iconic clock tower, Winthrop Hall is the centre of university life.  At the end of their studies, students dress in full academic regalia for their graduation ceremony here.  The hall also hosts a variety of events from lectures and concerts, to balls and exhibitions."
 },
 {
     "id": 9,
-    "title": "Winthrop Hall",
-    "text":
-        ""
+    "title": "Socrates Sculpture",
+    "text": "In 1931, Vice – Chancellor Whitfeld commissioned Paul Montford, a prominent Australian sculptor of the time, to produce the sculpture of Socrates with an inscription carved into its pedestal recording the closing of Plato’s Phaedrus.  Another sculptor in Montford’s studio was later found to have done the actual carving. The sculpture of Socrates was originally placed in the Undercroft in 1932, a gift to the University from its Vice – Chancellor."
 },
 {
     "id": 10,
-    "title": "Whitfeld Bust",
-    "text":
-        ""
+    "title": "Diotima Sculpture",
+    "text": "In 1936, Professor Whitfeld and his wife, Frances, commissioned the Diotima of Mantinea sculpture from Victor Wager as a companion piece to the statue of Socrates."
 },
 {
     "id": 11,
-    "title": "Homo Fallibe",
-    "text":
-        ""
-},
-{
-    "id": 12,
-    "title": "Lawrence Wilson Art Gallery",
-    "text":
-        ""
+    "title": "Hackett Hall and The Refectory",
+    "text": "Hackett Hall was designed for the use of the student body.  It was conceived partly as a two – storey building, but only the ground floor was built and completed in 1931.  The building had a flat roof, accessible by stairs until 1961.  The roof became a gathering place for students during summer school and the Festival of Perth.  In 1946, alterations to the kitchen and Refectory were carried out and in 1961, a new wing designed by Architect Marshall Clifton was erected to the east to create a central courtyard.  Hackett Hall is used by the student body and the original Refectory is still in use."
 },
 {
     "id": 13,
-    "title": "Sciences Decorative Panels",
-    "text":
-        ""
+    "title": "Hubert Whitfeld Sculpture",
+    "text": "A bronze sculpture of Professor Whitfeld looks over Whitfeld Court towards Winthrop Hall.  The sculpture was commissioned in 1964 to honour his contributions to the welfare and well–being of the University as first Vice – Chancellor 1913 -15 and 1925 – 27 and 1927 – 39 and Foundation Professor of Mining Engineering in 1913; by South Australian artist John Dowie as a gift of Convocation in 1965. To commemorate the Centenary of Armistice on 11th November 2018, a Pavement Memorial was dedicated in Whitfeld Court in front of the Sculpture.  The Roll of Honour in Winthrop Hall commemorates WW1 members of the University Family."
 },
 {
     "id": 14,
-    "title": "Geology and Geography Building",
-    "text":
-        ""
+    "title": "Whitfeld Court",
+    "text": "In 1927, Leslie Wilkinson revised the original campus plan and established the fundamentals of the modern campus.  The plan reoriented the campus to the north – south alignment that dominates today.  This spine established the three major open spaces:  The Court of Honour named by Alsop (Whitfeld Court), The Great Court, and James Oval.  Dr W Somerville promoted the concept that the area of land bounded on the north by Stirling Highway, on the south by Winthrop Hall, on the east by Hackett Hall, and on the west by the Administration Building to be named “Whitfeld Court”, so named by Senate in September 1940."
 },
 {
     "id": 15,
-    "title": "Great Court",
-    "text":
-        ""
+    "title": "Balconette on Administration Building",
+    "text": "At the northern end of the Administration Building a balconette located at first floor level from the former Registrar’s Office.  Decorated with two panels showing peacocks, modelled in stone.  Peacocks appear in early Christian Art as a Persian Bird sacred to Hera, the Goddess signifying rain and fertility, a symbol of the Resurrection of Christ, representation of renewal, resurrection, and eternal life."
 },
 {
     "id": 16,
     "title": "Whelan Court",
-    "text":
-        ""
-},
-{
-    "id": 17,
-    "title": "Winthrop Hall Tower & Clock",
-    "text":
-        ""
-},
-{
-    "id": 18,
-    "title": "Winthrop Hall Balconette",
-    "text":
-        ""
-},
-{
-    "id": 19,
-    "title": "Foundation stone",
-    "text":
-        ""
-},
-{
-    "id": 20,
-    "title": "Socrates Sculpture",
-    "text":
-        ""
-},
-{
-    "id": 21,
-    "title": "Memorial seats",
-    "text":
-        ""
-},
-{
-    "id": 22,
-    "title": "Winthrop Hall External Walls, Windows and Frieze",
-    "text":
-        ""
-},
-{
-    "id": 23,
-    "title": "Diotima Sculpture",
-    "text":
-        ""
-},
-{
-    "id": 24,
-    "title": "Tropical Grove",
-    "text":
-        ""
-},
-{
-    "id": 25,
-    "title": "Administration Building",
-    "text":
-        ""
-},
-{
-    "id": 26,
-    "title": "Hackett Hall",
-    "text":
-        ""
-},
-{
-    "id": 27,
-    "title": "Refectory",
-    "text":
-        ""
+    "text": "To the west of the Administration building a serene landscaped area is named Whelan Court in honour of Professor Robert Whelan, Vice – Chancellor 1971 – 1977."
 }
 ]
