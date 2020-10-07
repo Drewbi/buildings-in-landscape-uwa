@@ -38,7 +38,7 @@ const navigateTo = (markerName, viewer) => {
     setPano(viewer, location[markerName].to)
     if (location[markerName].lookAt) lookAt(location[markerName].lookAt, viewer)
   } else if (markerName === 'homeMarker') {
-    setPano(viewer, 1)
+    setPano(viewer, 23)
     lookAt({ x: 4318.13, y: 1503.04, z: -121.49 }, viewer)
   }
 }

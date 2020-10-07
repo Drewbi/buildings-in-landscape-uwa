@@ -15,9 +15,9 @@
     "backMarker": {
       "to": 20,
       "position": { "x": 4987.46, "y": -160.92, "z": -118.55 },
-      "scale": 300
+      "scale": 0.1
     },
-    "navMarkers": [
+    "nonavMarkers": [
       {
         "to": 8,
         "position": { "x": -4985, "y": -338, "z": 24 },
@@ -49,7 +49,7 @@
       "scale": 300
     },
     "backMarker": {
-      "to": 1,
+      "to": 23,
       "position": { "x": 1229, "y": -586, "z": -4880 },
 	  "lookAt": { "x": -175, "y": 305, "z": -4979 },
       "scale": 300
@@ -269,7 +269,7 @@
         "position": { "x": 2979, "y": 2680, "z": -2976 }
       }
     ],
-    "navMarkers": [
+    "nonavMarkers": [
       {
         "to": 1,
         "position": { "x": 4918, "y": -372, "z": -773 },
@@ -570,7 +570,7 @@
       "scale": 300
     },
     "homeMarker": {
-      "to": 1,
+      "to": 23,
       "position": { "x": 2149, "y": -592, "z": 4464 },
       "scale": 300
     },
@@ -634,7 +634,7 @@
       "scale": 300
     },
 	"forwardMarker": {
-      "to": 1,
+      "to": 23,
       "position": { "x": 953, "y": -307, "z": -569 },
       "scale": 0.1
     },
@@ -642,6 +642,42 @@
       {
         "markerId": 24,
         "position": {   "x": 2070, "y": 250, "z": -4538 }
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "src": "PANO_1.jpg",
+    "positions": {
+      "lat": -31.976814,
+      "lon": 115.817464
+    },
+    "forwardMarker": {
+      "to": 2,
+      "position": { "x": 2026, "y": -771, "z": 4503 },
+	  "lookAt": { "x": -12, "y": 53, "z": 4997 },
+      "scale": 300
+    },
+    "backMarker": {
+      "to": 20,
+      "position": { "x": 4987.46, "y": -160.92, "z": -118.55 },
+      "scale": 300
+    },
+    "navMarkers": [
+      {
+        "to": 8,
+        "position": { "x": -4985, "y": -338, "z": 24 },
+        "scale": 300
+      }
+    ],
+    "infoMarkers": [
+      {
+        "markerId": 1,
+        "position": { "x": 4799, "y": 1361, "z": -141 }
+      },
+      {
+        "markerId": 2,
+        "position": { "x": 3596, "y": 3461, "z": -131 }
       }
     ]
   }
