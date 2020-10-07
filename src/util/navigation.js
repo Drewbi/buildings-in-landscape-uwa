@@ -4,6 +4,7 @@ import { setLoading } from './control'
 import { Vector3 } from 'three'
 import homeIcon from '../assets/icons/home.png'
 
+
 const setPano = (viewer, id) => {
   setLoading(true)
   const location = getLocationById(id)
