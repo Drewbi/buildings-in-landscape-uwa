@@ -12,22 +12,25 @@ const loadInfoMarkers = (location) => {
   if (location.infoMarkers) {
     location.infoMarkers.forEach((marker) => {
       const markerInfo = getInfoMarkerById(marker.markerId)
+      if (markerInfo) {
+        const infoSpot = new Infospot(marker.scale, DataImage.Info)
+        const { x, y, z } = marker.position
+        infoSpot.position.set(x, y, z)
 
-      const infoSpot = new Infospot(marker.scale, DataImage.Info)
-      const { x, y, z } = marker.position
-      infoSpot.position.set(x, y, z)
+        console.log(marker)
+        console.log(markerInfo)
+        infoSpot.addHoverText(markerInfo.title)
+        infoSpot.userData = markerInfo
 
-      infoSpot.addHoverText(markerInfo.title)
-      infoSpot.userData = markerInfo
+        infoSpot.addEventListener('click', ({ target }) => {
+          setSidebarContent(target.userData)
+          setSidebarOpen(true)
+          // target.focus()
+          target.onDismiss()
+        })
 
-      infoSpot.addEventListener('click', ({ target }) => {
-        setSidebarContent(target.userData)
-        setSidebarOpen(true)
-        // target.focus()
-        target.onDismiss()
-      })
-
-      location.panorama.add(infoSpot)
+        location.panorama.add(infoSpot)
+      }
     })
   }
 }
@@ -57,12 +60,17 @@ const setSidebarContent = (info) => {
   infoPane.appendChild(bodyElement)
   if (info.images) {
     info.images.forEach(async (image) => {
+      const figureElement = document.createElement('figure')
       const imageElement = document.createElement('img')
       const { default: imageSrc } = await import(
         '../assets/images/' + image.id + '.JPG'
       )
       imageElement.setAttribute('src', imageSrc)
-      infoPane.appendChild(imageElement)
+      const captionElement = document.createElement('figcaption')
+      captionElement.innerText = image.caption
+      figureElement.appendChild(imageElement)
+      figureElement.appendChild(captionElement)
+      infoPane.appendChild(figureElement)
     })
   }
 }
