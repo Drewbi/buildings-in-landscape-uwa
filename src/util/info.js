@@ -55,14 +55,16 @@ const setSidebarContent = (info) => {
   const bodyElement = document.createElement('p')
   bodyElement.innerText = info.text
   infoPane.appendChild(bodyElement)
-  info.images.forEach(async (image) => {
-    const imageElement = document.createElement('img')
-    const { default: imageSrc } = await import(
-      '../assets/images/' + image.id + '.JPG'
-    )
-    imageElement.setAttribute('src', imageSrc)
-    infoPane.appendChild(imageElement)
-  })
+  if (info.images) {
+    info.images.forEach(async (image) => {
+      const imageElement = document.createElement('img')
+      const { default: imageSrc } = await import(
+        '../assets/images/' + image.id + '.JPG'
+      )
+      imageElement.setAttribute('src', imageSrc)
+      infoPane.appendChild(imageElement)
+    })
+  }
 }
 
 const getInfoMarkerById = (id) => {
