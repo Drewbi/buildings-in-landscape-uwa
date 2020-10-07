@@ -50,11 +50,14 @@ h1 {
   opacity: 100;
 }
 
+#infoPane figure {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
 #infoPane img {
-  margin-top: 20px;
   width: calc(var(--info-pane-total) - var(--info-pane-padding) * 2);
   position: relative;
-  /* left: calc(-1 * var(--info-pane-padding)); */
   height: auto;
 }
 
