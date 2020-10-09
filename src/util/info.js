@@ -1,4 +1,5 @@
-import { Infospot, DataImage } from 'panolens'
+import { DataImage } from 'panolens'
+import { addInfospotToPano } from './pano'
 import infoMarkers from '../data/info.json'
 
 const initSidebar = () => {
@@ -12,22 +13,20 @@ const loadInfoMarkers = (location) => {
   if (location.infoMarkers) {
     location.infoMarkers.forEach((marker) => {
       const markerInfo = getInfoMarkerById(marker.markerId)
-
-      const infoSpot = new Infospot(marker.scale, DataImage.Info)
-      const { x, y, z } = marker.position
-      infoSpot.position.set(x, y, z)
-
-      infoSpot.addHoverText(markerInfo.title)
-      infoSpot.userData = markerInfo
-
-      infoSpot.addEventListener('click', ({ target }) => {
-        setSidebarContent(target.userData)
-        setSidebarOpen(true)
-        // target.focus()
-        target.onDismiss()
-      })
-
-      location.panorama.add(infoSpot)
+      const { position, scale } = marker
+      addInfospotToPano(
+        location.panorama,
+        position,
+        scale,
+        DataImage.Info,
+        ({ target }) => {
+          setSidebarContent(target.userData)
+          setSidebarOpen(true)
+          target.onDismiss()
+          console.log('Info: ', target.userData.id)
+        },
+        markerInfo
+      )
     })
   }
 }
