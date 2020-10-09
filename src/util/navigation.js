@@ -12,7 +12,6 @@ const setPano = (viewer, id, lookAt) => {
     if (lookAt) {
       viewer.nextLookAt = lookAt
     }
-    console.log('Pano: ' + id)
     prefetchImages(location)
   } else {
     console.error('Could not find location', id)
@@ -48,6 +47,7 @@ const initNavMarkers = (viewer, location) => {
     const { position, scale, icon, to, lookAt } = marker
     addInfospotToPano(location.panorama, position, scale, icon, () => {
       setPano(viewer, to, lookAt)
+      console.log('Pano: ', to)
     })
   })
 }

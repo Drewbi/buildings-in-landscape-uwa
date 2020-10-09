@@ -6,10 +6,14 @@ import { locations } from './location'
 import { loadInfoMarkers, setSidebarOpen } from './info'
 import { setLoading } from './control'
 
-const addInfospotToPano = (pano, pos, scale, icon, onclick) => {
+const addInfospotToPano = (pano, pos, scale, icon, onclick, markerText) => {
   const infospot = new Infospot(scale, icon)
   infospot.position.set(pos.x, pos.y, pos.z)
   infospot.addEventListener('click', onclick)
+  if (markerText) {
+    infospot.addHoverText(markerText.title)
+    infospot.userData = markerText
+  }
   pano.add(infospot)
 }
 
