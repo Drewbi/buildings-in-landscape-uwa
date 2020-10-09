@@ -7,7 +7,9 @@ body {
   margin: 0;
   --info-pane-width: 230px;
   --info-pane-padding: 35px;
-  --info-pane-total: calc(var(--info-pane-width) + var(--info-pane-padding) * 2);
+  --info-pane-total: calc(
+    var(--info-pane-width) + var(--info-pane-padding) * 2
+  );
 }
 
 #container {
@@ -112,15 +114,28 @@ h1 {
 }
 
 #loader {
-  -webkit-animation:spin 0.7s linear infinite;
-  -moz-animation:spin 0.7s linear infinite;
-  animation:spin 0.7s linear infinite;
+  -webkit-animation: spin 0.7s linear infinite;
+  -moz-animation: spin 0.7s linear infinite;
+  animation: spin 0.7s linear infinite;
 }
 
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 
 .hidden {
-  display: none
+  display: none;
 }
