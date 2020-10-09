@@ -22,6 +22,14 @@
       {
         "markerId": 2,
         "position": { "x": 3596, "y": 3461, "z": -131 }
+      },
+      {
+        "markerId": 3,
+        "position": { "x": 1462.87, "y": 1927.05, "z": 4373.00 }
+      },
+      {
+        "markerId": 5,
+        "position": { "x": 1239.94, "y": 4016.33, "z": 2703.02 }
       }
     ]
   },
@@ -46,28 +54,50 @@
     },
     "infoMarkers": [
       {
-        "markerId": 19,
-        "position": { "x": 4775, "y": 1467, "z": 26.56 }
+        "markerId": 4,
+        "position": {
+          "x": 4775,
+          "y": 1467,
+          "z": 26.56
+        }
       },
       {
-        "markerId": 20,
-        "position": { "x": 3226, "y": 1076, "z": 3657 }
+        "markerId": 9,
+        "position": {
+          "x": 3226,
+          "y": 1076,
+          "z": 3657
+        }
       },
       {
-        "markerId": 21,
-        "position": { "x": -4802, "y": -557, "z": 1232 }
+        "markerId": 7,
+        "position": {
+          "x": -4802,
+          "y": -557,
+          "z": 1232
+        }
+      },
+      {
+        "markerId": 28,
+        "position": {
+          "x": -1646,
+          "y": -307,
+          "z": 4703
+        }
       },
       {
         "markerId": 3,
-        "position": { "x": -1646, "y": -307, "z": 4703 }
+        "position": {
+          "x": 2931.12, "y": 4049.38, "z": 26.42
+        }
       },
       {
-        "markerId": 18,
-        "position": { "x": 1564, "y": 4747, "z": 21 }
-      },
-      {
-        "markerId": 22,
-        "position": { "x": 1202.17, "y": 3367.85, "z": 3486.21 }
+        "markerId": 6,
+        "position": {
+          "x": 1202.17,
+          "y": 3367.85,
+          "z": 3486.21
+        }
       }
     ]
   },
@@ -92,20 +122,41 @@
     },
     "infoMarkers": [
       {
-        "markerId": 23,
-        "position": { "x": 4311, "y": 1555, "z": 1990 }
+        "markerId": 10,
+        "position": {
+          "x": 4311,
+          "y": 1555,
+          "z": 1990
+        }
       },
       {
-        "markerId": 22,
-        "position": { "x": 900.49, "y": 4250.79, "z": -2468.73 }
+        "markerId": 6,
+        "position": {
+          "x": 900.49,
+          "y": 4250.79,
+          "z": -2468.73
+        }
       },
       {
-        "markerId": 21,
-        "position": { "x": -3268, "y": -10, "z": 3777 }
+        "markerId": 7,
+        "position": {
+          "x": -3268,
+          "y": -10,
+          "z": 3777
+        }
       },
       {
-        "markerId": 5,
-        "position": { "x": -4924, "y": -231, "z": -771 }
+        "markerId": 14,
+        "position": {
+          "x": -4924,
+          "y": -231,
+          "z": -771
+        }
+      }, {
+        "markerId": 28,
+        "position": {
+          "x": -3137.17, "y": -682.67, "z": -3820.58
+        }
       }
     ]
   },
@@ -129,8 +180,12 @@
     },
     "infoMarkers": [
       {
-        "markerId": 26,
-        "position": { "x": 383, "y": 315, "z": 4967 }
+        "markerId": 11,
+        "position": {
+          "x": 383,
+          "y": 315,
+          "z": 4967
+        }
       }
     ]
   },
@@ -154,8 +209,12 @@
     },
     "infoMarkers": [
       {
-        "markerId": 27,
-        "position": { "x": -4074, "y": 553, "z": 2830 }
+        "markerId": 12,
+        "position": {
+          "x": -4074,
+          "y": 553,
+          "z": 2830
+        }
       }
     ]
   },
@@ -179,16 +238,28 @@
     },
     "infoMarkers": [
       {
+        "markerId": 14,
+        "position": {
+          "x": -4507,
+          "y": -744,
+          "z": -2025
+        }
+      },
+      {
         "markerId": 5,
-        "position": { "x": -4507, "y": -744, "z": -2025 }
+        "position": {
+          "x": -3912,
+          "y": 1750,
+          "z": -2555
+        }
       },
       {
-        "markerId": 17,
-        "position": { "x": -3912, "y": 1750, "z": -2555 }
-      },
-      {
-        "markerId": 9,
-        "position": { "x": -3335, "y": 666, "z": -3658 }
+        "markerId": 8,
+        "position": {
+          "x": -3335,
+          "y": 666,
+          "z": -3658
+        }
       }
     ]
   },
@@ -212,20 +283,36 @@
     },
     "infoMarkers": [
       {
+        "markerId": 14,
+        "position": {
+          "x": -4834,
+          "y": -1139,
+          "z": -548
+        }
+      },
+      {
+        "markerId": 8,
+        "position": {
+          "x": -4844,
+          "y": 708,
+          "z": -994
+        }
+      },
+      {
+        "markerId": 13,
+        "position": {
+          "x": 4908,
+          "y": 161,
+          "z": 885
+        }
+      },
+      {
         "markerId": 5,
-        "position": { "x": -4834, "y": -1139, "z": -548 }
-      },
-      {
-        "markerId": 9,
-        "position": { "x": -4844, "y": 708, "z": -994 }
-      },
-      {
-        "markerId": 10,
-        "position": { "x": 4908, "y": 161, "z": 885 }
-      },
-      {
-        "markerId": 17,
-        "position": { "x": -4498, "y": 2074, "z": 608 }
+        "position": {
+          "x": -4498,
+          "y": 2074,
+          "z": 608
+        }
       }
     ]
   },
@@ -249,8 +336,23 @@
     },
     "infoMarkers": [
       {
-        "markerId": 4,
-        "position": { "x": 2979, "y": 2680, "z": -2976 }
+        "markerId": 15,
+        "position": {
+          "x": 2979,
+          "y": 2680,
+          "z": -2976
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 1,
+        "position": {
+          "x": 4918,
+          "y": -372,
+          "z": -773
+        },
+        "scale": 300
       }
     ]
   },
@@ -274,8 +376,12 @@
     },
     "infoMarkers": [
       {
-        "markerId": 25,
-        "position": { "x": 3406, "y": 2826, "z": 2307 }
+        "markerId": 26,
+        "position": {
+          "x": 3406,
+          "y": 2826,
+          "z": 2307
+        }
       }
     ]
   },
@@ -318,8 +424,23 @@
     },
     "infoMarkers": [
       {
-        "markerId": 6,
-        "position": { "x": 4738, "y": -497, "z": -1501 }
+        "markerId": 18,
+        "position": {
+          "x": 4738,
+          "y": -497,
+          "z": -1501
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 15,
+        "position": {
+          "x": 4661,
+          "y": -1052,
+          "z": -1449
+        },
+        "scale": 300
       }
     ]
   },
@@ -343,8 +464,12 @@
     },
     "infoMarkers": [
       {
-        "markerId": 7,
-        "position": { "x": -4256, "y": 1051, "z": -2391 }
+        "markerId": 17,
+        "position": {
+          "x": -4256,
+          "y": 1051,
+          "z": -2391
+        }
       }
     ]
   },
@@ -431,8 +556,12 @@
     },
     "infoMarkers": [
       {
-        "markerId": 8,
-        "position": { "x": 4940, "y": -612, "z": -339 }
+        "markerId": 19,
+        "position": {
+          "x": 4940,
+          "y": -612,
+          "z": -339
+        }
       }
     ]
   },
@@ -456,8 +585,12 @@
     },
     "infoMarkers": [
       {
-        "markerId": 6,
-        "position": { "x": 4873, "y": -1043, "z": 255 }
+        "markerId": 18,
+        "position": {
+          "x": 4873,
+          "y": -1043,
+          "z": 255
+        }
       }
     ]
   },
@@ -481,12 +614,20 @@
     },
     "infoMarkers": [
       {
-        "markerId": 12,
-        "position": { "x": -4850, "y": 625, "z": -1016 }
+        "markerId": 27,
+        "position": {
+          "x": -4850,
+          "y": 625,
+          "z": -1016
+        }
       },
       {
-        "markerId": 11,
-        "position": { "x": -3449, "y": 60, "z": 3608 }
+        "markerId": 20,
+        "position": {
+          "x": -3449,
+          "y": 60,
+          "z": 3608
+        }
       }
     ]
   },
@@ -534,12 +675,31 @@
     },
     "infoMarkers": [
       {
-        "markerId": 15,
-        "position": { "x": 4941, "y": -42, "z": -710 }
+        "markerId": 23,
+        "position": {
+          "x": 4941,
+          "y": -42,
+          "z": -710
+        }
       },
       {
-        "markerId": 13,
-        "position": { "x": -1704, "y": 534, "z": -4659 }
+        "markerId": 22,
+        "position": {
+          "x": -1704,
+          "y": 534,
+          "z": -4659
+        }
+      }
+    ],
+    "navMarkers": [
+      {
+        "to": 1,
+        "position": {
+          "x": 2149,
+          "y": -592,
+          "z": 4464
+        },
+        "scale": 300
       }
     ]
   },
@@ -563,8 +723,12 @@
     },
     "infoMarkers": [
       {
-        "markerId": 14,
-        "position": { "x": 4392, "y": 932, "z": -2175 }
+        "markerId": 21,
+        "position": {
+          "x": 4392,
+          "y": 932,
+          "z": -2175
+        }
       }
     ]
   },
@@ -574,9 +738,6 @@
     "positions": {
       "lat": -31.977782,
       "lon": 115.81748
-    },
-    "forwardMarker": {
-      "to": 21
     },
     "backMarker": {
       "to": 21,
@@ -591,7 +752,19 @@
     "infoMarkers": [
       {
         "markerId": 24,
-        "position": { "x": 2070, "y": 250, "z": -4538 }
+        "position": {
+          "x": 2070,
+          "y": 250,
+          "z": -4538
+        }
+      },
+      {
+        "markerId": 25,
+        "position": {
+          "x": -4537.93,
+          "y": 368.34,
+          "z": 2060.33
+        }
       }
     ]
   },
