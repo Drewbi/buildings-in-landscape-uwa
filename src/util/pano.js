@@ -1,9 +1,31 @@
-import { ImagePanorama } from 'panolens'
-import { initNavMarkers, setPano, lookAt } from './navigation'
+import { ImagePanorama, Infospot } from 'panolens'
+import { Vector3 } from 'three'
+import { initNavMarkers, setPano } from './navigation'
 import { setCurrentPosition } from '../map'
 import { locations } from './location'
 import { loadInfoMarkers, setSidebarOpen } from './info'
 import { setLoading } from './control'
+
+const addInfospotToPano = (pano, pos, scale, icon, onclick) => {
+  const infospot = new Infospot(scale, icon)
+  infospot.position.set(pos.x, pos.y, pos.z)
+  infospot.addEventListener('click', onclick)
+  pano.add(infospot)
+}
+
+const setLookAt = (viewer) => {
+  if (viewer.nextLookAt !== null) {
+    viewer.tweenControlCenter(
+      new Vector3(
+        viewer.nextLookAt.x,
+        viewer.nextLookAt.y,
+        viewer.nextLookAt.z
+      ),
+      50
+    )
+    viewer.nextLookAt = null
+  }
+}
 
 const initPanorama = async (viewer, location) => {
   const { default: image } = await import('../assets/pano/' + location.src)
@@ -17,6 +39,7 @@ const initPanorama = async (viewer, location) => {
   panorama.addEventListener('enter-fade-start', (event) => {
     setLoading(false)
     if (event.target.positions) setCurrentPosition(event.target.positions)
+    setLookAt(viewer)
   })
   return panorama
 }
@@ -28,8 +51,7 @@ const initAllPano = async (viewer) => {
   await Promise.all(panoPromises)
   locations.forEach((location) => initNavMarkers(viewer, location))
   locations.forEach((location) => loadInfoMarkers(location))
-  setPano(viewer, 1)
-  lookAt({ x: 4318.13, y: 1503.04, z: -121.49 }, viewer)
+  setPano(viewer, 1, { x: 4318.13, y: 1503.04, z: -121.49 })
 }
 
-export { initAllPano }
+export { initAllPano, addInfospotToPano }
