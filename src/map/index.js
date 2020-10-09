@@ -16,7 +16,9 @@ const map = new mapboxgl.Map({
 
 const currentPos = document.createElement('div')
 currentPos.id = 'current-marker'
-const currentMarker = new mapboxgl.Marker(currentPos)
+const currentMarker = new mapboxgl.Marker(currentPos, {
+  offset: [0, -15]
+})
 if (locations[0].positions)
   currentMarker
     .setLngLat([locations[0].positions.lon, locations[0].positions.lat])
