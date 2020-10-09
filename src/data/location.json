@@ -756,5 +756,41 @@
         }
       }
     ]
+  },
+  {
+    "id": 23,
+    "src": "PANO_1.jpg",
+    "positions": {
+      "lat": -31.976814,
+      "lon": 115.817464
+    },
+    "forwardMarker": {
+      "to": 2,
+      "position": { "x": 2026, "y": -771, "z": 4503 },
+      "lookAt": { "x": -12, "y": 53, "z": 4997 },
+      "scale": 300
+    },
+    "backMarker": {
+      "to": 20,
+      "position": { "x": 4987.46, "y": -160.92, "z": -118.55 },
+      "scale": 300
+    },
+    "navMarkers": [
+      {
+        "to": 8,
+        "position": { "x": -4985, "y": -338, "z": 24 },
+        "scale": 300
+      }
+    ],
+    "infoMarkers": [
+      {
+        "markerId": 1,
+        "position": { "x": 4799, "y": 1361, "z": -141 }
+      },
+      {
+        "markerId": 2,
+        "position": { "x": 3596, "y": 3461, "z": -131 }
+      }
+    ]
   }
 ]
