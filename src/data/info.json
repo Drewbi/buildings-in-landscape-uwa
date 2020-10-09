@@ -10,18 +10,24 @@
     "images": [
         {
             "id": "60013P",
-            "caption": "The Five Lamps of Learning in The Great Gateway linking the Administration building with Winthrop Hall" 
+            "caption": "60013P - The Five Lamps of Learning in The Great Gateway linking the Administration building with Winthrop Hall" 
         },
         {
             "id": "2256P",
-            "caption": "Mervyn Napier Waller, mosaic artist - construction of Five of Lamps of Learning  decoration on the Great Gate" 
+            "caption": "2256P - Mervyn Napier Waller, mosaic artist - construction of Five of Lamps of Learning  decoration on the Great Gate" 
         }
     ]
 },
 {
     "id": 3,
     "title": "Winthrop Hall Balconette",
-    "text": "The tower is decorated with an ornamental balconette which was devised from an Italian original photographed by Alsop during his travels in1925.  The ornamental balconette was constructed of Donnybrook stone.  The capitals of the columns are decorated with representations of the Australian banksia plant. The balustrading features the Cross of the Templars."
+    "text": "The tower is decorated with an ornamental balconette which was devised from an Italian original photographed by Alsop during his travels in1925.  The ornamental balconette was constructed of Donnybrook stone.  The capitals of the columns are decorated with representations of the Australian banksia plant. The balustrading features the Cross of the Templars.",
+    "images": [
+        {
+            "id": "2931P",
+            "caption": "2931P - Winthrop Hall (1/1/1933)" 
+        }
+    ]
 },
 {
     "id": 4,
@@ -31,12 +37,24 @@
 {
     "id": 5,
     "title": "Winthrop Hall Tower & Clock",
-    "text": "At its highest point, the Winthrop Hall tower measures fourty six meters.  With 360 degree views, it offers the best aspects of the campus.  The Tower is a landmark which identifies the University Campus from many distant parts of Perth and the Swan River.  There are one hundred and eighty four steps to the top.  A Melbourne company, Messrs Ingran Bros installed the first clock in 1929.  The dial of ‘opus sectile’, an enamel finish on tile, matches the rondels above the windows on the Administration Building.  After 1945 Ennis and Sons rebuilt the master clock.  The dial was replaced in 1953 with glazed terracotta tiles."
+    "text": "At its highest point, the Winthrop Hall tower measures fourty six meters.  With 360 degree views, it offers the best aspects of the campus.  The Tower is a landmark which identifies the University Campus from many distant parts of Perth and the Swan River.  There are one hundred and eighty four steps to the top.  A Melbourne company, Messrs Ingran Bros installed the first clock in 1929.  The dial of ‘opus sectile’, an enamel finish on tile, matches the rondels above the windows on the Administration Building.  After 1945 Ennis and Sons rebuilt the master clock.  The dial was replaced in 1953 with glazed terracotta tiles.",
+    "images": [
+        {
+            "id": "5944P",
+            "caption": "5944P - View of Winthrop Hall and Administration Building at night (1/1/1932)"
+        }
+    ]
 },
 {
     "id": 6,
     "title": "Winthrop Hall, Windows and Frieze",
-    "text": "Winthrop Hall, like the other Hackett buildings, is constructed in reinforced concrete and brick, clad to walls with local stone quarried from various sites, cut smooth or rusticated.  Sandstone from Donnybrook was used for the columns of the galleries on the east and west sides and for some areas around doors and window.  Tamala (coastal) limestone from Coogee was used to face the external walls.  The windows of the hall are glazed with coloured glass.  Rodney Alsop designed the glazed terra cotta frieze (faience) that circles the building just under the roof eaves in alternating motives of the Winged Lion and the Lyre, the Winged Lion for the Arts and the Lyre for Music.   Alsop left no clue in his writing to explain this frieze, except to allude to a ‘Greek’ influence.  The frieze resembles a frieze surviving at an ancient Greek sanctuary at Didyma near Ephesus, now in Turkey.  It expressed Greek Gods Artemis the Huntress and Apollo."
+    "text": "Winthrop Hall, like the other Hackett buildings, is constructed in reinforced concrete and brick, clad to walls with local stone quarried from various sites, cut smooth or rusticated.  Sandstone from Donnybrook was used for the columns of the galleries on the east and west sides and for some areas around doors and window.  Tamala (coastal) limestone from Coogee was used to face the external walls.  The windows of the hall are glazed with coloured glass.  Rodney Alsop designed the glazed terra cotta frieze (faience) that circles the building just under the roof eaves in alternating motives of the Winged Lion and the Lyre, the Winged Lion for the Arts and the Lyre for Music.   Alsop left no clue in his writing to explain this frieze, except to allude to a ‘Greek’ influence.  The frieze resembles a frieze surviving at an ancient Greek sanctuary at Didyma near Ephesus, now in Turkey.  It expressed Greek Gods Artemis the Huntress and Apollo.",
+    "images": [
+        {
+            "id": "1946P",
+            "caption": "1946P - Man at work on the frieze which decorates Winthrop Hall below the roof (c. 1931)"
+        }
+    ]
 },
 {
     "id": 7,
