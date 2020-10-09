@@ -9,21 +9,11 @@
     "forwardMarker": {
       "to": 2,
       "position": { "x": 2026, "y": -771, "z": 4503 },
-	  "lookAt": { "x": -12, "y": 53, "z": 4997 },
-      "scale": 300
+      "lookAt": { "x": -12, "y": 53, "z": 4997 }
     },
     "backMarker": {
-      "to": 20,
-      "position": { "x": 4987.46, "y": -160.92, "z": -118.55 },
-      "scale": 0.1
+      "to": 20
     },
-    "nonavMarkers": [
-      {
-        "to": 8,
-        "position": { "x": -4985, "y": -338, "z": 24 },
-        "scale": 300
-      }
-    ],
     "infoMarkers": [
       {
         "markerId": 1,
@@ -45,13 +35,13 @@
     "forwardMarker": {
       "to": 3,
       "position": { "x": 267.42, "y": -128.19, "z": 4980.95 },
-	  "lookAt": { "x": 846.43, "y": 191.64, "z": 4913.71 },
+      "lookAt": { "x": 846.43, "y": 191.64, "z": 4913.71 },
       "scale": 300
     },
     "backMarker": {
       "to": 23,
       "position": { "x": 1229, "y": -586, "z": -4880 },
-	  "lookAt": { "x": -175, "y": 305, "z": -4979 },
+      "lookAt": { "x": -175, "y": 305, "z": -4979 },
       "scale": 300
     },
     "infoMarkers": [
@@ -69,8 +59,7 @@
       },
       {
         "markerId": 3,
-        "position": { "x": -1646, "y": -307,"z": 4703
-        }
+        "position": { "x": -1646, "y": -307, "z": 4703 }
       },
       {
         "markerId": 18,
@@ -78,8 +67,7 @@
       },
       {
         "markerId": 22,
-        "position": { "x": 1202.17, "y": 3367.85, "z": 3486.21
-        }
+        "position": { "x": 1202.17, "y": 3367.85, "z": 3486.21 }
       }
     ]
   },
@@ -93,32 +81,31 @@
     "forwardMarker": {
       "to": 4,
       "position": { "x": -1142, "y": -443, "z": 4840 },
-	  "lookAt": { "x": -4648.35, "y": 164.07, "z": 1805.68 },
+      "lookAt": { "x": -4648.35, "y": 164.07, "z": 1805.68 },
       "scale": 300
     },
     "backMarker": {
       "to": 2,
       "position": { "x": -271, "y": -438, "z": -4964 },
-	  "lookAt": { "x": -284.01, "y": 367.39, "z": -4970.68 },
+      "lookAt": { "x": -284.01, "y": 367.39, "z": -4970.68 },
       "scale": 300
     },
     "infoMarkers": [
       {
         "markerId": 23,
-        "position": {   "x": 4311, "y": 1555, "z": 1990 }
+        "position": { "x": 4311, "y": 1555, "z": 1990 }
       },
       {
         "markerId": 22,
-        "position": {   "x": 900.49, "y": 4250.79, "z": -2468.73
-        }
+        "position": { "x": 900.49, "y": 4250.79, "z": -2468.73 }
       },
       {
         "markerId": 21,
-        "position": {   "x": -3268, "y": -10, "z": 3777 }
+        "position": { "x": -3268, "y": -10, "z": 3777 }
       },
       {
         "markerId": 5,
-        "position": {   "x": -4924, "y": -231, "z": -771 }
+        "position": { "x": -4924, "y": -231, "z": -771 }
       }
     ]
   },
@@ -132,7 +119,7 @@
     "forwardMarker": {
       "to": 5,
       "position": { "x": -4905, "y": -575, "z": -712 },
-	  "lookAt": { "x": -4532.98, "y": 323.98, "z": -2073.87 },	  
+      "lookAt": { "x": -4532.98, "y": 323.98, "z": -2073.87 },
       "scale": 300
     },
     "backMarker": {
@@ -143,7 +130,7 @@
     "infoMarkers": [
       {
         "markerId": 26,
-        "position": {   "x": 383, "y": 315, "z": 4967 }
+        "position": { "x": 383, "y": 315, "z": 4967 }
       }
     ]
   },
@@ -157,21 +144,18 @@
     "forwardMarker": {
       "to": 6,
       "position": { "x": 2225, "y": 28, "z": -4468 },
-	  "lookAt": { "x": -4572.24, "y": -49.45, "z": 2016.53 },
+      "lookAt": { "x": -4572.24, "y": -49.45, "z": 2016.53 },
       "scale": 300
     },
     "backMarker": {
       "to": 4,
-      "position": { "x": 4503,
-        "y": -662,
-        "z": 2055
-      },
+      "position": { "x": 4503, "y": -662, "z": 2055 },
       "scale": 300
     },
     "infoMarkers": [
       {
         "markerId": 27,
-        "position": {   "x": -4074, "y": 553, "z": 2830 }
+        "position": { "x": -4074, "y": 553, "z": 2830 }
       }
     ]
   },
@@ -185,7 +169,7 @@
     "forwardMarker": {
       "to": 7,
       "position": { "x": -4123, "y": -996, "z": 2626 },
-	  "lookAt": { "x": -814.99, "y": 249.82, "z": 4916.38 },
+      "lookAt": { "x": -814.99, "y": 249.82, "z": 4916.38 },
       "scale": 300
     },
     "backMarker": {
@@ -218,7 +202,7 @@
     "forwardMarker": {
       "to": 8,
       "position": { "x": 1468, "y": -124, "z": 4770 },
-	  "lookAt": { "x": -1088.65, "y": -15.80, "z": -4876.94 },
+      "lookAt": { "x": -1088.65, "y": -15.8, "z": -4876.94 },
       "scale": 300
     },
     "backMarker": {
@@ -239,7 +223,7 @@
         "markerId": 10,
         "position": { "x": 4908, "y": 161, "z": 885 }
       },
-      { 
+      {
         "markerId": 17,
         "position": { "x": -4498, "y": 2074, "z": 608 }
       }
@@ -255,7 +239,7 @@
     "forwardMarker": {
       "to": 9,
       "position": { "x": -1937, "y": -354, "z": -4589 },
-	  "lookAt": { "x": 114.71, "y": -38.54, "z": -4992.47 },
+      "lookAt": { "x": 114.71, "y": -38.54, "z": -4992.47 },
       "scale": 300
     },
     "backMarker": {
@@ -267,13 +251,6 @@
       {
         "markerId": 4,
         "position": { "x": 2979, "y": 2680, "z": -2976 }
-      }
-    ],
-    "nonavMarkers": [
-      {
-        "to": 1,
-        "position": { "x": 4918, "y": -372, "z": -773 },
-        "scale": 300
       }
     ]
   },
@@ -287,7 +264,7 @@
     "forwardMarker": {
       "to": 10,
       "position": { "x": 47, "y": -624, "z": -4954 },
-	  "lookAt": { "x": 333.18, "y": -296.43, "z": -4970.89 },
+      "lookAt": { "x": 333.18, "y": -296.43, "z": -4970.89 },
       "scale": 300
     },
     "backMarker": {
@@ -307,12 +284,12 @@
     "src": "PANO_10.jpg",
     "positions": {
       "lat": -31.976344,
-      "lon": 115.816810
+      "lon": 115.81681
     },
     "forwardMarker": {
       "to": 11,
       "position": { "x": 4921, "y": -785, "z": 315 },
-	  "lookAt": { "x": 4224.45, "y": 892.40, "z": 2509.65 },
+      "lookAt": { "x": 4224.45, "y": 892.4, "z": 2509.65 },
       "scale": 300
     },
     "backMarker": {
@@ -331,15 +308,12 @@
     "forwardMarker": {
       "to": 12,
       "position": { "x": -3142, "y": -523, "z": 3840 },
-	  "lookAt": { "x": -4427.43, "y": 339.64, "z": -2279.69 },
+      "lookAt": { "x": -4427.43, "y": 339.64, "z": -2279.69 },
       "scale": 300
     },
     "backMarker": {
       "to": 10,
-      "position": { "x": -4058,
- "y": -535,
- "z": -2859
- },
+      "position": { "x": -4058, "y": -535, "z": -2859 },
       "scale": 300
     },
     "infoMarkers": [
@@ -347,14 +321,7 @@
         "markerId": 6,
         "position": { "x": 4738, "y": -497, "z": -1501 }
       }
-    ],
-    "nonavMarkers": [
-      {
-        "to": 15,
-        "position": { "x": 4661, "y": -1052, "z": -1449 },
-        "scale": 300
-      }
-    ] 
+    ]
   },
   {
     "id": 12,
@@ -366,7 +333,7 @@
     "forwardMarker": {
       "to": 13,
       "position": { "x": -4085, "y": -1027, "z": -2674 },
-	  "lookAt": { "x": -4975.40, "y": 15.89, "z": 457.49 },
+      "lookAt": { "x": -4975.4, "y": 15.89, "z": 457.49 },
       "scale": 300
     },
     "backMarker": {
@@ -391,7 +358,7 @@
     "forwardMarker": {
       "to": 14,
       "position": { "x": -4945, "y": -519, "z": 454 },
-	  "lookAt": { "x": -6.28, "y": 380.44, "z": -4984.72 },
+      "lookAt": { "x": -6.28, "y": 380.44, "z": -4984.72 },
       "scale": 300
     },
     "backMarker": {
@@ -410,7 +377,7 @@
     "forwardMarker": {
       "to": 15,
       "position": { "x": 1290, "y": -1086, "z": -4697 },
-	  "lookAt": { "x": -2175.98, "y": 825.41, "z": -4416.59 },
+      "lookAt": { "x": -2175.98, "y": 825.41, "z": -4416.59 },
       "scale": 300
     },
     "backMarker": {
@@ -421,8 +388,7 @@
     "infoMarkers": [
       {
         "markerId": 16,
-        "position": { "x": -3675, "y": -263, "z": -3371
-        }
+        "position": { "x": -3675, "y": -263, "z": -3371 }
       }
     ]
   },
@@ -436,21 +402,14 @@
     "forwardMarker": {
       "to": 16,
       "position": { "x": 833, "y": -799, "z": -4857 },
-	  "lookAt": { "x": 4972, "y": 53, "z": -496 },
+      "lookAt": { "x": 4972, "y": 53, "z": -496 },
       "scale": 300
     },
     "backMarker": {
       "to": 14,
       "position": { "x": 4727, "y": -384, "z": 1574 },
       "scale": 300
-    },
-    "nonavMarkers": [
-      {
-        "to": 11,
-        "position": { "x": 1691, "y": -390, "z": 4682 },
-        "scale": 300
-      }
-    ]
+    }
   },
   {
     "id": 16,
@@ -462,7 +421,7 @@
     "forwardMarker": {
       "to": 17,
       "position": { "x": 4749, "y": -1023, "z": -1144 },
-	  "lookAt": { "x": 192, "y": 978, "z": -4746 },
+      "lookAt": { "x": 192, "y": 978, "z": -4746 },
       "scale": 300
     },
     "backMarker": {
@@ -473,7 +432,7 @@
     "infoMarkers": [
       {
         "markerId": 8,
-        "position": {   "x": 4940, "y": -612, "z": -339 }
+        "position": { "x": 4940, "y": -612, "z": -339 }
       }
     ]
   },
@@ -487,13 +446,12 @@
     "forwardMarker": {
       "to": 18,
       "position": { "x": -2921, "y": -538, "z": -4016 },
-	  "lookAt": { "x": 84, "y": 616, "z": -4580 },
+      "lookAt": { "x": 84, "y": 616, "z": -4580 },
       "scale": 300
     },
     "backMarker": {
       "to": 16,
-      "position": { "x": 585, "y": -1784, "z": -4625
-      },
+      "position": { "x": 585, "y": -1784, "z": -4625 },
       "scale": 300
     },
     "infoMarkers": [
@@ -513,7 +471,7 @@
     "forwardMarker": {
       "to": 19,
       "position": { "x": 3464, "y": -450, "z": -3565 },
-	  "lookAt": { "x": 60, "y": 451, "z": 4964 },
+      "lookAt": { "x": 60, "y": 451, "z": 4964 },
       "scale": 300
     },
     "backMarker": {
@@ -542,7 +500,7 @@
     "forwardMarker": {
       "to": 20,
       "position": { "x": -214, "y": -429, "z": 4968 },
-	  "lookAt": { "x": 4917, "y": 470, "z": 714 },
+      "lookAt": { "x": 4917, "y": 470, "z": 714 },
       "scale": 300
     },
     "backMarker": {
@@ -561,7 +519,7 @@
     "forwardMarker": {
       "to": 21,
       "position": { "x": 3098, "y": -343, "z": -3898 },
-	  "lookAt": { "x": 8, "y": 155, "z": 4990 },
+      "lookAt": { "x": 8, "y": 155, "z": 4990 },
       "scale": 300
     },
     "backMarker": {
@@ -577,19 +535,11 @@
     "infoMarkers": [
       {
         "markerId": 15,
-        "position": { "x": 4941, "y": -42, "z": -710
-        }
+        "position": { "x": 4941, "y": -42, "z": -710 }
       },
       {
         "markerId": 13,
         "position": { "x": -1704, "y": 534, "z": -4659 }
-      }
-    ],
-    "nonavMarkers": [
-      {
-        "to": 1,
-        "position": { "x": 2149, "y": -592, "z": 4464 },
-        "scale": 300
       }
     ]
   },
@@ -603,7 +553,7 @@
     "forwardMarker": {
       "to": 22,
       "position": { "x": -164, "y": -569, "z": 4955 },
-	  "lookAt": { "x": -4611, "y": 530, "z": 1833 },
+      "lookAt": { "x": -4611, "y": 530, "z": 1833 },
       "scale": 300
     },
     "backMarker": {
@@ -614,7 +564,7 @@
     "infoMarkers": [
       {
         "markerId": 14,
-        "position": {   "x": 4392, "y": 932, "z": -2175 }
+        "position": { "x": 4392, "y": 932, "z": -2175 }
       }
     ]
   },
@@ -623,17 +573,17 @@
     "src": "PANO_22.jpg",
     "positions": {
       "lat": -31.977782,
-      "lon": 115.817480
+      "lon": 115.81748
     },
     "forwardMarker": {
-        "to": 21
+      "to": 21
     },
     "backMarker": {
       "to": 21,
       "position": { "x": 4953, "y": -307, "z": -569 },
       "scale": 300
     },
-	"forwardMarker": {
+    "forwardMarker": {
       "to": 23,
       "position": { "x": 953, "y": -307, "z": -569 },
       "scale": 0.1
@@ -641,7 +591,7 @@
     "infoMarkers": [
       {
         "markerId": 24,
-        "position": {   "x": 2070, "y": 250, "z": -4538 }
+        "position": { "x": 2070, "y": 250, "z": -4538 }
       }
     ]
   },
@@ -655,7 +605,7 @@
     "forwardMarker": {
       "to": 2,
       "position": { "x": 2026, "y": -771, "z": 4503 },
-	  "lookAt": { "x": -12, "y": 53, "z": 4997 },
+      "lookAt": { "x": -12, "y": 53, "z": 4997 },
       "scale": 300
     },
     "backMarker": {
