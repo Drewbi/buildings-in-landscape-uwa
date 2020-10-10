@@ -88,22 +88,48 @@
   {
     "id": 8,
     "title": "Winthrop Hall",
-    "text": "Winthrop Hall was officially opened on 13th April 1932 with the opening ceremony taking place on 15th April, and Patricia, Hackett’s daughter officiating at the ceremony. To architects Rodney H. Alsop and Conrad H. Sayce, Perth’s Mediterranean – like climate suggested Italy and Greece as natural inspiration for the architecture of Winthrop Hall. Sicilian and early Christian buildings informed the design of Winthrop Hall’s upper colonnade, especially its carved capitals; its tower recalled the campaniles of the Italian Renaissance; and Venetian – style mosaic insets and Byzantine winged beasts embellished the exterior. There has been alteration to Winthrop Hall since 1932: the Undercroft has been enclosed with glass walling, the installation of the organ and a lift, upgrading of lighting, air conditioning, and  replacement of the original jarrah panelling to the Hall with veneered plywood with University shields mounted above.\n\nKnown for its iconic clock tower, Winthrop Hall is the centre of university life. At the end of their studies, students dress in full academic regalia for their graduation ceremony here. The hall also hosts a variety of events from lectures and concerts, to balls and exhibitions."
+    "text": "Winthrop Hall was officially opened on 13th April 1932 with the opening ceremony taking place on 15th April, and Patricia, Hackett’s daughter officiating at the ceremony. To architects Rodney H. Alsop and Conrad H. Sayce, Perth’s Mediterranean – like climate suggested Italy and Greece as natural inspiration for the architecture of Winthrop Hall. Sicilian and early Christian buildings informed the design of Winthrop Hall’s upper colonnade, especially its carved capitals; its tower recalled the campaniles of the Italian Renaissance; and Venetian – style mosaic insets and Byzantine winged beasts embellished the exterior. There has been alteration to Winthrop Hall since 1932: the Undercroft has been enclosed with glass walling, the installation of the organ and a lift, upgrading of lighting, air conditioning, and  replacement of the original jarrah panelling to the Hall with veneered plywood with University shields mounted above.\n\nKnown for its iconic clock tower, Winthrop Hall is the centre of university life. At the end of their studies, students dress in full academic regalia for their graduation ceremony here. The hall also hosts a variety of events from lectures and concerts, to balls and exhibitions.",
+    "images": [
+      {
+          "id": "1964P",
+          "caption": "1964P - Winthrop Hall and the rear of the Hackett Memorial Building (1930)"
+
+      }
+    ]
   },
   {
     "id": 9,
     "title": "Socrates Sculpture",
-    "text": "In 1931, Vice – Chancellor Whitfeld commissioned Paul Montford, a prominent Australian sculptor of the time, to produce the sculpture of Socrates with an inscription carved into its pedestal recording the closing of Plato’s Phaedrus. Another sculptor in Montford’s studio was later found to have done the actual carving. The sculpture of Socrates was originally placed in the Undercroft in 1932 , a gift to the University from its Vice – Chancellor."
+    "text": "In 1931, Vice – Chancellor Whitfeld commissioned Paul Montford, a prominent Australian sculptor of the time, to produce the sculpture of Socrates with an inscription carved into its pedestal recording the closing of Plato’s Phaedrus. Another sculptor in Montford’s studio was later found to have done the actual carving. The sculpture of Socrates was originally placed in the Undercroft in 1932 , a gift to the University from its Vice – Chancellor.",
+    "images": [
+      {
+          "id": "50759P",
+          "caption": "50759P  - Bust of Socrates"
+      }
+    ]
+
   },
   {
     "id": 10,
     "title": "Diotima Sculpture",
-    "text": "In 1936, Professor Whitfeld and his wife, Frances, commissioned the Diotima of Mantinea sculpture from Victor Wager as a companion piece to the statue of Socrates."
+    "text": "In 1936, Professor Whitfeld and his wife, Frances, commissioned the Diotima of Mantinea sculpture from Victor Wager as a companion piece to the statue of Socrates.",
+    "images": [
+      {
+          "id": "5815P",
+          "caption": "5815P - Statue of Diotima when erected (1937)"
+      }
+    ]
   },
   {
     "id": 11,
     "title": "Hackett Hall",
-    "text": "Hackett Hall was designed for the use of the student body. It was conceived partly as a two – storey building, but only the ground floor was built and completed in 1931. The building had a flat roof, accessible by stairs until 1961. The roof became a gathering place for students during summer school and the Festival of Perth."
+    "text": "Hackett Hall was designed for the use of the student body. It was conceived partly as a two – storey building, but only the ground floor was built and completed in 1931. The building had a flat roof, accessible by stairs until 1961. The roof became a gathering place for students during summer school and the Festival of Perth.",
+    "images": [
+      {
+          "id": "4326P",
+          "caption": "4326P - Hackett Memorial Buildings"
+      }
+    ]
   },
   {
     "id": 12,
@@ -113,12 +139,24 @@
   {
     "id": 13,
     "title": "Hubert Whitfeld Sculpture",
-    "text": "A bronze sculpture of Professor Whitfeld looks over Whitfeld Court towards Winthrop Hall. The sculpture was commissioned in 1964 to honour his contributions to the welfare and well–being of the University as first Vice – Chancellor 1913 -15 and 1925 – 27 and 1927 – 39 and Foundation Professor of Mining Engineering in 1913; by South Australian artist John Dowie as a gift of Convocation in 1965. To commemorate the Centenary of Armistice on 11th November 2018, a Pavement Memorial was dedicated in Whitfeld Court in front of the Sculpture. The Roll of Honour in Winthrop Hall commemorates WW1 members of the University Family."
+    "text": "A bronze sculpture of Professor Whitfeld looks over Whitfeld Court towards Winthrop Hall. The sculpture was commissioned in 1964 to honour his contributions to the welfare and well–being of the University as first Vice – Chancellor 1913 -15 and 1925 – 27 and 1927 – 39 and Foundation Professor of Mining Engineering in 1913; by South Australian artist John Dowie as a gift of Convocation in 1965. To commemorate the Centenary of Armistice on 11th November 2018, a Pavement Memorial was dedicated in Whitfeld Court in front of the Sculpture. The Roll of Honour in Winthrop Hall commemorates WW1 members of the University Family.",
+    "images": [
+      {
+          "id": "26901P",
+          "caption": "26901P - Bust of Professor H E Whitfeld at Whitfeld Court"
+      }
+    ]
   },
   {
     "id": 14,
     "title": "Whitfeld Court",
-    "text": "In 1927, Leslie Wilkinson revised the original campus plan and established the fundamentals of the modern campus. The plan reoriented the campus to the north – south alignment that dominates today. This spine established the three major open spaces:  The Court of Honour named by Alsop (Whitfeld Court), The Great Court, and James Oval. Dr W Somerville promoted the concept that the area of land bounded on the north by Stirling Highway, on the south by Winthrop Hall, on the east by Hackett Hall, and on the west by the Administration Building to be named “Whitfeld Court”, so named by Senate in September 1940."
+    "text": "In 1927, Leslie Wilkinson revised the original campus plan and established the fundamentals of the modern campus. The plan reoriented the campus to the north – south alignment that dominates today. This spine established the three major open spaces:  The Court of Honour named by Alsop (Whitfeld Court), The Great Court, and James Oval. Dr W Somerville promoted the concept that the area of land bounded on the north by Stirling Highway, on the south by Winthrop Hall, on the east by Hackett Hall, and on the west by the Administration Building to be named “Whitfeld Court”, so named by Senate in September 1940.",
+    "images": [
+      {
+          "id": "26901P",
+          "caption": "26901P - Bust of Professor H E Whitfeld"
+      }
+    ]
   },
   {
     "id": 15,
@@ -188,6 +226,12 @@
   {
     "id": 28,
     "title": "Reflection Pool",
-    "text": "This pool goes by many names, ‘the reflection pond’, ‘the moat’, ‘the reflection pool’ or just the University ‘Pond’. It was designed by Rodney Alsop to enhance the beauty of Winthrop Hall by giving the impression of greater height. It was completed only just in time for the official opening of Winthrop Hall on April 13, 1932. This was largely owing to the efforts of the student body (men) who volunteered to provide the labour force if the University provided the material. The pond was completed just hours before the ceremony took place and filled with water even though the cement was still wet (it was later drained, and the concrete had to be redone)."
+    "text": "This pool goes by many names, ‘the reflection pond’, ‘the moat’, ‘the reflection pool’ or just the University ‘Pond’. It was designed by Rodney Alsop to enhance the beauty of Winthrop Hall by giving the impression of greater height. It was completed only just in time for the official opening of Winthrop Hall on April 13, 1932. This was largely owing to the efforts of the student body (men) who volunteered to provide the labour force if the University provided the material. The pond was completed just hours before the ceremony took place and filled with water even though the cement was still wet (it was later drained, and the concrete had to be redone).",
+    "images":[ 
+      {
+        "id": "4294P",
+        "caption": "4294P - Students digging the reflection pond in front of Winthrop Hall (1932)"
+      }
+    ]
   }
 ]
