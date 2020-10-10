@@ -34,16 +34,15 @@ h1 {
 
 #infoPane {
   display: block;
-  padding: 0 var(--info-pane-padding);
-  padding-top: 32px;
-  height: 100%;
+  padding: var(--info-pane-padding);
+  height: calc(100% - var(--info-pane-padding) * 2);
   width: var(--info-pane-width);
   position: absolute;
   top: 0;
   left: 0;
   font-family: 'Nunito', Arial, Helvetica, sans-serif;
   transform: translate(0, 0);
-  overflow: scroll;
+  overflow-y: auto;
   z-index: 3;
   transition: all 0.4s ease;
   background: rgba(255, 255, 255, 0.95);
