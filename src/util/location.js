@@ -17,10 +17,14 @@ const prefetchImages = (location) => {
     if (location.backMarker) markers.push(location.backMarker)
     markers.forEach((marker) => {
       const nextLocation = getLocationById(marker.to)
-      const imageElement = document.createElement('img')
-      imageElement.setAttribute('src', nextLocation.image)
-      imageElement.setAttribute('class', 'hidden')
-      prefetchElement.appendChild(imageElement)
+      if (nextLocation) {
+        const imageElement = document.createElement('img')
+        imageElement.setAttribute('src', nextLocation.image)
+        imageElement.setAttribute('class', 'hidden')
+        prefetchElement.appendChild(imageElement)
+      } else {
+        console.error('Could not find location ', marker.to)
+      }
     })
   }
 }

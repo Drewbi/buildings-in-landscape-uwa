@@ -1,5 +1,5 @@
 import { getLocationById } from './location'
-import { setPano, lookAt } from './navigation'
+import { setPano } from './navigation'
 import forwardIcon from '../assets/icons/forward.png'
 import backIcon from '../assets/icons/back.png'
 import homeIcon from '../assets/icons/home.png'
@@ -35,11 +35,9 @@ const setLoading = (loading) => {
 const navigateTo = (markerName, viewer) => {
   const location = getLocationById(viewer.panorama.locationId)
   if (location[markerName]) {
-    setPano(viewer, location[markerName].to)
-    if (location[markerName].lookAt) lookAt(location[markerName].lookAt, viewer)
+    setPano(viewer, location[markerName].to, location[markerName].lookAt)
   } else if (markerName === 'homeMarker') {
-    setPano(viewer, 1)
-    lookAt({ x: 4318.13, y: 1503.04, z: -121.49 }, viewer)
+    setPano(viewer, 23, { x: 4318.13, y: 1503.04, z: -121.49 })
   }
 }
 
