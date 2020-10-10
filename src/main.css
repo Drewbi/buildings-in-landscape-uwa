@@ -6,7 +6,7 @@ body {
   padding: 0;
   margin: 0;
   --info-pane-width: 230px;
-  --info-pane-padding: 35px;
+  --info-pane-padding: 30px;
   --info-pane-total: calc(
     var(--info-pane-width) + var(--info-pane-padding) * 2
   );
