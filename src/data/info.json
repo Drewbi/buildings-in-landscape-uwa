@@ -199,7 +199,13 @@
   {
     "id": 19,
     "title": "Shann Memorial",
-    "text": "The sundial in the Sunken Garden is a memorial to Edward Shann, the UWA Foundation Professor of History and Economics. A Maori prayer is inscribed at the base of the semicircular stone seating around the memorial. Unveiled in 1937 the stone base to the bronze sundial (now missing) is to the design of Eustace Cohen, Architect. The Gardener at the time, Oliver Dowell, provided the flat area for this memorial and subsequently established the garden in its current form."
+    "text": "The sundial in the Sunken Garden is a memorial to Edward Shann, the UWA Foundation Professor of History and Economics. A Maori prayer is inscribed at the base of the semicircular stone seating around the memorial. Unveiled in 1937 the stone base to the bronze sundial (now missing) is to the design of Eustace Cohen, Architect. The Gardener at the time, Oliver Dowell, provided the flat area for this memorial and subsequently established the garden in its current form.",
+    "images": [
+      {
+          "id": "13133P",
+          "caption": "13133P - Sunken Garden views of the sundial in the Shann Memorial"
+      }
+    ]
   },
   {
     "id": 20,
@@ -209,17 +215,35 @@
   {
     "id": 21,
     "title": "Geology and Geography Building",
-    "text": "This building was originally the Science (Physics, Chemistry and Agricultural Science) Building, opened in 1935. The building was designed to become part of a larger scheme, as one unit of a group of buildings along the Great Court. The rich texture and warm hues of the Hackett Memorial Building’s sandstone, limestone and Cordova tiles became a guiding script for subsequent developments. Refurbished for Geology and Geography in1962 to 1964."
+    "text": "This building was originally the Science (Physics, Chemistry and Agricultural Science) Building, opened in 1935. The building was designed to become part of a larger scheme, as one unit of a group of buildings along the Great Court. The rich texture and warm hues of the Hackett Memorial Building’s sandstone, limestone and Cordova tiles became a guiding script for subsequent developments. Refurbished for Geology and Geography in1962 to 1964.",
+    "images": [
+      {
+          "id": "61562P",
+          "caption": "61562P - Physics & Chemistry building (1939)"
+      }
+    ]
   },
   {
     "id": 22,
     "title": "Decorative Plaque",
-    "text": "Beneath each balconette on the Geology and Geography Building is a panel made from plaster; designed by George Benson and modelled by Edward Kohler. The Physics panel (at the north end where Physics was originally located, now Geology) depicts the five epochs in the development of physics:\nArchimedes(297 – 212 BC;\nGalileo Galilei (1564 – 1642);\nSir Isaac Newton (1642 – 1727);\nLord Kelvin (1824 – 1907);\nAlbert Einstein (1879 – 1955).\n\nThe Chemistry panel (at the south end where Chemistry was originally located, now Geography) shows five chemists:\nJoseph Priestley (1733 - 1804);\nJohn Dalton (1766 – 1844);\nRobert Boyle (1627 – 1691);\nMichael Faraday (1791 – 1867);\nWilliam Henry Perkin (1838 – 1907)."
+    "text": "Beneath each balconette on the Geology and Geography Building is a panel made from plaster; designed by George Benson and modelled by Edward Kohler. The Physics panel (at the north end where Physics was originally located, now Geology) depicts the five epochs in the development of physics:\nArchimedes(297 – 212 BC;\nGalileo Galilei (1564 – 1642);\nSir Isaac Newton (1642 – 1727);\nLord Kelvin (1824 – 1907);\nAlbert Einstein (1879 – 1955).\n\nThe Chemistry panel (at the south end where Chemistry was originally located, now Geography) shows five chemists:\nJoseph Priestley (1733 - 1804);\nJohn Dalton (1766 – 1844);\nRobert Boyle (1627 – 1691);\nMichael Faraday (1791 – 1867);\nWilliam Henry Perkin (1838 – 1907).",
+    "images": [
+      {
+          "id": "8964P",
+          "caption": "8964P - Photo of Edward Kohler's bas-relief on exterior of Geology building"
+      }
+    ]
   },
   {
     "id": 23,
     "title": "Great Court",
-    "text": "In 1927, Leslie Wilkinson revised the original campus plan and established the layout of the modern campus. The plan reorientated the campus to the north – south alignment that dominates today. Along this spine, he established the campus’s three major open spaces: the Court of Honour (Whitfeld Court),the Great Court, and a tree – encircled sports oval, James Oval. Over looking the Great Court are Winthrop Hall to the north and Reid Library to the south."
+    "text": "In 1927, Leslie Wilkinson revised the original campus plan and established the layout of the modern campus. The plan reorientated the campus to the north – south alignment that dominates today. Along this spine, he established the campus’s three major open spaces: the Court of Honour (Whitfeld Court),the Great Court, and a tree – encircled sports oval, James Oval. Over looking the Great Court are Winthrop Hall to the north and Reid Library to the south.",
+    "images": [
+      {
+          "id": "5816P",
+          "caption": "5816P - View of Hackett Buildings and Winthrop Hall from Great Court showing immature garden"
+      }
+    ]
   },
   {
     "id": 24,
@@ -229,7 +253,13 @@
   {
     "id": 25,
     "title": "Vista to Reid Library",
-    "text": "The Reid Library, designed by Architects Cameron, Chisholm and Nicol was completed in 1965. Alexander Reid was a former Chancellor of the University."
+    "text": "The Reid Library, designed by Architects Cameron, Chisholm and Nicol was completed in 1965. Alexander Reid was a former Chancellor of the University.",
+    "images": [
+      {
+          "id": "282P",
+          "caption": "282P - Reid Library and Physics with chemistry in background (1966)"
+      }
+    ]
   },
   {
     "id": 26,
