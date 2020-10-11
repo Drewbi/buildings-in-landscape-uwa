@@ -54,6 +54,21 @@ const setSidebarContent = (info) => {
   const bodyElement = document.createElement('p')
   bodyElement.innerText = info.text
   infoPane.appendChild(bodyElement)
+  if (info.images) {
+    info.images.forEach(async (image) => {
+      const figureElement = document.createElement('figure')
+      const imageElement = document.createElement('img')
+      const { default: imageSrc } = await import(
+        '../assets/images/' + image.id + '.JPG'
+      )
+      imageElement.setAttribute('src', imageSrc)
+      const captionElement = document.createElement('figcaption')
+      captionElement.innerText = image.caption
+      figureElement.appendChild(imageElement)
+      figureElement.appendChild(captionElement)
+      infoPane.appendChild(figureElement)
+    })
+  }
 }
 
 const getInfoMarkerById = (id) => {
