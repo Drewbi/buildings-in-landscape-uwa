@@ -1,8 +1,9 @@
 import { getLocationById } from './location'
-import { setPano } from './pano'
-import forward from '../assets/icons/forward.png'
-import back from '../assets/icons/back.png'
-import home from '../assets/icons/home.png'
+import { setPano } from './navigation'
+import forwardIcon from '../assets/icons/forward.png'
+import backIcon from '../assets/icons/back.png'
+import homeIcon from '../assets/icons/home.png'
+import loadingIcon from '../assets/icons/loading.png'
 
 const createControl = (image, onTap, viewer) => {
   const forwardControl = {
@@ -14,20 +15,37 @@ const createControl = (image, onTap, viewer) => {
   viewer.appendControlItem(forwardControl)
 }
 
-const nextPano = (viewer) => {
-  const location = getLocationById(viewer.panorama.locationId)
-  if (location.forwardMarker) setPano(viewer, location.forwardMarker.to)
+const createLoader = (viewer) => {
+  const controlElem = document.createElement('span')
+  controlElem.setAttribute('id', 'loader')
+  const forwardControl = {
+    style: {
+      backgroundImage: `url(${loadingIcon})`
+    },
+    element: controlElem
+  }
+  viewer.appendControlItem(forwardControl)
 }
 
-const prevPano = (viewer) => {
+const setLoading = (loading) => {
+  const loader = document.getElementById('loader')
+  if (loader) loader.toggleAttribute('hidden', !loading)
+}
+
+const navigateTo = (markerName, viewer) => {
   const location = getLocationById(viewer.panorama.locationId)
-  if (location.backMarker) setPano(viewer, location.backMarker.to)
+  if (location[markerName]) {
+    setPano(viewer, location[markerName].to, location[markerName].lookAt)
+  } else if (markerName === 'homeMarker') {
+    setPano(viewer, 23, { x: 4318.13, y: 1503.04, z: -121.49 })
+  }
 }
 
 const initControls = (viewer) => {
-  createControl(forward, () => nextPano(viewer), viewer)
-  createControl(home, () => setPano(viewer, 1), viewer) // the first location is the start
-  createControl(back, () => prevPano(viewer), viewer)
+  createControl(forwardIcon, () => navigateTo('forwardMarker', viewer), viewer)
+  createControl(homeIcon, () => navigateTo('homeMarker', viewer), viewer)
+  createControl(backIcon, () => navigateTo('backMarker', viewer), viewer)
+  createLoader(viewer)
 }
 
-export { initControls }
+export { initControls, setLoading }

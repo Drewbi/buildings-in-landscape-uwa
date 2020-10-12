@@ -1,54 +1,36 @@
 #map {
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    width: 20vw;
-    max-width: 300px;
-    min-width: 150px;
-    height: 20vw;
-    max-height: 300px;
-    min-height: 150px;
-    border-radius: 3px;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  width: 20vw;
+  max-width: 300px;
+  min-width: 150px;
+  height: 20vw;
+  max-height: 300px;
+  min-height: 150px;
+  border-radius: 3px;
 }
 
 .marker {
-    background-image: url('Location.png');
-    background-size: cover;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    z-index: 1
+  background-image: url('Location.png');
+  background-size: cover;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
 
 #current-marker {
-    background-image: url('MapsGuy.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: transparent;
-    position: sticky;
-    top: -9px;
-    background-position-x: centre;
-    background-position-y: centre;
-    width: 60px;
-    height: 60px;
-    z-index: 0;
-}
-
-.current-marker {
-    background-image: url('MapsGuy.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: sticky;
-    top: -9px;
-    background-position-x: centre;
-    background-position-y: centre;
-    width: 60px;
-    height: 60px;
-    z-index: 0;
+  background-image: url('MapsGuy.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: left 8px;
+  width: 35px;
+  height: 35px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 750px) {
-    .mapboxgl-compact {
-        display: none !important;
-    }
+  .mapboxgl-compact {
+    display: none !important;
+  }
 }
