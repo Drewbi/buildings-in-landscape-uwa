@@ -12,7 +12,8 @@
       "lookAt": { "x": -12, "y": 53, "z": 4997 }
     },
     "backMarker": {
-      "to": 20
+      "to": 20,
+	  "lookAt": { "x": -175, "y": 305, "z": -4979 }
     },
     "infoMarkers": [
       {
@@ -176,6 +177,7 @@
     "backMarker": {
       "to": 3,
       "position": { "x": 2484, "y": -261, "z": -4326 },
+	  "lookAt": { "x": -175, "y": 305, "z": -4979 },
       "scale": 300
     },
     "infoMarkers": [
@@ -205,6 +207,7 @@
     "backMarker": {
       "to": 4,
       "position": { "x": 4503, "y": -662, "z": 2055 },
+	  "lookAt": { "x": 4937.59, "y": 243.20, "z": -682.72 },
       "scale": 300
     },
     "infoMarkers": [
@@ -234,6 +237,7 @@
     "backMarker": {
       "to": 5,
       "position": { "x": 4670, "y": -778, "z": -1596 },
+	  "lookAt": { "x": 4490.32, "y": 189.82, "z": 2169.21 },
       "scale": 300
     },
     "infoMarkers": [
@@ -279,6 +283,7 @@
     "backMarker": {
       "to": 6,
       "position": { "x": 2813, "y": -45, "z": -4124 },
+	  "lookAt": { "x": 4691.64, "y": -55.04, "z": -1704.86 },
       "scale": 300
     },
     "infoMarkers": [
@@ -332,6 +337,7 @@
     "backMarker": {
       "to": 7,
       "position": { "x": 246, "y": -893, "z": 4903 },
+	  "lookAt": { "x": 346.54, "y": -38.32, "z": -4980.33 },
       "scale": 300
     },
     "infoMarkers": [
@@ -372,6 +378,7 @@
     "backMarker": {
       "to": 8,
       "position": { "x": -244, "y": -385, "z": 4972 },
+	  "lookAt": { "x": 376.07, "y": 138.53, "z": 4974.85 },
       "scale": 300
     },
     "infoMarkers": [
@@ -401,6 +408,7 @@
     "backMarker": {
       "to": 9,
       "position": { "x": -4395, "y": -678, "z": -2262 },
+	  "lookAt": { "x": -119.75, "y": 172.60, "z": 4986.94 },
       "scale": 300
     }
   },
@@ -420,6 +428,7 @@
     "backMarker": {
       "to": 10,
       "position": { "x": -4058, "y": -535, "z": -2859 },
+	  "lookAt": { "x": -4956.59, "y": 451.17, "z": 401.20 },
       "scale": 300
     },
     "infoMarkers": [
@@ -460,6 +469,7 @@
     "backMarker": {
       "to": 11,
       "position": { "x": 4275, "y": -700, "z": 2488 },
+	  "lookAt": { "x": 2512.89, "y": 367.14, "z": -4304.58 },
       "scale": 300
     },
     "infoMarkers": [
@@ -489,6 +499,7 @@
     "backMarker": {
       "to": 12,
       "position": { "x": 4860, "y": -922, "z": -660 },
+	  "lookAt": { "x": 4298.27, "y": 10.41, "z": 2548.30 },
       "scale": 300
     }
   },
@@ -508,6 +519,7 @@
     "backMarker": {
       "to": 13,
       "position": { "x": 435, "y": -1026, "z": 4866 },
+	  "lookAt": { "x": 4993.56, "y": 38.75, "z": -93.80 },
       "scale": 300
     },
     "infoMarkers": [
@@ -533,6 +545,7 @@
     "backMarker": {
       "to": 14,
       "position": { "x": 4727, "y": -384, "z": 1574 },
+	  "lookAt": { "x": 449.40, "y": 251.99, "z": 4966.55 },
       "scale": 300
     }
   },
@@ -552,6 +565,7 @@
     "backMarker": {
       "to": 15,
       "position": { "x": 824, "y": -772, "z": -4863 },
+	  "lookAt": { "x": 4724.57, "y": 320.63, "z": 1589.98 },
       "scale": 300
     },
     "infoMarkers": [
@@ -581,6 +595,7 @@
     "backMarker": {
       "to": 16,
       "position": { "x": 585, "y": -1784, "z": -4625 },
+	  "lookAt": { "x": -4997.51, "y": -47.05, "z": 12.15 },
       "scale": 300
     },
     "infoMarkers": [
@@ -610,6 +625,7 @@
     "backMarker": {
       "to": 17,
       "position": { "x": 4821, "y": -1258, "z": -270 },
+	  "lookAt": { "x": -1251.89, "y": 320.82, "z": -4820.81 },
       "scale": 300
     },
     "infoMarkers": [
@@ -647,6 +663,7 @@
     "backMarker": {
       "to": 18,
       "position": { "x": 580, "y": -574, "z": -4925 },
+	  "lookAt": { "x": -4875.90, "y": 255.98, "z": -1056.13 },
       "scale": 300
     }
   },
@@ -666,6 +683,7 @@
     "backMarker": {
       "to": 19,
       "position": { "x": -4810, "y": -445, "z": 1254 },
+	  "lookAt": { "x": -179.86, "y": 111.65, "z": -4986.19 },
       "scale": 300
     },
     "homeMarker": {
@@ -719,6 +737,7 @@
     "backMarker": {
       "to": 20,
       "position": { "x": -1575, "y": -238, "z": -4733 },
+	  "lookAt": { "x": -2168.17, "y": 354.55, "z": 4483.59 },
       "scale": 300
     },
     "infoMarkers": [
@@ -742,6 +761,7 @@
     "backMarker": {
       "to": 21,
       "position": { "x": 4953, "y": -307, "z": -569 },
+	  "lookAt": { "x": -1582.56, "y": 474.01, "z": -4714.07 },
       "scale": 300
     },
     "forwardMarker": {
@@ -784,6 +804,7 @@
     "backMarker": {
       "to": 20,
       "position": { "x": 4987.46, "y": -160.92, "z": -118.55 },
+	  "lookAt": { "x": -175, "y": 305, "z": -4979 },
       "scale": 300
     },
     "navMarkers": [
