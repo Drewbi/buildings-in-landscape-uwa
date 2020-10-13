@@ -32,7 +32,7 @@ yarn start:open
 ## Visuals
 
 ```
-[Test Image 4](https://github.com/tograh/testrepository/3DTest.png 631)
+![Test Image 4](\src\assets\images\README_start_tour.png 631)
 ```
 
 ## Authors & Acknowledgment
