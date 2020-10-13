@@ -42,6 +42,12 @@ yarn start:open
   
 ![Test Image 4](\src\assets\images\README_start_tour_sidebar.png )
 
+
+- As the users navigate through the tour, the mini map updates. 
+- The position is denoted by the <img src="src\map\MapsGuy.png" alt="drawing" height="40"/> icon on the minimap in the lower left hand corner.
+  
+![Test Image 4](\src\assets\images\README_mini_map_map.png )
+
 ## Authors & Acknowledgment
 
 Authors: ...(if you are comfortable with it)
