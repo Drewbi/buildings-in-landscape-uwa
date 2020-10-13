@@ -29,11 +29,18 @@ yarn
 yarn start:open
 ```
 
-## Visuals
+## Usage
+- Upon launching the application the user is presented with the starting position. 
 
-```
-![Test Image 4](\src\assets\images\README_start_tour.png 631)
-```
+![Test Image 4](\src\assets\images\README_start_tour.png )
+
+- From here, the user can navigate to the other locations along the tour by selecting the icons located at the bottom right.   <img src="src\assets\images\README_start_tour_nav_buttons.png" alt="drawing" height="30"/> 
+- From here, the user can navigate to the other locations along the tour by selecting the icons located at the bottom right.   
+  
+- To learn more information on any page, select the  <img src="src\assets\images\README_start_tour_info.png" alt="drawing" height="30"/> icon to expand the side bar. 
+- The side bar, as dipected below, provides further detail on the points of interest, along with additional imagery and history of the sites.
+  
+![Test Image 4](\src\assets\images\README_start_tour_sidebar.png )
 
 ## Authors & Acknowledgment
 
