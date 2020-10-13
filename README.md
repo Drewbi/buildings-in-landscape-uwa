@@ -50,7 +50,13 @@ yarn start:open
 
 ## Authors & Acknowledgment
 
-Authors: ...(if you are comfortable with it)
+Authors: 
+- Liam Yit Huan Tien
+- Luke Barratt
+- Antonio Joboy
+- Guohuan Li
+- Luke Bryde
+- Drew Alexander
 
 **The copying and use of any historical photos and text, unless otherwise stated, must fully acknowledge the UWA Archives intellectual property.** Please ensure that, in full, the P number and accompanying title of each image must be displayed with the photo. Refer to the document: **Historical_Photos.txt** for the P number and titles.
 
