@@ -41,7 +41,7 @@ const initPanorama = async (viewer, location) => {
   panorama.positions = location.positions
   panorama.addEventListener('leave', () => setSidebarOpen(false))
   panorama.addEventListener('enter-fade-start', (event) => {
-    setLoading(false)
+    setLoading(viewer, false)
     if (event.target.positions) setCurrentPosition(event.target.positions)
     setLookAt(viewer)
   })

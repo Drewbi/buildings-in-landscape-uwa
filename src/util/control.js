@@ -27,16 +27,17 @@ const createLoader = (viewer) => {
   viewer.appendControlItem(forwardControl)
 }
 
-const setLoading = (loading) => {
+const setLoading = (viewer, loading) => {
   const loader = document.getElementById('loader')
   if (loader) loader.toggleAttribute('hidden', !loading)
+  viewer.navLoading = loading
 }
 
 const navigateTo = (markerName, viewer) => {
   const location = getLocationById(viewer.panorama.locationId)
-  if (location[markerName]) {
+  if (location[markerName] && !viewer.navLoading) {
     setPano(viewer, location[markerName].to, location[markerName].lookAt)
-  } else if (markerName === 'homeMarker') {
+  } else if (markerName === 'homeMarker' && !viewer.navLoading) {
     setPano(viewer, 23, { x: 4318.13, y: 1503.04, z: -121.49 })
   }
 }

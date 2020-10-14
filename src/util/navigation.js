@@ -5,17 +5,20 @@ import { setLoading } from './control'
 import homeIcon from '../assets/icons/home.png'
 
 const setPano = (viewer, id, lookAt) => {
-  setLoading(true)
-  const location = getLocationById(id)
-  if (location) {
-    viewer.setPanorama(location.panorama)
-    if (lookAt) {
-      viewer.nextLookAt = lookAt
+  console.log(viewer.navLoading)
+  if (!viewer.navLoading) {
+    setLoading(viewer, true)
+    const location = getLocationById(id)
+    if (location) {
+      viewer.setPanorama(location.panorama)
+      if (lookAt) {
+        viewer.nextLookAt = lookAt
+      }
+      prefetchImages(location)
+    } else {
+      console.error('Could not find location', id)
+      setLoading(viewer, false)
     }
-    prefetchImages(location)
-  } else {
-    console.error('Could not find location', id)
-    setLoading(false)
   }
 }
 
