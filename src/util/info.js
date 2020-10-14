@@ -69,6 +69,7 @@ const setSidebarContent = (info) => {
       infoPane.appendChild(figureElement)
     })
   }
+  infoPane.scrollTop = 0
 }
 
 const getInfoMarkerById = (id) => {
