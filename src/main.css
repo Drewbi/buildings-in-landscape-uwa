@@ -6,7 +6,7 @@ body {
   padding: 0;
   margin: 0;
   --info-pane-width: 230px;
-  --info-pane-padding: 35px;
+  --info-pane-padding: 30px;
   --info-pane-total: calc(
     var(--info-pane-width) + var(--info-pane-padding) * 2
   );
@@ -36,27 +36,34 @@ h1 {
 
 #infoPane {
   display: block;
-  padding: 0 var(--info-pane-padding);
-  padding-top: 32px;
-  height: 100%;
+  padding: var(--info-pane-padding);
+  height: calc(100% - var(--info-pane-padding) * 2);
   width: var(--info-pane-width);
   position: absolute;
   top: 0;
   left: 0;
   font-family: 'Nunito', Arial, Helvetica, sans-serif;
   transform: translate(0, 0);
-  overflow: scroll;
+  overflow-y: auto;
   z-index: 3;
   transition: all 0.4s ease;
   background: rgba(255, 255, 255, 0.95);
   opacity: 100;
 }
 
+#infoPane figure {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#infoPane figcaption {
+  color: #444;
+  font-size: 13px;
+}
+
 #infoPane img {
-  margin-top: 20px;
-  width: var(--info-pane-total);
+  width: calc(var(--info-pane-total) - var(--info-pane-padding) * 2);
   position: relative;
-  left: calc(-1 * var(--info-pane-padding));
   height: auto;
 }
 

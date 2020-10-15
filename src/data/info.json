@@ -2,57 +2,134 @@
   {
     "id": 1,
     "title": "Great Gateway",
-    "text": "The Great Gateway marks the entrance to Winthrop Hall and connects Winthrop Hall and the Administration Building. It houses the Senate Chamber on the first floor, where the governing body of the University meets."
+    "text": "The Great Gateway marks the entrance to Winthrop Hall and connects Winthrop Hall and the Administration Building. It houses the Senate Chamber on the first floor, where the governing body of the University meets.",
+    "images": [
+      {
+          "id": "5656P",
+          "caption": "5656P - Winthrop Hall showing clock tower and cars parked in front (c. 1950)"
+      },
+      {
+          "id": "26894P5",
+          "caption": "26894P5 - View of the Great Gate and entrance to the Vice Chancellery from Stirling Highway (1932)"
+      }
+  ]
   },
   {
     "id": 2,
     "title": "Five Lamps of Learning",
-    "text": "The Five Lamps of Learning mosaic is set in the Lunette above the five windows to the Senate Room. The five figures in the mosaic, also known as the The Five Wise Virgins represent five of the seven virtues of wisdom: Sapienta (wisdom), Intellectus (understanding), Consilium (counsel), Fortitudo (courage),and Scientia (knowledge). Their names appear in the arches at the top of the windows to the Senate Room. The five figures hold lighted lamps and reflect the University’s motto ‘Seek Wisdom’. They are contrasted with the five Unwise Virgins in the background with unlit lamps bowed in poses that express the idea of dejection.\n\nThe mosaic was the first major art work to be commissioned for Winthrop Hall with funds from the Hackett Bequest. Rodney Alsop commissioned artist Mervyn Napier Waller to design and produce the mosaic in 1931. The mosaic is Byzantine in style."
+    "text": "The Five Lamps of Learning mosaic is set in the Lunette above the five windows to the Senate Room. The five figures in the mosaic, also known as the The Five Wise Virgins represent five of the seven virtues of wisdom: Sapienta (wisdom), Intellectus (understanding), Consilium (counsel), Fortitudo (courage),and Scientia (knowledge). Their names appear in the arches at the top of the windows to the Senate Room. The five figures hold lighted lamps and reflect the University’s motto ‘Seek Wisdom’. They are contrasted with the five Unwise Virgins in the background with unlit lamps bowed in poses that express the idea of dejection.\n\nThe mosaic was the first major art work to be commissioned for Winthrop Hall with funds from the Hackett Bequest. Rodney Alsop commissioned artist Mervyn Napier Waller to design and produce the mosaic in 1931. The mosaic is Byzantine in style.",
+    "images": [ 
+      {
+          "id": "60013P",
+          "caption": "60013P - The Five Lamps of Learning in The Great Gateway linking the Administration building with Winthrop Hall" 
+      },
+      {
+          "id": "2256P",
+          "caption": "2256P - Mervyn Napier Waller, mosaic artist - construction of Five of Lamps of Learning  decoration on the Great Gate" 
+      }
+  ]
   },
   {
     "id": 3,
     "title": "Winthrop Hall Balconette",
-    "text": "The tower is decorated with an ornamental balconette which was devised from an Italian original photographed by Alsop during his travels in1925. The ornamental balconette was constructed of Donnybrook stone. The capitals of the columns are decorated with representations of the Australian banksia plant. The balustrading features the Cross of the Templars."
+    "text": "The tower is decorated with an ornamental balconette which was devised from an Italian original photographed by Alsop during his travels in1925. The ornamental balconette was constructed of Donnybrook stone. The capitals of the columns are decorated with representations of the Australian banksia plant. The balustrading features the Cross of the Templars.",
+    "images": [
+      {
+          "id": "2931P",
+          "caption": "2931P - Winthrop Hall (1933)" 
+      }
+  ]
   },
   {
     "id": 4,
-    "title": "Foundation Stones",
-    "text": "The foundation stones for Hackett Hall and Winthrop Hall were laid in 1929 at the base of the Tower."
+    "title": "Foundation Stone",
+    "text": "The foundation stones for Hackett Hall and Winthrop Hall were laid in 1929 at the base of the Tower.",
+    "images": [
+      {
+        "id": "3465P",
+        "caption": "3465P - Laying of the foundation stone of Winthrop Hall (1929)"
+      }
+    ]
   },
   {
     "id": 5,
     "title": "Winthrop Hall Tower and Clock",
-    "text": "At its highest point, the Winthrop Hall tower measures fourty six meters. With 360 degree views, it offers the best aspects of the campus. The Tower is a landmark which identifies the University Campus from many distant parts of Perth and the Swan River. There are one hundred and eighty four steps to the top. A Melbourne company, Messrs Ingran Bros installed the first clock in 1929. The dial of ‘opus sectile’, an enamel finish on tile, matches the rondels above the windows on the Administration Building. After 1945 Ennis and Sons rebuilt the master clock. The dial was replaced in 1953 with glazed terracotta tiles."
+    "text": "At its highest point, the Winthrop Hall tower measures fourty six meters. With 360 degree views, it offers the best aspects of the campus. The Tower is a landmark which identifies the University Campus from many distant parts of Perth and the Swan River. There are one hundred and eighty four steps to the top. A Melbourne company, Messrs Ingran Bros installed the first clock in 1929. The dial of ‘opus sectile’, an enamel finish on tile, matches the rondels above the windows on the Administration Building. After 1945 Ennis and Sons rebuilt the master clock. The dial was replaced in 1953 with glazed terracotta tiles.",
+    "images": [
+      {
+          "id": "5944P",
+          "caption": "5944P - View of Winthrop Hall and Administration Building at night (1932)"
+      }
+  ]
   },
   {
     "id": 6,
     "title": "Winthrop Hall, Windows and Frieze",
-    "text": "Winthrop Hall, like the other Hackett buildings, is constructed in reinforced concrete and brick, clad to walls with local stone quarried from various sites, cut smooth or rusticated. Sandstone from Donnybrook was used for the columns of the galleries on the east and west sides and for some areas around doors and window. Tamala (coastal) limestone from Coogee was used to face the external walls. The windows of the hall are glazed with coloured glass. Rodney Alsop designed the glazed terra cotta frieze (faience) that circles the building just under the roof eaves in alternating motives of the Winged Lion and the Lyre, the Winged Lion for the Arts and the Lyre for Music.  Alsop left no clue in his writing to explain this frieze, except to allude to a ‘Greek’ influence. The frieze resembles a frieze surviving at an ancient Greek sanctuary at Didyma near Ephesus, now in Turkey. It expressed Greek Gods Artemis the Huntress and Apollo."
+    "text": "Winthrop Hall, like the other Hackett buildings, is constructed in reinforced concrete and brick, clad to walls with local stone quarried from various sites, cut smooth or rusticated. Sandstone from Donnybrook was used for the columns of the galleries on the east and west sides and for some areas around doors and window. Tamala (coastal) limestone from Coogee was used to face the external walls. The windows of the hall are glazed with coloured glass. Rodney Alsop designed the glazed terra cotta frieze (faience) that circles the building just under the roof eaves in alternating motives of the Winged Lion and the Lyre, the Winged Lion for the Arts and the Lyre for Music.  Alsop left no clue in his writing to explain this frieze, except to allude to a ‘Greek’ influence. The frieze resembles a frieze surviving at an ancient Greek sanctuary at Didyma near Ephesus, now in Turkey. It expressed Greek Gods Artemis the Huntress and Apollo.",
+    "images": [
+      {
+          "id": "1946P",
+          "caption": "1946P - Man at work on the frieze which decorates Winthrop Hall below the roof (c. 1931)"
+      }
+  ]
   },
   {
     "id": 7,
     "title": "Memorial Seats",
-    "text": "The Memorial Seat on the east side of the Reflection Pool, built in 1935, is dedicated to Rodney Alsop, Architect. The artist George Benson designed the seat. The architectural firm Forbes and Partners were responsible for the final design. The inscription on the seat, “verily by beauty it is that we come at wisdom” was taken from Robert Bridge’s Testament of Beauty. A companion Memorial Seat for Vice-Chancellor H.E. Whitfeld was erected opposite on the west end of the Reflection Pool in 1949."
+    "text": "The Memorial Seat on the east side of the Reflection Pool, built in 1935, is dedicated to Rodney Alsop, Architect. The artist George Benson designed the seat. The architectural firm Forbes and Partners were responsible for the final design. The inscription on the seat, “verily by beauty it is that we come at wisdom” was taken from Robert Bridge’s Testament of Beauty.\n\n A companion Memorial Seat for Vice-Chancellor H.E. Whitfeld was erected opposite on the west end of the Reflection Pool in 1949.",
+    "images": [
+      {
+          "id": "2594P",
+          "caption": "2594P - Hackett Hall and the pond in Whitfeld Court (1960)"
+
+      }
+  ]
   },
   {
     "id": 8,
     "title": "Winthrop Hall",
-    "text": "Winthrop Hall was officially opened on 13th April 1932 with the opening ceremony taking place on 15th April, and Patricia, Hackett’s daughter officiating at the ceremony. To architects Rodney H. Alsop and Conrad H. Sayce, Perth’s Mediterranean – like climate suggested Italy and Greece as natural inspiration for the architecture of Winthrop Hall. Sicilian and early Christian buildings informed the design of Winthrop Hall’s upper colonnade, especially its carved capitals; its tower recalled the campaniles of the Italian Renaissance; and Venetian – style mosaic insets and Byzantine winged beasts embellished the exterior. There has been alteration to Winthrop Hall since 1932: the Undercroft has been enclosed with glass walling, the installation of the organ and a lift, upgrading of lighting, air conditioning, and  replacement of the original jarrah panelling to the Hall with veneered plywood with University shields mounted above.\n\nKnown for its iconic clock tower, Winthrop Hall is the centre of university life. At the end of their studies, students dress in full academic regalia for their graduation ceremony here. The hall also hosts a variety of events from lectures and concerts, to balls and exhibitions."
+    "text": "Winthrop Hall was officially opened on 13th April 1932 with the opening ceremony taking place on 15th April, and Patricia, Hackett’s daughter officiating at the ceremony. To architects Rodney H. Alsop and Conrad H. Sayce, Perth’s Mediterranean – like climate suggested Italy and Greece as natural inspiration for the architecture of Winthrop Hall. Sicilian and early Christian buildings informed the design of Winthrop Hall’s upper colonnade, especially its carved capitals; its tower recalled the campaniles of the Italian Renaissance; and Venetian – style mosaic insets and Byzantine winged beasts embellished the exterior. There has been alteration to Winthrop Hall since 1932: the Undercroft has been enclosed with glass walling, the installation of the organ and a lift, upgrading of lighting, air conditioning, and  replacement of the original jarrah panelling to the Hall with veneered plywood with University shields mounted above.\n\nKnown for its iconic clock tower, Winthrop Hall is the centre of university life. At the end of their studies, students dress in full academic regalia for their graduation ceremony here. The hall also hosts a variety of events from lectures and concerts, to balls and exhibitions.",
+    "images": [
+      {
+          "id": "1964P",
+          "caption": "1964P - Winthrop Hall and the rear of the Hackett Memorial Building (1930)"
+
+      }
+    ]
   },
   {
     "id": 9,
     "title": "Socrates Sculpture",
-    "text": "In 1931, Vice – Chancellor Whitfeld commissioned Paul Montford, a prominent Australian sculptor of the time, to produce the sculpture of Socrates with an inscription carved into its pedestal recording the closing of Plato’s Phaedrus. Another sculptor in Montford’s studio was later found to have done the actual carving. The sculpture of Socrates was originally placed in the Undercroft in 1932 , a gift to the University from its Vice – Chancellor."
+    "text": "In 1931, Vice – Chancellor Whitfeld commissioned Paul Montford, a prominent Australian sculptor of the time, to produce the sculpture of Socrates with an inscription carved into its pedestal recording the closing of Plato’s Phaedrus. Another sculptor in Montford’s studio was later found to have done the actual carving. The sculpture of Socrates was originally placed in the Undercroft in 1932 , a gift to the University from its Vice – Chancellor.",
+    "images": [
+      {
+          "id": "50759P",
+          "caption": "50759P  - Bust of Socrates"
+      }
+    ]
+
   },
   {
     "id": 10,
     "title": "Diotima Sculpture",
-    "text": "In 1936, Professor Whitfeld and his wife, Frances, commissioned the Diotima of Mantinea sculpture from Victor Wager as a companion piece to the statue of Socrates."
+    "text": "In 1936, Professor Whitfeld and his wife, Frances, commissioned the Diotima of Mantinea sculpture from Victor Wager as a companion piece to the statue of Socrates.",
+    "images": [
+      {
+          "id": "5815P",
+          "caption": "5815P - Statue of Diotima when erected (1937)"
+      }
+    ]
   },
   {
     "id": 11,
     "title": "Hackett Hall",
-    "text": "Hackett Hall was designed for the use of the student body. It was conceived partly as a two – storey building, but only the ground floor was built and completed in 1931. The building had a flat roof, accessible by stairs until 1961. The roof became a gathering place for students during summer school and the Festival of Perth."
+    "text": "Hackett Hall was designed for the use of the student body. It was conceived partly as a two – storey building, but only the ground floor was built and completed in 1931. The building had a flat roof, accessible by stairs until 1961. The roof became a gathering place for students during summer school and the Festival of Perth.",
+    "images": [
+      {
+          "id": "4326P",
+          "caption": "4326P - Hackett Memorial Buildings"
+      }
+    ]
   },
   {
     "id": 12,
@@ -62,17 +139,35 @@
   {
     "id": 13,
     "title": "Hubert Whitfeld Sculpture",
-    "text": "A bronze sculpture of Professor Whitfeld looks over Whitfeld Court towards Winthrop Hall. The sculpture was commissioned in 1964 to honour his contributions to the welfare and well–being of the University as first Vice – Chancellor 1913 -15 and 1925 – 27 and 1927 – 39 and Foundation Professor of Mining Engineering in 1913; by South Australian artist John Dowie as a gift of Convocation in 1965. To commemorate the Centenary of Armistice on 11th November 2018, a Pavement Memorial was dedicated in Whitfeld Court in front of the Sculpture. The Roll of Honour in Winthrop Hall commemorates WW1 members of the University Family."
+    "text": "A bronze sculpture of Professor Whitfeld looks over Whitfeld Court towards Winthrop Hall. The sculpture was commissioned in 1964 to honour his contributions to the welfare and well–being of the University as first Vice – Chancellor 1913 -15 and 1925 – 27 and 1927 – 39 and Foundation Professor of Mining Engineering in 1913; by South Australian artist John Dowie as a gift of Convocation in 1965. To commemorate the Centenary of Armistice on 11th November 2018, a Pavement Memorial was dedicated in Whitfeld Court in front of the Sculpture. The Roll of Honour in Winthrop Hall commemorates WW1 members of the University Family.",
+    "images": [
+      {
+          "id": "26901P",
+          "caption": "26901P - Bust of Professor H E Whitfeld at Whitfeld Court"
+      }
+    ]
   },
   {
     "id": 14,
     "title": "Whitfeld Court",
-    "text": "In 1927, Leslie Wilkinson revised the original campus plan and established the fundamentals of the modern campus. The plan reoriented the campus to the north – south alignment that dominates today. This spine established the three major open spaces:  The Court of Honour named by Alsop (Whitfeld Court), The Great Court, and James Oval. Dr W Somerville promoted the concept that the area of land bounded on the north by Stirling Highway, on the south by Winthrop Hall, on the east by Hackett Hall, and on the west by the Administration Building to be named “Whitfeld Court”, so named by Senate in September 1940."
+    "text": "In 1927, Leslie Wilkinson revised the original campus plan and established the fundamentals of the modern campus. The plan reoriented the campus to the north – south alignment that dominates today. This spine established the three major open spaces:  The Court of Honour named by Alsop (Whitfeld Court), The Great Court, and James Oval. Dr W Somerville promoted the concept that the area of land bounded on the north by Stirling Highway, on the south by Winthrop Hall, on the east by Hackett Hall, and on the west by the Administration Building to be named “Whitfeld Court”, so named by Senate in September 1940.",
+    "images": [
+      {
+          "id": "5823P",
+          "caption": "5823P - View of Whitfeld Court and University entrance before planting of trees (1932)"
+      }
+    ]
   },
   {
     "id": 15,
     "title": "Balconette on Administration Building",
-    "text": "At the northern end of the Administration Building a balconette located at first floor level from the former Registrar’s Office. Decorated with two panels showing peacocks, modelled in stone. Peacocks appear in early Christian Art as a Persian Bird sacred to Hera, the Goddess signifying rain and fertility, a symbol of the Resurrection of Christ, representation of renewal, resurrection, and eternal life."
+    "text": "At the northern end of the Administration Building a balconette located at first floor level from the former Registrar’s Office. Decorated with two panels showing peacocks, modelled in stone. Peacocks appear in early Christian Art as a Persian Bird sacred to Hera, the Goddess signifying rain and fertility, a symbol of the Resurrection of Christ, representation of renewal, resurrection, and eternal life.",
+    "images": [
+      {
+          "id": "1930P",
+          "caption": "1930P - Wide angle view of the Hackett Memorial Buildings (c. 1933)"
+      }
+    ]
   },
   {
     "id": 16,
@@ -82,17 +177,35 @@
   {
     "id": 17,
     "title": "Rondels at the Administration Building",
-    "text": "The opus sectile roundels (like medallions) above the windows of the Administration Building, were designed by Rodney Alsop and produced by Artisans Brooks, Robinson and Co. Melbourne in glazed terra cotta and Venetian Glass. In the centre of each rondel is a symbolic representation of a particular field of learning at the University."
+    "text": "The opus sectile roundels (like medallions) above the windows of the Administration Building, were designed by Rodney Alsop and produced by Artisans Brooks, Robinson and Co. Melbourne in glazed terra cotta and Venetian Glass. In the centre of each rondel is a symbolic representation of a particular field of learning at the University.",
+    "images": [
+      {
+          "id": "61603P",
+          "caption": "61603P - Opus Sectile Medallion for Architecture"
+      }
+    ]
   },
   {
     "id": 18,
     "title": "Sunken Garden",
-    "text": "The construction of the Hackett Memorial Buildings in 1927 was the result of contractors excavating sand from this area. The garden was created in 1928 by Oliver Dowell, University Gardener, as a secluded garden promoted by Hubert Whitfeld the Vice Chancellor at the time, and Rodney Alsop, Architect."
+    "text": "The construction of the Hackett Memorial Buildings in 1927 was the result of contractors excavating sand from this area. The garden was created in 1928 by Oliver Dowell, University Gardener, as a secluded garden promoted by Hubert Whitfeld the Vice Chancellor at the time, and Rodney Alsop, Architect.",
+    "images": [
+      {
+          "id": "4344P",
+          "caption": "4344P - Students performing Midsummer Nights Dream in Sunken Garden"
+      }
+    ]
   },
   {
     "id": 19,
     "title": "Shann Memorial",
-    "text": "The sundial in the Sunken Garden is a memorial to Edward Shann, the UWA Foundation Professor of History and Economics. A Maori prayer is inscribed at the base of the semicircular stone seating around the memorial. Unveiled in 1937 the stone base to the bronze sundial (now missing) is to the design of Eustace Cohen, Architect. The Gardener at the time, Oliver Dowell, provided the flat area for this memorial and subsequently established the garden in its current form."
+    "text": "The sundial in the Sunken Garden is a memorial to Edward Shann, the UWA Foundation Professor of History and Economics. A Maori prayer is inscribed at the base of the semicircular stone seating around the memorial. Unveiled in 1937 the stone base to the bronze sundial (now missing) is to the design of Eustace Cohen, Architect. The Gardener at the time, Oliver Dowell, provided the flat area for this memorial and subsequently established the garden in its current form.",
+    "images": [
+      {
+          "id": "13133P",
+          "caption": "13133P - Sunken Garden views of the sundial in the Shann Memorial"
+      }
+    ]
   },
   {
     "id": 20,
@@ -102,17 +215,35 @@
   {
     "id": 21,
     "title": "Geology and Geography Building",
-    "text": "This building was originally the Science (Physics, Chemistry and Agricultural Science) Building, opened in 1935. The building was designed to become part of a larger scheme, as one unit of a group of buildings along the Great Court. The rich texture and warm hues of the Hackett Memorial Building’s sandstone, limestone and Cordova tiles became a guiding script for subsequent developments. Refurbished for Geology and Geography in1962 to 1964."
+    "text": "This building was originally the Science (Physics, Chemistry and Agricultural Science) Building, opened in 1935. The building was designed to become part of a larger scheme, as one unit of a group of buildings along the Great Court. The rich texture and warm hues of the Hackett Memorial Building’s sandstone, limestone and Cordova tiles became a guiding script for subsequent developments. Refurbished for Geology and Geography in1962 to 1964.",
+    "images": [
+      {
+          "id": "61562P",
+          "caption": "61562P - Physics & Chemistry building (1939)"
+      }
+    ]
   },
   {
     "id": 22,
     "title": "Decorative Plaque",
-    "text": "Beneath each balconette on the Geology and Geography Building is a panel made from plaster; designed by George Benson and modelled by Edward Kohler. The Physics panel (at the north end where Physics was originally located, now Geology) depicts the five epochs in the development of physics:\nArchimedes(297 – 212 BC;\nGalileo Galilei (1564 – 1642);\nSir Isaac Newton (1642 – 1727);\nLord Kelvin (1824 – 1907);\nAlbert Einstein (1879 – 1955).\n\nThe Chemistry panel (at the south end where Chemistry was originally located, now Geography) shows five chemists:\nJoseph Priestley (1733 - 1804);\nJohn Dalton (1766 – 1844);\nRobert Boyle (1627 – 1691);\nMichael Faraday (1791 – 1867);\nWilliam Henry Perkin (1838 – 1907)."
+    "text": "Beneath each balconette on the Geology and Geography Building is a panel made from plaster; designed by George Benson and modelled by Edward Kohler. The Physics panel (at the north end where Physics was originally located, now Geology) depicts the five epochs in the development of physics:\nArchimedes (297 – 212 BC)\nGalileo Galilei (1564 – 1642)\nSir Isaac Newton (1642 – 1727)\nLord Kelvin (1824 – 1907)\nAlbert Einstein (1879 – 1955).\n\nThe Chemistry panel (at the south end where Chemistry was originally located, now Geography) shows five chemists:\nJoseph Priestley (1733 - 1804)\nJohn Dalton (1766 – 1844)\nRobert Boyle (1627 – 1691)\nMichael Faraday (1791 – 1867)\nWilliam Henry Perkin (1838 – 1907).",
+    "images": [
+      {
+          "id": "8964P",
+          "caption": "8964P - Photo of Edward Kohler's bas-relief on exterior of Geology building"
+      }
+    ]
   },
   {
     "id": 23,
     "title": "Great Court",
-    "text": "In 1927, Leslie Wilkinson revised the original campus plan and established the layout of the modern campus. The plan reorientated the campus to the north – south alignment that dominates today. Along this spine, he established the campus’s three major open spaces: the Court of Honour (Whitfeld Court),the Great Court, and a tree – encircled sports oval, James Oval. Over looking the Great Court are Winthrop Hall to the north and Reid Library to the south."
+    "text": "In 1927, Leslie Wilkinson revised the original campus plan and established the layout of the modern campus. The plan reorientated the campus to the north – south alignment that dominates today. Along this spine, he established the campus’s three major open spaces: the Court of Honour (Whitfeld Court),the Great Court, and a tree – encircled sports oval, James Oval. Over looking the Great Court are Winthrop Hall to the north and Reid Library to the south.",
+    "images": [
+      {
+          "id": "5816P",
+          "caption": "5816P - View of Hackett Buildings and Winthrop Hall from Great Court showing immature garden"
+      }
+    ]
   },
   {
     "id": 24,
@@ -122,7 +253,13 @@
   {
     "id": 25,
     "title": "Vista to Reid Library",
-    "text": "The Reid Library, designed by Architects Cameron, Chisholm and Nicol was completed in 1965. Alexander Reid was a former Chancellor of the University."
+    "text": "The Reid Library, designed by Architects Cameron, Chisholm and Nicol was completed in 1965. Alexander Reid was a former Chancellor of the University.",
+    "images": [
+      {
+          "id": "282P",
+          "caption": "282P - Reid Library and Physics with chemistry in background (1966)"
+      }
+    ]
   },
   {
     "id": 26,
@@ -137,6 +274,27 @@
   {
     "id": 28,
     "title": "Reflection Pool",
-    "text": "This pool goes by many names, ‘the reflection pond’, ‘the moat’, ‘the reflection pool’ or just the University ‘Pond’. It was designed by Rodney Alsop to enhance the beauty of Winthrop Hall by giving the impression of greater height. It was completed only just in time for the official opening of Winthrop Hall on April 13, 1932. This was largely owing to the efforts of the student body (men) who volunteered to provide the labour force if the University provided the material. The pond was completed just hours before the ceremony took place and filled with water even though the cement was still wet (it was later drained, and the concrete had to be redone)."
+    "text": "This pool goes by many names, ‘the reflection pond’, ‘the moat’, ‘the reflection pool’ or just the University ‘Pond’. It was designed by Rodney Alsop to enhance the beauty of Winthrop Hall by giving the impression of greater height. It was completed only just in time for the official opening of Winthrop Hall on April 13, 1932. This was largely owing to the efforts of the student body (men) who volunteered to provide the labour force if the University provided the material. The pond was completed just hours before the ceremony took place and filled with water even though the cement was still wet (it was later drained, and the concrete had to be redone).",
+    "images":[ 
+      {
+        "id": "4294P",
+        "caption": "4294P - Students digging the reflection pond in front of Winthrop Hall (1932)"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Agamatitic Granitoid Rock",
+    "text": "Here are images of the Agamatitic Granitoid Rock in front of the Geology building  (you can see why we just refer to it  simply as “the Rock).  It came from the Darling Scarp. These  images are of when it was being put into its current position",
+    "images":[ 
+      {
+        "id": "275P",
+        "caption": "275P – Unloading of Geology specimen - 17 October 1963 - Agamatitic Granitoid Rock from Darling Scarp."
+      },
+      {
+        "id": "270P",
+        "caption": "270P – Unloading of Geology specimen - 17 October 1963 - Agamatitic Granitoid Rock from Darling Scarp."
+      }
+    ]
   }
 ]
