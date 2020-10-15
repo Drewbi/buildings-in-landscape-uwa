@@ -32,7 +32,7 @@ yarn start:open
 ## Usage
 - Upon launching the application the user is presented with the starting position. 
 
-![Test Image 4](\src\assets\images\README_start_tour.png )
+![Test Image 4](src\assets\images\README_start_tour.png )
 
 - From here, the user can navigate to the other locations along the tour by selecting the icons located at the bottom right.   <img src="src\assets\images\README_start_tour_nav_buttons.png" alt="drawing" height="30"/> 
 - From here, the user can navigate to the other locations along the tour by selecting the icons located at the bottom right.   
@@ -40,13 +40,13 @@ yarn start:open
 - To learn more information on any page, select the  <img src="src\assets\images\README_start_tour_info.png" alt="drawing" height="30"/> icon to expand the side bar. 
 - The side bar, as dipected below, provides further detail on the points of interest, along with additional imagery and history of the sites.
   
-![Test Image 4](\src\assets\images\README_start_tour_sidebar.png )
+![Test Image 4](src\assets\images\README_start_tour_sidebar.png )
 
 
 - As the users navigate through the tour, the mini map updates. 
 - The position is denoted by the <img src="src\map\MapsGuy.png" alt="drawing" height="40"/> icon on the minimap in the lower left hand corner.
   
-![Test Image 4](\src\assets\images\README_mini_map_map.png )
+![Test Image 4](src\assets\images\README_mini_map_map.png )
 
 ## Authors & Acknowledgment
 
