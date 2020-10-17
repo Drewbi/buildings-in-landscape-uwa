@@ -22,6 +22,10 @@ h1 {
   text-align: center;
 }
 
+i {
+  font-size: 12px;
+}
+
 #root {
   height: 100%;
   width: 100%;
