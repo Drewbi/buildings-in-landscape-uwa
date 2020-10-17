@@ -32,7 +32,7 @@ yarn start:open
 ## Usage
 - Upon launching the application the user is presented with the starting position. 
 
-![Start tour](src\assets\images\README_start_tour.png )
+![Start tour](https://github.com/Drewbi/buildings-in-landscape-uwa/blob/antonio/src/assets/images/README_start_tour.png)
 
 - From here, the user can navigate to the other locations along the tour by selecting the icons located at the bottom right.   <img src="src\assets\images\README_start_tour_nav_buttons.png" alt="drawing" height="30"/> 
 - From here, the user can navigate to the other locations along the tour by selecting the icons located at the bottom right.   
