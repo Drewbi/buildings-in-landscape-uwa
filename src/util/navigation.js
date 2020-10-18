@@ -18,7 +18,10 @@ const setPano = async (viewer, id, lookAt) => {
     const oldPano = viewer.panorama
     viewer.setPanorama(pano)
     pano.addEventListener('leave-complete', () => {
-      if (oldPano) viewer.remove(oldPano)
+      if (oldPano) {
+        oldPano.material.map.dispose()
+        viewer.remove(oldPano)
+      }
     })
     prefetchImages(location)
   } else {
