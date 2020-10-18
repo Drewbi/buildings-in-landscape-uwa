@@ -76,7 +76,7 @@
   {
     "id": 7,
     "title": "Memorial Seats",
-    "text": "The Memorial Seat on the east side of the Reflection Pool, built in 1935, is dedicated to Rodney Alsop, Architect. The artist George Benson designed the seat. The architectural firm Forbes and Partners were responsible for the final design. The inscription on the seat, “verily by beauty it is that we come at wisdom” was taken from Robert Bridge’s Testament of Beauty. A companion Memorial Seat for Vice-Chancellor H.E. Whitfeld was erected opposite on the west end of the Reflection Pool in 1949.",
+    "text": "The Memorial Seat on the east side of the Reflection Pool, built in 1935, is dedicated to Rodney Alsop, Architect. The artist George Benson designed the seat. The architectural firm Forbes and Partners were responsible for the final design. The inscription on the seat, “verily by beauty it is that we come at wisdom” was taken from Robert Bridge’s Testament of Beauty.\n\n A companion Memorial Seat for Vice-Chancellor H.E. Whitfeld was erected opposite on the west end of the Reflection Pool in 1949.",
     "images": [
       {
         "id": "2594P",
@@ -223,7 +223,7 @@
   {
     "id": 22,
     "title": "Decorative Plaque",
-    "text": "Beneath each balconette on the Geology and Geography Building is a panel made from plaster; designed by George Benson and modelled by Edward Kohler. The Physics panel (at the north end where Physics was originally located, now Geology) depicts the five epochs in the development of physics:\nArchimedes(297 – 212 BC;\nGalileo Galilei (1564 – 1642);\nSir Isaac Newton (1642 – 1727);\nLord Kelvin (1824 – 1907);\nAlbert Einstein (1879 – 1955).\n\nThe Chemistry panel (at the south end where Chemistry was originally located, now Geography) shows five chemists:\nJoseph Priestley (1733 - 1804);\nJohn Dalton (1766 – 1844);\nRobert Boyle (1627 – 1691);\nMichael Faraday (1791 – 1867);\nWilliam Henry Perkin (1838 – 1907).",
+    "text": "Beneath each balconette on the Geology and Geography Building is a panel made from plaster; designed by George Benson and modelled by Edward Kohler. The Physics panel (at the north end where Physics was originally located, now Geology) depicts the five epochs in the development of physics:\nArchimedes (297 – 212 BC)\nGalileo Galilei (1564 – 1642)\nSir Isaac Newton (1642 – 1727)\nLord Kelvin (1824 – 1907)\nAlbert Einstein (1879 – 1955).\n\nThe Chemistry panel (at the south end where Chemistry was originally located, now Geography) shows five chemists:\nJoseph Priestley (1733 - 1804)\nJohn Dalton (1766 – 1844)\nRobert Boyle (1627 – 1691)\nMichael Faraday (1791 – 1867)\nWilliam Henry Perkin (1838 – 1907).",
     "images": [
       {
         "id": "8964P",
@@ -281,7 +281,18 @@
   },
   {
     "id": 29,
+    "title": "Agamatitic Granitoid Rock",
+    "text": "A complex, agimatitic granitoid from Armadale (WA) brought to Perth by WA Professor Rex Prider in the early 1960’s.\n\n As a mixture of different components, it encapsulates the history of much of the ancient rocks of the Darling Scarp.",
+    "images":[ 
+      {
+        "id": "275P",
+        "caption": "275P – Unloading of Geology specimen Agamatitic Granitoid Rock from Darling Scarp (1963)"
+      }
+    ]
+  },
+  {
+    "id": 30,
     "title": "Edward de Courcy Clarke Earth Science Museum",
-    "text": "The Museum offers a simple and interactive way for visitors of all ages to discover and explore earth sciences.\n\nMore than a thousand school students are treated each year to rare experiences such as touching a meteorite, creating their own \n(non-destructive) earthquake and handling some of Western Australia’s unusual minerals.\n\nTo learn more go www.earthmuseum.see.uwa.edu.au"
+    "text": "The following text is from the Edward de Courcy Clarke Earth Science Museum's Home page.\n\nThe Museum offers a simple and interactive way for visitors of all ages to discover and explore earth sciences. More than a thousand school students are treated each year to rare experiences such as touching a meteorite, creating their own (non-destructive) earthquake and handling some of Western Australia’s unusual minerals.\n\nTo learn more go to: www.earthmuseum.see.uwa.edu.au"
   }
 ]
