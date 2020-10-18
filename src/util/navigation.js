@@ -6,6 +6,8 @@ import { setLoading } from './control'
 import homeIcon from '../assets/icons/home.png'
 
 const setPano = async (viewer, id, lookAt) => {
+  const loader = document.getElementById('loader')
+  if (loader && loader.getAttribute('hidden') === null) return
   setLoading(true)
   const location = getLocationById(id)
   if (location) {
@@ -18,7 +20,10 @@ const setPano = async (viewer, id, lookAt) => {
     const oldPano = viewer.panorama
     viewer.setPanorama(pano)
     pano.addEventListener('leave-complete', () => {
-      if (oldPano) viewer.remove(oldPano)
+      if (oldPano) {
+        if (oldPano.material.map) oldPano.material.map.dispose()
+        viewer.remove(oldPano)
+      }
     })
     prefetchImages(location)
   } else {
