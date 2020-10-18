@@ -282,7 +282,7 @@
   {
     "id": 29,
     "title": "Agamatitic Granitoid Rock",
-    "text": "Here is the image of the Agamatitic Granitoid Rock in front of the Geology building (you can see why we just refer to it simply as \"The Rock\").  It came from the Darling Scarp. This image is of when it was being put into its current position. \n\nIts plaque reads:\n\n A complex, agimatitic granitoid from Armadale (WA) brought to Perth by WA\n\n Professor Rex Prider in the early 1960’s\n\n “As a mixture of different components, it encapsulates the history of much of the ancient rocks of the Darling Scarp”. ",
+    "text": "A complex, agimatitic granitoid from Armadale (WA) brought to Perth by WA Professor Rex Prider in the early 1960’s.\n\n As a mixture of different components, it encapsulates the history of much of the ancient rocks of the Darling Scarp.",
     "images":[ 
       {
         "id": "275P",
@@ -293,6 +293,6 @@
   {
     "id": 30,
     "title": "Edward de Courcy Clarke Earth Science Museum",
-    "text": "The Museum offers a simple and interactive way for visitors of all ages to discover and explore earth sciences.\n\nMore than a thousand school students are treated each year to rare experiences such as touching a meteorite, creating their own \n(non-destructive) earthquake and handling some of Western Australia’s unusual minerals.\n\nTo learn more go www.earthmuseum.see.uwa.edu.au"
+    "text": "The following text is from the Edward de Courcy Clarke Earth Science Museum's Home page.\n\nThe Museum offers a simple and interactive way for visitors of all ages to discover and explore earth sciences. More than a thousand school students are treated each year to rare experiences such as touching a meteorite, creating their own (non-destructive) earthquake and handling some of Western Australia’s unusual minerals.\n\nTo learn more go to: www.earthmuseum.see.uwa.edu.au"
   }
 ]
