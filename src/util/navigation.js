@@ -21,7 +21,7 @@ const setPano = async (viewer, id, lookAt) => {
     viewer.setPanorama(pano)
     pano.addEventListener('leave-complete', () => {
       if (oldPano) {
-        // if (oldPano.material.map) oldPano.material.map.dispose()
+        if (oldPano.material.map) oldPano.material.map.dispose()
         viewer.remove(oldPano)
       }
     })
