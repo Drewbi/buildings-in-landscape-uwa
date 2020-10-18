@@ -7,29 +7,28 @@ import homeIcon from '../assets/icons/home.png'
 
 const setPano = async (viewer, id, lookAt) => {
   const loader = document.getElementById('loader')
-  if (loader && loader.getAttribute('hidden')) {
-    setLoading(true)
-    const location = getLocationById(id)
-    if (location) {
-      if (lookAt) {
-        viewer.nextLookAt = lookAt
-      }
-      const pano = await initPanorama(viewer, location)
-      initNavMarkers(viewer, pano, location)
-      loadInfoMarkers(location, pano)
-      const oldPano = viewer.panorama
-      viewer.setPanorama(pano)
-      pano.addEventListener('leave-complete', () => {
-        if (oldPano) {
-          oldPano.material.map.dispose()
-          viewer.remove(oldPano)
-        }
-      })
-      prefetchImages(location)
-    } else {
-      console.error('Could not find location', id)
-      setLoading(false)
+  if (loader && loader.getAttribute('hidden') === null) return
+  setLoading(true)
+  const location = getLocationById(id)
+  if (location) {
+    if (lookAt) {
+      viewer.nextLookAt = lookAt
     }
+    const pano = await initPanorama(viewer, location)
+    initNavMarkers(viewer, pano, location)
+    loadInfoMarkers(location, pano)
+    const oldPano = viewer.panorama
+    viewer.setPanorama(pano)
+    pano.addEventListener('leave-complete', () => {
+      if (oldPano) {
+        oldPano.material.map.dispose()
+        viewer.remove(oldPano)
+      }
+    })
+    prefetchImages(location)
+  } else {
+    console.error('Could not find location', id)
+    setLoading(false)
   }
 }
 
