@@ -1,17 +1,25 @@
 import { DataImage } from 'panolens'
-import { addInfospotToPano } from './pano'
+import { addInfospotToPano, initPanorama } from './pano'
 import { getLocationById, prefetchImages } from './location'
+import { loadInfoMarkers } from './info'
 import { setLoading } from './control'
 import homeIcon from '../assets/icons/home.png'
 
-const setPano = (viewer, id, lookAt) => {
+const setPano = async (viewer, id, lookAt) => {
   setLoading(true)
   const location = getLocationById(id)
   if (location) {
-    viewer.setPanorama(location.panorama)
     if (lookAt) {
       viewer.nextLookAt = lookAt
     }
+    const pano = await initPanorama(viewer, location)
+    initNavMarkers(viewer, pano, location)
+    loadInfoMarkers(location, pano)
+    const oldPano = viewer.panorama
+    viewer.setPanorama(pano)
+    pano.addEventListener('leave-complete', () => {
+      if (oldPano) viewer.remove(oldPano)
+    })
     prefetchImages(location)
   } else {
     console.error('Could not find location', id)
@@ -42,10 +50,10 @@ const getMarkers = (location) => {
   return markerList
 }
 
-const initNavMarkers = (viewer, location) => {
+const initNavMarkers = (viewer, pano, location) => {
   getMarkers(location).forEach((marker) => {
     const { position, scale, icon, to, lookAt } = marker
-    addInfospotToPano(location.panorama, position, scale, icon, () => {
+    addInfospotToPano(pano, position, scale, icon, () => {
       setPano(viewer, to, lookAt)
       console.log('Pano: ', to)
     })

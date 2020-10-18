@@ -4,7 +4,7 @@ const getLocationById = (id) => {
   return locations.find((entry) => entry.id === id)
 }
 
-const prefetchImages = (location) => {
+const prefetchImages = async (location) => {
   const prefetchElement = document.getElementById('prefetch')
   if (prefetchElement !== null && location) {
     prefetchElement.innerHTML = ''
@@ -15,16 +15,16 @@ const prefetchImages = (location) => {
       location.navMarkers.forEach((marker) => markers.push(marker))
     if (location.forwardMarker) markers.push(location.forwardMarker)
     if (location.backMarker) markers.push(location.backMarker)
-    markers.forEach((marker) => {
+    const imagePromises = markers.map((marker) => {
       const nextLocation = getLocationById(marker.to)
-      if (nextLocation) {
-        const imageElement = document.createElement('img')
-        imageElement.setAttribute('src', nextLocation.image)
-        imageElement.setAttribute('class', 'hidden')
-        prefetchElement.appendChild(imageElement)
-      } else {
-        console.error('Could not find location ', marker.to)
-      }
+      return import('../assets/pano/' + nextLocation.src)
+    })
+    const images = await Promise.all(imagePromises)
+    images.forEach(({ default: image }) => {
+      const imageElement = document.createElement('img')
+      imageElement.setAttribute('src', image)
+      imageElement.setAttribute('class', 'hidden')
+      prefetchElement.appendChild(imageElement)
     })
   }
 }

@@ -9,13 +9,13 @@ const initSidebar = () => {
   })
 }
 
-const loadInfoMarkers = (location) => {
+const loadInfoMarkers = (location, pano) => {
   if (location.infoMarkers) {
     location.infoMarkers.forEach((marker) => {
       const markerInfo = getInfoMarkerById(marker.markerId)
       const { position, scale } = marker
       addInfospotToPano(
-        location.panorama,
+        pano,
         position,
         scale,
         DataImage.Info,
