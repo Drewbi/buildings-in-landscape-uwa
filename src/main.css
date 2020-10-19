@@ -66,7 +66,7 @@ i {
 }
 
 #infoPane img {
-  width: calc(var(--info-pane-total) - var(--info-pane-padding) * 2);
+  width: var(--info-pane-width);
   position: relative;
   height: auto;
 }
@@ -105,6 +105,10 @@ i {
     height: 30%;
     top: auto;
     bottom: 0;
+  }
+
+  #infoPane img {
+    width: var(--info-pane-total);
   }
 
   .hidePane {
