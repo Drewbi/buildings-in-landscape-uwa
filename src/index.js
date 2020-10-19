@@ -10,7 +10,7 @@ const viewer = new Viewer({
   container: root,
   autoHideInfospot: false,
   cameraFov: 85,
-  output: 'console',
+  // output: 'console', // Position debug
   clickTolerance: 20,
   controlButtons: []
 })

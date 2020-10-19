@@ -60,7 +60,6 @@ const initNavMarkers = (viewer, pano, location) => {
     const { position, scale, icon, to, lookAt } = marker
     addInfospotToPano(pano, position, scale, icon, () => {
       setPano(viewer, to, lookAt)
-      console.log('Pano: ', to)
     })
   })
 }

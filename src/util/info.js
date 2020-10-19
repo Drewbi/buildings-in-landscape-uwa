@@ -23,7 +23,6 @@ const loadInfoMarkers = (location, pano) => {
           setSidebarContent(target.userData)
           setSidebarOpen(true)
           target.onDismiss()
-          console.log('Info: ', target.userData.id)
         },
         markerInfo
       )
