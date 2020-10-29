@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "A 360 tour through the history of uwa",
   "main": "index.js",
-  "repository": "git@github.com:3200-10/uwa-historical-tour.git",
+  "repository": "git@github.com:drubi/buildings-in-landscape-uwa.git",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server",
-    "start:open": "webpack-dev-server --open",
+    "dev": "webpack-dev-server",
+    "dev:open": "webpack-dev-server --open",
     "build": "webpack",
-    "test": "jest",
+    "start": "serve -s ./dist -l 3000",
     "lint": "prettier --write ."
   },
   "lint-staged": {
@@ -20,15 +20,10 @@
       "pre-commit": "lint-staged"
     }
   },
-  "jest": {
-    "moduleNameMapper": {
-      "\\.(jpg|png|svg)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
-    }
-  },
   "dependencies": {
     "mapbox-gl": "^1.12.0",
     "panolens": "^0.11.0",
+    "serve": "^11.3.2",
     "three": "^0.120.1"
   },
   "devDependencies": {
@@ -37,18 +32,15 @@
     "@babel/polyfill": "^7.11.5",
     "@babel/preset-env": "^7.11.5",
     "babel-eslint": "^10.1.0",
-    "babel-jest": "^26.3.0",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^4.2.1",
     "eslint": "^7.8.1",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-jest": "^24.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
     "husky": "^4.2.5",
-    "jest": "^26.4.2",
     "lint-staged": "^10.2.13",
     "prettier": "^2.1.1",
     "style-loader": "^1.2.1",
